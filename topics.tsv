@@ -1,0 +1,57 @@
+type	name	reading
+lecture	Intro	Intro
+lecture	Why Computation	Intro
+lecture	Computational Thinking	Intro
+lab	Python Install
+lecture	Expessions	Variables
+lecture	Variables	Variables
+lab	Python Calculator Notebook
+lecture	Statements	Variables
+lecture Boolean Expressions and Logical Operators	Conditionals
+lecture	Conditional Execution	Conditionals
+lab	Guess Number Game
+lecture	Exceptions	Conditionals
+lecture	Built-in Fuctions	Functions
+lecture	Math Functions	Functions
+lab	Vacuum Lab 1 (no history, random only)
+lecture	Custom Functions	Functions
+lecture	Parameters, Arguments, Returns, Why Functions	Functions
+lecture	While	Iterations
+lab	Something with while loops
+lecture	For	Iterations
+lecture	Loop Patterns	Iterations
+lecture Strings	Strings
+lab	Chatbot
+lecture Indexing and Slicing	Strings
+lecture String Parsing	Strings
+exam	Exam 1
+review	Exam Reflection + Files	File
+lecture	Opening Files	Files
+lecture Modifying Files	Files
+lab	File Lab
+lecture Lists	Lists
+lecture	List Methods	Lists
+lecture	List Functions	Lists
+lab	List Lab
+lecture	Dictionaries	Dictionaries
+lecture	Dictionaries as Counters	Dictionaries
+lecture	Dictionary Traversal	Dictionaries
+lab	Dict lab
+lecture	Tuples	Tuples
+lecture	Tuples and Dictionaries	Tuples
+lecture	List Comprehensions	Tuples
+lab	Tuple lab
+lecture	Regular Expressions	Regular Expressions
+lecture	Regular Expressions	Regular Expressions
+lecture	Regular Expressions	Regular Expressions
+lab	Regex lab
+lecture	Objects	Objects
+lecture	Classes	Objects
+lecture	Inheritance	Objects
+lecture	Data Analysis Related
+lecture	Data Analysis Related
+lab	?
+lecture Applied Security Related
+lecture Applied Security Related
+exam	Final Review
+lab	No Lab
