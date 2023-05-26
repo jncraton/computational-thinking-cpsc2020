@@ -6,14 +6,9 @@ CPSC 2030 Computational Thinking and Problem Solving
 TODO
 ----
 
-Necessary topic inclusions
+Possible explicit topic additions
 
-- Unit testing
 - Debugging
-- Command line
-
-Possible topic additions
-
 - CS history
 - VMs
 - Parts of a computer physically
