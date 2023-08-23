@@ -16,7 +16,7 @@ Required Resources
 Optional Resources
 ------------------
 
-- https://introcs.cs.rutgers.edu/lectures/
+- [Rutgers Intro to CS Lectures](https://introcs.cs.rutgers.edu/lectures/)
 
 Course Objectives
 -----------------
