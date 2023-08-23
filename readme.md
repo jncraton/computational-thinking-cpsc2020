@@ -3,35 +3,32 @@ CPSC 2030 Computational Thinking and Problem Solving
 
 !INCLUDE "head.md"
 
-TODO
-----
-
-Possible explicit topic additions
-
-- Debugging
-- CS history
-- VMs
-- Parts of a computer physically
-
 Course Catalog Description
 --------------------------
 
+An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis is placed on effective testing and debugging, and an introduction to the command line environment is presented.
 
 Required Resources
 ------------------
 
-- Py4E
+- [Python for Everybody](https://www.py4e.com/) (free online resource)
 
 Optional Resources
 ------------------
 
 - https://introcs.cs.rutgers.edu/lectures/
 
-Course objectives
+Course Objectives
 -----------------
 
 Upon completion of this course, students will be able to:
 
+- Apply computational thinking to solve problems
+- Create simple Python programs
+- Design suitable algorithms for basic computational tasks
+- Describe concepts such as data types, variables, and control flow
+- Use the command line to interact with a computer system
+- Test and debug software effectively
 
 Course Overview
 ---------------
