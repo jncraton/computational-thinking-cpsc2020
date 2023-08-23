@@ -1,4 +1,4 @@
-CPSC 2030 Computational Thinking and Problem Solving
+CPSC 2020 Computational Thinking and Problem Solving
 ====================================================
 
 !INCLUDE "head.md"
