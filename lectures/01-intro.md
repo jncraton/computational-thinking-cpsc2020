@@ -1,4 +1,4 @@
-CPSC 2030 Fundamentals of Computational Thinking
+CPSC 2020 Fundamentals of Computational Thinking
 ================================================
 
 About Me
