@@ -1,5 +1,5 @@
-CPSC 2020 Fundamentals of Computational Thinking
-================================================
+Why Computation?
+================
 
 -----
 
