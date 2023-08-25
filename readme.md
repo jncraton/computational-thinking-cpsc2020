@@ -1,5 +1,8 @@
+Anderson University
+===================
+
 CPSC 2020 Computational Thinking and Problem Solving
-====================================================
+----------------------------------------------------
 
 !INCLUDE "head.md"
 
