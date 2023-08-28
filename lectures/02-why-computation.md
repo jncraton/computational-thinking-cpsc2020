@@ -21,11 +21,25 @@ Why Computation?
 
 ---
 
-- Limit abstraction
-- Show what is happening at the most basic level
-
----
-
 > To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge.
 > 
 > David Sayre
+
+What are computers capable of?
+------------------------------
+
+Capabilities
+------------
+
+- Perform mathematical operations
+- Store data
+- Retrieve data
+- Learn from data
+- Generate new data from a distribution
+
+How do computers function
+-------------------------
+
+- Retrieve information from data storage (RAM, drives, network, etc)
+- Perform mathematical operations very quickly on data
+- Some retrieved data (code) lists the mathematical operations to perform
