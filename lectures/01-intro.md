@@ -70,3 +70,8 @@ Intentional Effort
 ---
 
 ![[Advice for Beginners](https://youtu.be/cdiD-9MMpb0?t=9395)](media/karpathy-beginners.webm){height=540px}
+
+Reading for Tomorrow
+--------------------
+
+[S.S. Wilson Bicycle Technology](https://anderson.instructure.com/files/1682835/download?download_frd=1)
