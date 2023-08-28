@@ -45,7 +45,7 @@ Growth Mindset
 - Your talents can be developed
 - Learning requires effort
 - You are not "bad at math" in a fixed sense
-- Your talents may have room to grow
+- Your talents have room to grow
 
 Comparison
 ----------
