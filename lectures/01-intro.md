@@ -4,9 +4,27 @@ CPSC 2020 Fundamentals of Computational Thinking
 About Me
 --------
 
-Professor Craton
+- Professor Craton
+- Father of two kids (Josiah and Benji)
+- My wife's name is Karin
+- We live in Anderson very near campus
 
-Anything you want to know?
+Academic Career
+---------------
+
+- BS in Computer Engineering
+- MA in Higher Education and Student Development
+- MS in Computer Science
+
+Professional Career
+-------------------
+
+- Software Engineer Team Lead at Genesys
+- Software consultant
+
+---
+
+Anything you want to know about me?
 
 Introductions
 -------------
