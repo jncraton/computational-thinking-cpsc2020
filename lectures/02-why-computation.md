@@ -3,10 +3,6 @@ Why Computation?
 
 -----
 
-![Magic](media/blaine-ford.mp4){height=540px}
-
------
-
 > Any sufficiently advanced technology is indistinguishable from magic.
 >
 > - Arthur C. Clark
