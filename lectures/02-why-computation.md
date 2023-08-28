@@ -9,6 +9,14 @@ Why Computation?
 
 ---
 
+What did you learn about bicycles?
+
+---
+
+Why did we read about bicycles?
+
+---
+
 ![Locomotion Efficiency](media/locomotion-efficiency.png)
 
 ---
