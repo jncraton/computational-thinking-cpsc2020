@@ -1,5 +1,5 @@
-Why Computational Thinking?
-===========================
+Why Computation?
+================
 
 -----
 
@@ -45,12 +45,8 @@ How do computers function
 - Retrieve information from data storage (RAM, drives, network, etc)
 - Perform mathematical operations on data
 
-Which operations are performed?
--------------------------------
-
----
-
-Some retrieved data lists the mathematical operations to perform
+How does the computer know which operations to perform?
+-------------------------------------------------------
 
 Solving Problems
 ----------------
@@ -65,7 +61,7 @@ Solving Problems
 Executing Instructions
 ----------------------
 
-- Computer programs are the series of instructions to execute to solve our problem on a computer
+- Computer programs are instructions to follow to solve our problem
 - Instructions must be complete and unambiguous
 - It is not easy to craft correct instructions
 
