@@ -1,5 +1,5 @@
-Algorithmic Thinking
-====================
+Computational Thinking
+======================
 
 Telling a Computer What to Do
 -----------------------------
