@@ -66,5 +66,8 @@ Executing Instructions
 ----------------------
 
 - Computer programs are the series of instructions to execute to solve our problem on a computer
-- Instructions must be verbose, complete, and unambiguous
+- Instructions must be complete and unambiguous
 - It is not easy to craft correct instructions
+
+Instruction Example
+-------------------
