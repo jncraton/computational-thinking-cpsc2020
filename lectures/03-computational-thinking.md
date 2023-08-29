@@ -1,5 +1,5 @@
-Computational Thinking
-======================
+Instructing Computers
+=====================
 
 Telling a Computer What to Do
 -----------------------------
@@ -73,22 +73,25 @@ Problem Solving
 - Required to program computers
 - Analysis at appropriate level of abstraction
 
-Abstraction
------------
+Computational Thinking
+----------------------
 
-Hiding details behind interfaces
+Formulating problems such that solutions can be represented as computational steps
+
+Process
+-------
+
+1. Problem Formulation (Abstraction): Problem formulation 
+attempts  to  conceptualize  a  problem
+2. Solution Expression (Automation): Formulate unambiguous algorithm
+3. Execution  &  Evaluation (Analysis): Solution is executed 
+executed  by  the  computer  in  ways  that  show  the  direct 
+consequences  of  one's  own  thinking
 
 Algorithm
 ---------
 
 - Step-by-step process to solve a problem
-
-Algorthm Development
---------------------
-
-1. **Analyze** problem to be solved
-2. **Solve** using steps expressed in language
-3. **Evaluate** and repeat prior steps as needed
 
 Examples
 --------
