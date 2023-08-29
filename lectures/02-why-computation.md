@@ -1,5 +1,5 @@
-Why Computation?
-================
+Why Computational Thinking?
+===========================
 
 -----
 
@@ -38,12 +38,33 @@ Capabilities
 - Perform mathematical operations
 - Store data
 - Retrieve data
-- Learn from data
-- Generate new data from a distribution
 
 How do computers function
 -------------------------
 
 - Retrieve information from data storage (RAM, drives, network, etc)
-- Perform mathematical operations very quickly on data
-- Some retrieved data (code) lists the mathematical operations to perform
+- Perform mathematical operations on data
+
+Which operations are performed?
+-------------------------------
+
+---
+
+Some retrieved data lists the mathematical operations to perform
+
+Solving Problems
+----------------
+
+- In order to solve complex problems, we need to decompose them to subproblems solvable with simple instructions
+- Computers (or humans) can execute the basic instructions
+
+---
+
+![[Chain-of-thought Prompting](https://arxiv.org/pdf/2201.11903.pdf)](media/cot.png)
+
+Executing Instructions
+----------------------
+
+- Computer programs are the series of instructions to execute to solve our problem on a computer
+- Instructions must be verbose, complete, and unambiguous
+- It is not easy to craft correct instructions
