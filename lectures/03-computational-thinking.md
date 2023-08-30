@@ -5,7 +5,7 @@ Telling a Computer What to Do
 -----------------------------
 
 - Natural Langugage
-- Apps
+- Applications
 - Programming
 
 Natural Language
@@ -92,8 +92,8 @@ Algorithm
 
 - Step-by-step process to solve a problem
 
-Examples
---------
+Example Problems
+----------------
 
 - Confirm that a set includes no duplicates
 - Sort a set of items in some natural order
