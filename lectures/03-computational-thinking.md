@@ -60,12 +60,12 @@ Programming
 - Opens up new means for intellectual expression
 - Is basically a superpower 🦸
 
-Challenges
-----------
+Programming Challenges
+----------------------
 
-- Programming requires learning a new language
-- Requires understanding what computers *can* do
-- Must learn to solve problems algorithmically
+- Learning a new language
+- Understanding what computers *can* do efficiently
+- Solving problems algorithmically
 
 Problem Solving
 ---------------
@@ -85,8 +85,7 @@ Process
 attempts  to  conceptualize  a  problem
 2. Solution Expression (Automation): Formulate unambiguous algorithm
 3. Execution  &  Evaluation (Analysis): Solution is executed 
-executed  by  the  computer  in  ways  that  show  the  direct 
-consequences  of  one's  own  thinking
+executed  by  the  computer  to show  the results
 
 Algorithm
 ---------
