@@ -151,7 +151,6 @@ Sort a set of items in some natural order
 New Instruction
 ---------------- 
 
-- Return head to start if end of list
 - Swap L and R if R is less than L
 
 
@@ -161,6 +160,11 @@ Sorting
 - Swap L and R if R is less than L
 - Move head right
 - Repeat until end of list
+
+New Instruction
+---------------- 
+
+- Return head to start if end of list
 
 Sorting
 -------
