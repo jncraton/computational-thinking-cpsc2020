@@ -16,12 +16,24 @@ Natural Language
 - Lacks precision
 - Difficult for computers to interpret perfectly
 
+Ambiguous Language
+------------------
+
+The professor said on Monday he would give an exam.
+
+Ambiguous Language
+------------------
+
+> One morning, I shot an elephant in my pajamas. How he got in my pajamas I don't know.
+> 
+> —Groucho Marx
+
 Large Language Models
 ---------------------
 
-- Can generate completions from natural language
 - Completions are inherently stochastic
 - Results may not be exactly correct or what a user intends
+- Need precise inputs to match precise requirements
 
 --- 
 
@@ -81,11 +93,10 @@ Formulating problems such that solutions can be represented as computational ste
 Process
 -------
 
-1. Problem Formulation (Abstraction): Problem formulation 
-attempts  to  conceptualize  a  problem
-2. Solution Expression (Automation): Formulate unambiguous algorithm
-3. Execution  &  Evaluation (Analysis): Solution is executed 
-executed  by  the  computer  to show  the results
+- Problem Formulation - Conceptualize  a  problem
+- Solution Expression - Formulate unambiguous algorithm
+- Execution - Computer runs instructions to produce result
+- Evaluation - User explores result to confirm thinking
 
 Algorithm
 ---------
@@ -95,7 +106,64 @@ Algorithm
 Example Problems
 ----------------
 
-- Confirm that a set includes no duplicates
-- Sort a set of items in some natural order
-- Search through a set of items
+Simple Computer
+---------------
+
+- List-based computer with movable head operating on two items
+- Possible Instructions
+  - Repeat program until end of list
+  - Move head right
+  - Stop if stored matches L
+
+---
+
+Search through list for a match
+
+---
+
+Search
+------
+
+- Stop if stored matches L
+- Move head right
+- Repeat until end of list
+
+New Instruction
+--------------
+
+- Increment counter if stored matches L
+
+---
+
+Count the number of matching items in a list
+
+Counting
+--------
+
+- Increment counter if stored matches L
+- Move head right
+- Repeat
+
+---
+
+Sort a set of items in some natural order
+
+
+
+New Instruction
+---------------- 
+
+- Return head to start if end of list
+- Swap L and R if R is less than L
+
+
+Sorting
+-------
+
+- Swap L and R if R is less than L
+
+
+
+- Store current
+- Swap with stored
  
