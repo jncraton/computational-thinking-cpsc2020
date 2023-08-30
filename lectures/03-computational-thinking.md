@@ -55,7 +55,7 @@ Apps
 
 - Another approach to instructing computers
 - Work well for pre-defined tasks
-- Must be created by others
+- Must be created by someone
 
 Programming
 -----------
