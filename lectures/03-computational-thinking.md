@@ -113,7 +113,7 @@ Simple Computer
 - Possible Instructions
   - Repeat program until end of list
   - Move head right
-  - Stop if stored matches L
+  - Stop if `stored` matches L
 
 ---
 
@@ -124,14 +124,14 @@ Search through list for a match
 Search
 ------
 
-- Stop if stored matches L
+- Stop if `stored` matches L
 - Move head right
 - Repeat until end of list
 
 New Instruction
 --------------
 
-- Increment counter if stored matches L
+- Increment counter if `stored` matches L
 
 ---
 
@@ -140,15 +140,13 @@ Count the number of matching items in a list
 Counting
 --------
 
-- Increment counter if stored matches L
+- Increment `counter` if `stored` matches L
 - Move head right
 - Repeat
 
 ---
 
 Sort a set of items in some natural order
-
-
 
 New Instruction
 ---------------- 
@@ -161,9 +159,14 @@ Sorting
 -------
 
 - Swap L and R if R is less than L
+- Move head right
+- Repeat until end of list
 
+Sorting
+-------
 
-
-- Store current
-- Swap with stored
+- Swap L and R if R is less than L
+- Move head right
+- Return head to start if end of list
+- Repeat until end of list
  
