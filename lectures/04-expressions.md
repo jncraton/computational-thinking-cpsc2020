@@ -86,8 +86,8 @@ Follows conventions from algebra
 
 1. Parenthetic subexpressions
 2. Exponentiation
-3. Multiplication and Division
-4. Addition and Subtraction
+3. Multiplication and division
+4. Addition and subtraction
 
 Examples
 --------
@@ -100,6 +100,40 @@ Examples
 >>> 2 * (3 + 1)
 8
 ```
+
+Comparison Operations
+---------------------
+
+- Always return `True` or `False`
+- Examples include:
+  - Less than `<`
+  - Greater than `>`
+  - Less than or equal `<=`
+  - Greater than or equal `>=`
+  - Equal `==`
+  - Not equal `!=`
+
+Logical Operations
+------------------
+
+- Always return `True` or `False`
+- Operate on values that are `True` or `False`
+- Examples include:
+  - `not`
+  - `and`
+  - `or`
+
+Order of Operations
+-------------------
+
+Follows conventions from algebra
+
+1. Parenthetic subexpressions
+2. Exponentiation
+3. Multiplication and division
+4. Addition and subtraction
+5. Comparison
+6. Logical operations
 
 Official Documentation
 ----------------------
