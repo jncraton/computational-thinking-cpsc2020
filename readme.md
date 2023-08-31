@@ -38,10 +38,6 @@ Course Overview
 
 Please refer to Canvas for a list of assignments and detailed grading breakdown.
 
-### Presentations
-
-Students will complete one presentation over the course of the semester sharing knowledge of specific areas of interest with their peers.
-
 ### Labs
 
 Students will complete regular labs using various technologies. Labs that include code that does not compile or parse correctly will be given zero credit.
