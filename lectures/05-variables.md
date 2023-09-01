@@ -41,3 +41,10 @@ Reseverd words may not be used as variable names
     await   else      if       not       while
     break   except    import   or        with
     class   False     in       pass      yield
+
+Comments
+--------
+
+- Can be inserted into code as notes for human readers
+- Ignored by Python interpretter
+- Begin with `#` symbol

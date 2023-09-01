@@ -79,6 +79,20 @@ Binary Arithmetic Operators
 - `*` Multiplication
 - `/` Division
 
+Arithmetic Examples
+-------------------
+
+```python
+>>> 3.4 + 1.1
+4.5
+>>> 4 - 3
+1
+>>> 6 * 3
+18
+>>> 12 / 4
+3.0
+```
+
 Order of Operations
 -------------------
 

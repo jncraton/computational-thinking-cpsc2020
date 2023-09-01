@@ -1,10 +1,10 @@
-type	name	reading
+type	name	reading	content
 lecture	Intro	Intro
 lecture	Why Computation	Intro
 lecture	Computational Thinking	Intro
-lab	Hello World (Python Install)
-lecture	Expessions	Variables
-lecture	Variables	Variables
+lab	Hello World (Python Install)	Statements
+lecture	Expessions	Variables	Expressions,Types,Literals,Logical Operators
+lecture	Variables	Variables	Variables,Statements,Comments
 lab	Python Calculator Notebook
 lecture	Statements	Variables
 lecture Boolean Expressions and Logical Operators	Conditionals
