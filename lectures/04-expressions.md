@@ -127,6 +127,20 @@ Comparison Operations
   - Equal `==`
   - Not equal `!=`
 
+Examples
+--------
+
+```python
+>>> 2 < 3
+True
+>>> 2 <= 3
+True
+>>> 2 == 3
+False
+>>> 2 != 3
+True
+```
+
 Logical Operations
 ------------------
 
@@ -136,6 +150,20 @@ Logical Operations
   - `not`
   - `and`
   - `or`
+
+Examples
+--------
+
+```python
+>>> True and True
+True
+>>> True and False
+False
+>>> True or False
+True
+>>> False or False
+False
+```
 
 Order of Operations
 -------------------

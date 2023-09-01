@@ -1,7 +1,7 @@
 type	name	reading	content
 lecture	Intro	Intro
 lecture	Why Computation	Intro
-lecture	Computational Thinking	Intro
+lecture	Computational Thinking	Intro	Computational Thinking, Imperative Programming
 lab	Hello World (Python Install)	Statements
 lecture	Expessions	Variables	Expressions,Types,Literals,Logical Operators
 lecture	Variables	Variables	Variables,Statements,Comments
