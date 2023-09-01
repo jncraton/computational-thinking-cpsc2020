@@ -16,11 +16,6 @@ Required Resources
 
 - [Python for Everybody](https://www.py4e.com/) (free online resource)
 
-Optional Resources
-------------------
-
-- [Rutgers Intro to CS Lectures](https://introcs.cs.rutgers.edu/lectures/)
-
 Course Objectives
 -----------------
 
