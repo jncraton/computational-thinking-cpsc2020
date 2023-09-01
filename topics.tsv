@@ -2,7 +2,7 @@ type	name	reading
 lecture	Intro	Intro
 lecture	Why Computation	Intro
 lecture	Computational Thinking	Intro
-lab	Python Install
+lab	Hello World (Python Install)
 lecture	Expessions	Variables
 lecture	Variables	Variables
 lab	Python Calculator Notebook
