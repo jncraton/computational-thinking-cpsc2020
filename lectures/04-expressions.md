@@ -151,6 +151,26 @@ Logical Operations
   - `and`
   - `or`
 
+And Truth Table
+---------------
+
+ A | B | Q
+---|---|---
+ F | F | F
+ F | T | F
+ T | F | F
+ T | T | T
+
+Or Truth Table
+--------------
+
+ A | B | Q
+---|---|---
+ F | F | F
+ F | T | T
+ T | F | T
+ T | T | T
+
 Examples
 --------
 
@@ -163,6 +183,14 @@ False
 True
 >>> False or False
 False
+```
+
+---
+
+What is the truth table for the following expression?
+
+```python
+not ((not A) and (not B))
 ```
 
 Order of Operations
