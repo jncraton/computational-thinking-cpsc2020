@@ -60,9 +60,60 @@ Reseverd words may not be used as variable names
     break   except    import   or        with
     class   False     in       pass      yield
 
+Input Statement
+---------------
+
+- `input(prompt=None)`
+- Accepts user input as an `str` (string)
+- `prompt` will be shown to user if provided
+
+Example
+-------
+
+```python
+user_msg = input("I'm an AI assistant. How may I help you?")
+
+print("It sounds like you'd like me to help with the following:")
+print(user_msg)
+print("Unfortunately, as an AI assistant I'm not able to help with that.")
+```
+
 Comments
 --------
 
 - Can be inserted into code as notes for human readers
 - Ignored by Python interpretter
 - Begin with `#` symbol
+
+Example
+-------
+
+```python
+# Gather user inputs
+base = input("Base:")
+height = input("Height:")
+
+# Calculate area result
+area = (1 / 2) * int(base) * int(height)
+
+# Display result
+print("Area of the triange:")
+print(area)
+```
+
+int
+---
+
+- `int` converts strings to integers
+
+Examples
+--------
+
+>>> '12'
+'12'
+>>> int("12")
+12
+>>> int("Hello world!")
+...ValueError...
+>>> int("12.0")
+...ValueError...
