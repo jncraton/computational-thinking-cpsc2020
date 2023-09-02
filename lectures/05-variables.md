@@ -14,11 +14,29 @@ A statement is a unit of code that the Python interpreter can execute
 Assignment Statement
 --------------------
 
-- Create a new variable
+- Creates a new variable
 - Gives the variable a value
 
 ```python
 myvar = 42
+```
+
+Variables
+---------
+
+- Names bound to values
+- Useful for organizing data flow
+- Provide human-readable names for values
+
+Example
+-------
+
+```python
+>>> base = 5
+>>> height = 6
+>>> area = (1 / 2) * base * height
+>>> area
+15.0
 ```
 
 Variable Names
