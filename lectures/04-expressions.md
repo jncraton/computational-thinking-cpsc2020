@@ -27,19 +27,33 @@ Example
 1 + 1
 ```
 
-Atoms
------
-
-- Most basic elements of expressions
-- Examples
-  - Literals
-  - Identifiers
-
 Literals
 --------
 
 - Basic components of expressions
 - Evaluation yields on object of a given type
+
+Binary Arithmetic Operators
+---------------------------
+
+- `+` Addition
+- `-` Subtraction
+- `*` Multiplication
+- `/` Division
+
+Arithmetic Examples
+-------------------
+
+```python
+>>> 3.4 + 1.1
+4.5
+>>> 4 - 3
+1
+>>> 6 * 3
+18
+>>> 12 / 4
+3.0
+```
 
 Value
 -----
@@ -73,28 +87,6 @@ Strings
 
 ```python
 "Hello, world!", "1", ""
-```
-
-Binary Arithmetic Operators
----------------------------
-
-- `+` Addition
-- `-` Subtraction
-- `*` Multiplication
-- `/` Division
-
-Arithmetic Examples
--------------------
-
-```python
->>> 3.4 + 1.1
-4.5
->>> 4 - 3
-1
->>> 6 * 3
-18
->>> 12 / 4
-3.0
 ```
 
 Order of Operations
