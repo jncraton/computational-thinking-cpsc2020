@@ -140,8 +140,7 @@ True
 Logical Operations
 ------------------
 
-- Always return `True` or `False`
-- Operate on values that are `True` or `False`
+- Always return `True` or `False` when operating on `True` and `False` values
 - Examples include:
   - `not`
   - `and`
