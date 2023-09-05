@@ -20,11 +20,6 @@ Evaluation
 - Transformation of expression syntax to the value of the expression
 - Form of computation
 
-Value
------
-
-- Result object yielded by an expression
-
 Example
 -------
 
@@ -45,6 +40,15 @@ Literals
 
 - Basic components of expressions
 - Evaluation yields on object of a given type
+
+Value
+-----
+
+- Result object yielded by an expression
+- Has a type such as integer or string of characters
+- Examples:
+  - `"Hello, World!"` (string)
+  - `7` (integer)
 
 Types
 -----
