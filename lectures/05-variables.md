@@ -28,6 +28,7 @@ Variables
 - Names bound to values
 - Useful for organizing data flow
 - Provide human-readable names for values
+- Allow values to be reused
 
 Example
 -------
@@ -51,7 +52,7 @@ Variable Names
 Reserved Words
 --------------
 
-Reseverd words may not be used as variable names
+Reserved words may not be used as variable names
 
     and     continue  finally  is        raise
     as      def       for      lambda    return
@@ -84,7 +85,7 @@ Comments
 --------
 
 - Can be inserted into code as notes for human readers
-- Ignored by Python interpretter
+- Ignored by Python interpreter
 - Begin with `#` symbol
 
 Example
