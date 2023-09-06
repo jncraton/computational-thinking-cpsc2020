@@ -9,7 +9,8 @@ A variable is a name that refers to a value
 Statements
 ----------
 
-A statement is a unit of code that the Python interpreter can execute
+- A statement is a unit of code that the Python interpreter can execute
+- Example: `print("Hello, world")`
 
 Assignment Statement
 --------------------
@@ -66,6 +67,7 @@ Input Statement
 - `input(prompt=None)`
 - Accepts user input as an `str` (string)
 - `prompt` will be shown to user if provided
+- [Documentation for input](https://docs.python.org/3/library/functions.html#input)
 
 Example
 -------
@@ -73,9 +75,9 @@ Example
 ```python
 user_msg = input("I'm an AI assistant. How may I help you?")
 
-print("It sounds like you'd like me to help with the following:")
+print("It sounds like you'd like help with the following:")
 print(user_msg)
-print("Unfortunately, as an AI assistant I'm not able to help with that.")
+print("As an AI assistant I'm not able to help with that.")
 ```
 
 Comments
