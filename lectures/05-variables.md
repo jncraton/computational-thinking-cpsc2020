@@ -70,8 +70,8 @@ Input Statement
 - `prompt` will be shown to user if provided
 - [Documentation for input](https://docs.python.org/3/library/functions.html#input)
 
-Example
--------
+input Example
+-------------
 
 ```python
 user_msg = input("I'm an AI assistant. How may I help you?")
@@ -81,6 +81,25 @@ print(user_msg)
 print("As an AI assistant I'm not able to help with that.")
 ```
 
+int
+---
+
+- `int` converts strings to integers
+
+Examples
+--------
+
+```python
+>>> '12'
+'12'
+>>> int("12")
+12
+>>> int("Hello world!")
+...ValueError...
+>>> int("12.0")
+...ValueError...
+```
+
 Comments
 --------
 
@@ -88,8 +107,8 @@ Comments
 - Ignored by Python interpreter
 - Begin with `#` symbol
 
-Example
--------
+Example Program
+---------------
 
 ```python
 # Gather user inputs
@@ -103,20 +122,3 @@ area = (1 / 2) * int(base) * int(height)
 print("Area of the triange:")
 print(area)
 ```
-
-int
----
-
-- `int` converts strings to integers
-
-Examples
---------
-
->>> '12'
-'12'
->>> int("12")
-12
->>> int("Hello world!")
-...ValueError...
->>> int("12.0")
-...ValueError...
