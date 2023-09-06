@@ -6,7 +6,7 @@ lab	Hello World (Python Install)	Statements
 lecture	Expessions	Variables	Expressions,Types,Literals,Logical Operators
 lecture	Variables	Variables	Variables,Statements,Comments
 lab	Python Calculator Notebook
-lecture	Statements	Variables
+lecture	Statements	Variables,Strings
 lecture Boolean Expressions and Logical Operators	Conditionals
 lecture	Conditional Execution	Conditionals
 lab	Guess Number Game
