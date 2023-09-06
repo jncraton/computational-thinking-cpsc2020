@@ -15,7 +15,7 @@ Statements
 Assignment Statement
 --------------------
 
-- Creates a new variable
+- Creates or rebinds a variable
 - Gives the variable a value
 
 ```python
@@ -25,7 +25,7 @@ myvar = 42
 Variables
 ---------
 
-- Names bound to values
+- A variable is a named container for a value
 - Useful for organizing data flow
 - Provide human-readable names for values
 - Allow values to be reused
