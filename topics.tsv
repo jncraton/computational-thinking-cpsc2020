@@ -5,10 +5,10 @@ lecture	Computational Thinking	Intro	Computational Thinking, Imperative Programm
 lab	Hello World (Python Install)	Statements
 lecture	Expessions	Variables	Expressions,Types,Literals,Logical Operators
 lecture	Variables	Variables	Variables,Statements,Comments
-lab	Python Calculator Notebook
-lecture	Statements	Variables,Strings
-lecture Boolean Expressions and Logical Operators	Conditionals
-lecture	Conditional Execution	Conditionals
+lab	Fuel Economy Calculator
+lecture	Conditional Execution (if)	Conditionals,Variables,Strings
+lecture Alternative Execution (else)	Conditionals
+lecture	Nested Conditionals Execution	Conditionals
 lab	Guess Number Game
 lecture	Exceptions	Conditionals
 lecture	Built-in Fuctions	Functions
