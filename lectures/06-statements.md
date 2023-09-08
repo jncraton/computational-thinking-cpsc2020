@@ -11,10 +11,19 @@ Control Flow
 if statement
 ------------
 
-- Optionally runs a block of code
+- Conditionally runs a block of code
+- A Boolean expression (the *condition*) follows the if statement
+- The `if` statement is terminated by a `:`
 
 ```python
-if x > 0 :
+if i == 0:
+```
+
+Example
+-------
+
+```python
+if x > 0:
     print('x is positive')
 ```
 
@@ -62,6 +71,28 @@ Integer division
 
 - `//` performs integer division
 - `%` is the modulus operator and computes the remainder after division
+
+Improved printing
+-----------------
+
+- The print function will accept multiple items to print
+- Items must be separated by commas
+
+Print Example
+-------------
+
+```python
+print("Hello world!")
+print("A few numbers: ", 1, 2, 3)
+```
+
+Printing a name
+---------------
+
+```python
+name = input("What is your name?")
+print("Hello", name)
+```
 
 Basic string operations
 -----------------------
