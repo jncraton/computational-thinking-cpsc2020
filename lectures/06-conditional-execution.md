@@ -99,29 +99,38 @@ if False == True:
 print("This will print")
 ```
 
-Statements
-==========
-
-Statements
-----------
-
-- A statement is a unit of code that the Python interpreter can execute
-
-Examples
---------
-
-- `print("Hello, world")`
-- `input("What is your name?")`
-- `a = 42`
-
-More operations
----------------
+New Operations
+==============
 
 Integer division
 ----------------
 
 - `//` performs integer division
-- `%` is the modulus operator and computes the remainder after division
+- `%` is the modulo operator and computes the remainder after division
+
+Division Example
+----------------
+
+```python
+>>> 11 / 4
+2.75
+>>> 11 // 4
+2
+```
+
+Modulo Example
+--------------
+
+```python
+>>> 11 % 4
+3
+>>> 12 % 4
+0
+>>> 0 % 4
+0
+>>> 3 % 2
+1
+```
 
 Improved printing
 -----------------
@@ -150,4 +159,3 @@ Basic string operations
 
 - Concatenation can be performed using the `+` operator
 - Duplication can be performed using the `*` operator
-
