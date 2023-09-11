@@ -1,3 +1,58 @@
+Lab Notes
+=========
+
+- Saving values from inputs
+- Converting types
+- Saving type conversions
+
+Assignment
+----------
+
+- Used to store values for later use
+
+
+```python
+a = 4
+name = input("What is your name")
+```
+
+Converting to Integers
+----------------------
+
+- `int` can be used to convert values into integers
+
+```python
+>>> "42"
+'42'
+>>> int("42")
+42
+```
+
+`type`
+------
+
+- `type` can be used check the type of a value
+
+
+```python
+>>> type("Hello")
+<class 'str'>
+>>> type(1)
+<class 'int'>
+```
+
+Storing converted values
+------------------------
+
+- `int` does not modify value in place
+- Results must be stored or used
+
+```python
+answer = "42"
+int(answer) # Does nothing
+answer_num = int(answer) # Stores answer as int
+```
+
 Conditional Execution
 =====================
 
