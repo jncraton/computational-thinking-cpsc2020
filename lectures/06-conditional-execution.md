@@ -1,10 +1,6 @@
 Lab Notes
 =========
 
-- Saving values from inputs
-- Converting types
-- Saving type conversions
-
 Assignment
 ----------
 
