@@ -82,7 +82,7 @@ if x > 0:
 
 ![`if` control flow diagram](https://www.py4e.com/images/if.svg){height=540px}
 
-Compond Statements
+Compound Statements
 ------------------
 
 - Statements may be grouped together into blocks
