@@ -131,3 +131,23 @@ Modulo Example
 >>> 3 % 2
 1
 ```
+
+---
+
+Why would we want a modulo operation?
+
+---
+
+Even or Odd
+-----------
+
+```python
+number = int(input("Enter a number:"))
+
+if number % 2 == 0:
+    print("Your number is even")
+
+if number % 2 == 1:
+    print("Your number is odd")
+
+```
