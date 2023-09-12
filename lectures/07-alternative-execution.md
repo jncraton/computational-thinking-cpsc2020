@@ -84,3 +84,18 @@ Basic string operations
 - Concatenation can be performed using the `+` operator
 - Duplication can be performed using the `*` operator
 - Comparison can ber performed using standard comparison operators
+
+Example
+-------
+
+```python
+word1 = input("Enter a word:")
+word2 = input("Enter another word:")
+
+if word1 < word2:
+    print(word1, "comes before", word2, "alphabetically")
+elif word1 > word2:
+    print(word1, "comes after", word2, "alphabetically")
+else:
+    print(word1, "and", word2, "are the same word")
+```
