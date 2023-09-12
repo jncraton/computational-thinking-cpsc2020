@@ -11,7 +11,7 @@ Example
 -------
 
 ```python
-if x%2 == 0 :
+if x % 2 == 0 :
     print('x is even')
 else :
     print('x is odd')
@@ -20,6 +20,19 @@ else :
 ---
 
 ![else control flow diagram](https://www.py4e.com/images/if-else.svg){height=540px}
+
+Example
+-------
+
+```python
+small_num = input("Enter a number:")
+big_num = input("Enter a bigger number:")
+
+if small_num < big_num:
+    print("You entered the numbers correctly")
+else:
+    print("Your second number is too small")
+```
 
 Chained Conditionals
 --------------------
@@ -70,3 +83,4 @@ Basic string operations
 
 - Concatenation can be performed using the `+` operator
 - Duplication can be performed using the `*` operator
+- Comparison can ber performed using standard comparison operators
