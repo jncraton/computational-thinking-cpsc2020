@@ -38,7 +38,7 @@ Chained Conditionals
 --------------------
 
 - We may want more than two branches of execution
-- We can chain mulitple conditionals to acheive this
+- We can chain multiple conditionals to achieve this
 
 Chained Conditionals
 --------------------
@@ -83,7 +83,7 @@ Basic string operations
 
 - Concatenation can be performed using the `+` operator
 - Duplication can be performed using the `*` operator
-- Comparison can ber performed using standard comparison operators
+- Comparison can be performed using standard comparison operators
 
 Example
 -------
