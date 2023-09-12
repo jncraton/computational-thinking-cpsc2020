@@ -21,6 +21,28 @@ else :
 
 ![else control flow diagram](https://www.py4e.com/images/if-else.svg){height=540px}
 
+Chained Conditionals
+--------------------
+
+- We may want more than two branches of execution
+- We can chain mulitple conditionals to acheive this
+
+Chained Conditionals
+--------------------
+
+```python
+if x < y:
+    print('x is less than y')
+elif x > y:
+    print('x is greater than y')
+else:
+    print('x and y are equal')
+```
+
+---
+
+![elif control flow diagram](https://www.py4e.com/images/elif.svg){height=540px}
+
 Improved printing
 -----------------
 

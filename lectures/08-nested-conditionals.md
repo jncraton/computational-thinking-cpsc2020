@@ -23,3 +23,9 @@ else:
 ---
 
 ![Nested Control Flow Diagram](https://www.py4e.com/images/nested.svg){height=540px}
+
+Exit
+----
+
+- `exit` can be used to immediately terminate a program.
+
