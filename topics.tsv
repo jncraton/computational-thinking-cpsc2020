@@ -6,10 +6,10 @@ lab	Hello World (Python Install)	Statements
 lecture	Expessions	Variables	Expressions,Types,Literals,Logical Operators
 lecture	Variables	Variables	Variables,Statements,Comments
 lab	Fuel Economy Calculator
-lecture	Conditional Execution (if)	Conditionals,Variables,Strings
-lecture Alternative Execution (else)	Conditionals
-lecture	Nested Conditionals Execution	Conditionals
-lab	Guess Number Game
+lecture	Conditional Execution (if)	Conditionals,Variables,Strings,Expressions
+lecture Alternative Execution (else)	Conditionals,Expressions,Strings
+lecture	Nested Conditionals Execution	Conditionals,Nesting
+lab	Text Adventure Game
 lecture	Exceptions	Conditionals
 lecture	Built-in Fuctions	Functions
 lecture	Math Functions	Functions
@@ -17,7 +17,7 @@ lab	Vacuum Lab 1 (no history, random only)
 lecture	Custom Functions	Functions
 lecture	Parameters, Arguments, Returns, Why Functions	Functions
 lecture	While	Iterations
-lab	Something with while loops
+lab	Guess Number Game
 lecture	For	Iterations
 lecture	Loop Patterns	Iterations
 lecture Strings	Strings
