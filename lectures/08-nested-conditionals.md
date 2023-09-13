@@ -66,6 +66,12 @@ else:
         print("You are Luke Skywalker")
 ```
 
+Style
+-----
+
+- Deep nesting can become difficult to read
+- As a rule of thumb, we'd like to avoid nesting more than 3 layers deep
+
 Exit
 ----
 
