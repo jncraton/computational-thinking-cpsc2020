@@ -35,6 +35,18 @@ else:
 
 [Disney Princess Quiz](https://news.disney.com/quiz-which-disney-princess-are-you)
 
+---
+
+How would we approach building a quiz like this?
+
+Process
+-------
+
+- Problem Formulation - Conceptualize  a  problem
+- Solution Expression - Formulate unambiguous algorithm
+- Execution - Computer runs instructions to produce result
+- Evaluation - User explores result to confirm thinking
+
 Star Wars Quiz
 --------------
 
@@ -77,8 +89,8 @@ print("Quotient:", quotient)
 print("Remainder:", remainder)
 ```
 
-Summary of knowledge so far
----------------------------
+Key Topics to Date
+------------------
 
 - `input` and `print` statements
 - Arithmetic expressions (`2 + 3`)
