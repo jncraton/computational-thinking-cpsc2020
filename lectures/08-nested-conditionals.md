@@ -39,33 +39,43 @@ Star Wars Quiz
 --------------
 
 ```python
-color = input("What is your favorite color?")
 age = int(input("How old are you?"))
+color = input("What is your favorite color?")
 
 if age < 21:
     if color == 'red':
         print("You are Darth Maul")
-    elif color == 'blue':
-        print("You are Obi-wan Kenobi")
-    elif color == 'green':
-        print("You are Qui-gon Jinn")
     else:
-        print("Enter 'red', 'green', or 'blue'")
+        print("You are Obi-wan Kenobi")
 else:
     if color == 'red':
         print("You are Darth Vader")
-    elif color == 'blue':
-        print("You are Luke Skywalker")
-    elif color == 'green':
-        print("You are Yoda")
     else:
-        print("Enter 'red', 'green', or 'blue'")
+        print("You are Luke Skywalker")
 ```
 
 Exit
 ----
 
 - `exit` can be used to immediately terminate a program.
+
+Exit Example
+------------
+
+```python
+dividend = int(input("Enter value for divdend:"))
+divisor = int(input("Enter value for divisor:"))
+
+if divisor == 0:
+    print("Can't divide by zero")
+    exit()
+
+quotient = dividend // divisor
+remainder = dividend % divisor
+
+print("Quotient:", quotient)
+print("Remainder:", remainder)
+```
 
 Summary of knowledge so far
 ---------------------------
