@@ -1,6 +1,13 @@
 Nested Conditional Execution
 ============================
 
+Review
+------
+
+- `if` conditionally executes code
+- `elif` conditionally executes alternative code
+- `else` executes if no other conditions are met
+
 Nesting Conditionals
 --------------------
 
@@ -64,7 +71,7 @@ Summary of knowledge so far
 ---------------------------
 
 - `input` and `print` statements
-- Arthemetic expressions (`2 + 3`)
+- Arithmetic expressions (`2 + 3`)
 - Comparison operators (`2 <= 3`)
 - Assignment statements (`a=3`)
 - Conditional execution (`if`, `elif`, `else`)
