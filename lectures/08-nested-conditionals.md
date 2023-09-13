@@ -24,8 +24,47 @@ else:
 
 ![Nested Control Flow Diagram](https://www.py4e.com/images/nested.svg){height=540px}
 
+---
+
+[Disney Princess Quiz](https://news.disney.com/quiz-which-disney-princess-are-you)
+
+Star Wars Quiz
+--------------
+
+```python
+color = input("What is your favorite color?")
+age = int(input("How old are you?"))
+
+if age < 21:
+    if color == 'red':
+        print("You are Darth Maul")
+    elif color == 'blue':
+        print("You are Obi-wan Kenobi")
+    elif color == 'green':
+        print("You are Qui-gon Jinn")
+    else:
+        print("Enter 'red', 'green', or 'blue'")
+else:
+    if color == 'red':
+        print("You are Darth Vader")
+    elif color == 'blue':
+        print("You are Luke Skywalker")
+    elif color == 'green':
+        print("You are Yoda")
+    else:
+        print("Enter 'red', 'green', or 'blue'")
+```
+
 Exit
 ----
 
 - `exit` can be used to immediately terminate a program.
 
+Summary of knowledge so far
+---------------------------
+
+- `input` and `print` statements
+- Arthemetic expressions (`2 + 3`)
+- Comparison operators (`2 <= 3`)
+- Assignment statements (`a=3`)
+- Conditional execution (`if`, `elif`, `else`)
