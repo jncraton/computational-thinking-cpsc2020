@@ -1,4 +1,4 @@
-personal_ws-1.1 en 32 
+personal_ws-1.1 en 40 
 Advanded
 Algorthm
 Benji
@@ -8,6 +8,7 @@ Craton
 Genesys
 Groucho
 Homebrew
+Iterables
 KACE
 Langugage
 NaN
@@ -22,9 +23,16 @@ algorithmically
 computable
 elif
 fidelitas
+iterable
+iterables
+len
 natively
+parens
 pre
+pseudorandom
 px
+randint
+runtime
 subexpressions
 subproblems
 utilitas

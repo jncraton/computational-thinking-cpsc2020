@@ -137,7 +137,7 @@ Pass keyword
 
 - The `pass` keyword is valid in many places
 - It is not explicitly related to exceptions
-- It simply indicates that while a statement is expected, we don't have anythin to do
+- It simply indicates that while a statement is expected, we don't have anything to do
 
 Example
 -------
