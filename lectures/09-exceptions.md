@@ -71,7 +71,7 @@ Example
 
 ```python
 try:
-  int("red")
+    int("red")
 except:
     print("Please enter a valid number")
 ```
