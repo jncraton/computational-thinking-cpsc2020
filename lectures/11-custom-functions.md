@@ -6,7 +6,7 @@ Function definition
 
 - Specifies the name of a new function 
 - Specifies the sequence of statements that execute when the function is called
-- The function can be resused throughout the program
+- The function can be reused throughout the program
 
 Example
 -------
@@ -28,7 +28,7 @@ Flow of Execution
 
 ---
 
-Functions may call othe functions
+Functions may call other functions
 
 Example
 -------

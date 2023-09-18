@@ -1,3 +1,20 @@
+Spring Registration
+===================
+
+Registration for first-year students
+------------------------------------
+
+- Opens October 2nd
+- More info is on the ASPIRE: Computer Science page on Canvas
+- Connect with your academic advisor prior to this date for advising
+
+Major Declaration
+-----------------
+
+- [Declare your major](https://andersoncentral.etrieve.cloud/#/form/37) if you know what you planning to study
+- If you aren't sure, you may still want to declare your most likely choice
+- This allows you to access major-specific course planning and get an academic advisor in your area
+
 Exceptions
 ==========
 
