@@ -1,10 +1,3 @@
-Lab Questions
--------------
-
----
-
-Pokemon Nesting Example
-
 Spring Registration
 ===================
 
@@ -21,6 +14,13 @@ Major Declaration
 - [Declare your major](https://andersoncentral.etrieve.cloud/#/form/37) if you know what you planning to study
 - If you aren't sure, you may still want to declare your most likely choice
 - This allows you to access major-specific course planning and get an academic advisor in your area
+
+Lab Questions
+=============
+
+---
+
+Pokemon Nesting Example
 
 Exceptions
 ==========
