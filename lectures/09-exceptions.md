@@ -1,3 +1,10 @@
+Lab Questions
+-------------
+
+---
+
+Pokemon Nesting Example
+
 Spring Registration
 ===================
 
@@ -57,7 +64,7 @@ Catching Exceptions
 -------------------
 
 - It is possible to continue execution after an exception is raised
-- This requires us to `catch` the exception from a `try` block
+- This requires us to catch the exception from a `try` block
 
 Example
 -------
