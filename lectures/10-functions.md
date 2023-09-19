@@ -14,7 +14,7 @@ Calling Functions
 Example
 -------
 
-- `int` is a functions
+- `int` is a function
 - It takes one arguments and returns a value
 
 ```python
@@ -91,6 +91,7 @@ math
 
 - The math module can be used to access various math functions
 - `import math` can be used to create the math object used to access the module
+- A module is a file containing Python definitions and statements
 
 Dot notation
 ------------
