@@ -12,6 +12,29 @@ Example
 -------
 
 ```python
+def print_twice(value):
+    print(value)
+    print(value)
+```
+
+Void functions
+--------------
+
+- Void functions do not return a value
+- They may still do useful work
+- `print` is an example of a void function
+
+Fruitful functions
+------------------
+
+- Fruitful functions return a value
+- This value can be used later in your programs
+- `input` is an example of a fruitful function
+
+Example
+-------
+
+```python
 def square(n):
     return n*n
 
