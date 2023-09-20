@@ -8,6 +8,13 @@ Function definition
 - Specifies the sequence of statements that execute when the function is called
 - The function can be reused throughout the program
 
+Flow of Execution
+-----------------
+
+- Programs generally run from top to bottom
+- Function definitions are not executed
+- Functions run only when called
+
 Example
 -------
 
@@ -42,12 +49,25 @@ print(square(2))
 print(square(7))
 ```
 
-Flow of Execution
------------------
+Parameters and arguments
+------------------------
 
-- Programs generally run from top to bottom
-- Function definitions are not executed
-- Functions run only when called
+- Arguments are the values passed to a functions
+- Parameters are the variable names used inside the function
+
+---
+
+We can reimplement `min` ourselves
+
+---
+
+```python
+def min(a, b):
+    if a < b:
+        return a
+    else:
+        return b
+```
 
 ---
 
@@ -66,11 +86,13 @@ def cube(n):
 print(cube(2))
 ```
 
-Parameters and arguments
-------------------------
+---
 
-- Arguments are the values passed to a functions
-- Parameters are the variable names used inside the function
+Recursive functions
+-------------------
+
+- Functions may call themselves
+- This must be done carefully to avoid infinite recursion
 
 ---
 
