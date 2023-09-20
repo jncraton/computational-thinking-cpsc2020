@@ -71,3 +71,7 @@ Parameters and arguments
 
 - Arguments are the values passed to a functions
 - Parameters are the variable names used inside the function
+
+---
+
+No lab this Friday (September 22)
