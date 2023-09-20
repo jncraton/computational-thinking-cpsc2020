@@ -22,6 +22,8 @@ Example
 def print_twice(value):
     print(value)
     print(value)
+
+print_twice("Hello there")
 ```
 
 Void functions
@@ -54,6 +56,12 @@ Parameters and arguments
 
 - Arguments are the values passed to a functions
 - Parameters are the variable names used inside the function
+
+Return
+------
+
+- Return allows us to terminate a function and return control to the caller
+- If used with a value, the function returns the value
 
 ---
 
@@ -96,4 +104,5 @@ Recursive functions
 
 ---
 
-No lab this Friday (September 22)
+- No lab this Friday (September 22nd)
+- Your current lab is still due September 28th
