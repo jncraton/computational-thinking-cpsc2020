@@ -12,17 +12,16 @@ lecture	Nested Conditionals Execution	Conditionals,Nesting
 lab	Text Adventure Game
 lecture	Exceptions	Conditionals
 lecture	Built-in Fuctions	Functions
-lecture	Math Functions	Functions
-lab	Vacuum Lab 1 (no history, random only)
 lecture	Custom Functions	Functions
+lab	Vacuum Lab 1 (no history, random only)
 lecture	Parameters, Arguments, Returns, Why Functions	Functions
 lecture	While	Iterations
-lab	Guess Number Game
 lecture	For	Iterations
+lab	Guess Number Game
 lecture	Loop Patterns	Iterations
 lecture Strings	Strings
-lab	Chatbot
 lecture Indexing and Slicing	Strings
+lab	Chatbot
 lecture String Parsing	Strings
 exam	Exam 1
 review	Exam Reflection + Files	File
