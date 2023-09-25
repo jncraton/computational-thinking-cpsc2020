@@ -86,7 +86,7 @@ Indefinite iteration
 Controlling Iteration
 ---------------------
 
-- `while` accepts a contitional that will stop iteration when false
+- `while` accepts a conditional that will stop iteration when false
 - This can be used to control how many times we iterate
 
 Counting
@@ -139,7 +139,7 @@ continue
 --------
 
 - `continue` can be reused to skip the remainder of an iteration
-- Control will return to the contional on the while statement
+- Control will return to the cognitional on the while statement
 
 Example
 -------
