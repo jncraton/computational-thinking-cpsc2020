@@ -1,3 +1,9 @@
+Midterm Exam
+------------
+
+- First exam will be Tuesday, October 10th
+- Topics through strings (chapter 6) will be covered
+
 Iteration
 =========
 
@@ -40,7 +46,7 @@ Recursion
 Example
 -------
 
-```
+```python
 def count_to_10_from(n):
     if n > 10:
         return
@@ -60,7 +66,7 @@ while
 Example
 -------
 
-```
+```python
 while True:
     best_prof = input("Who is the best professor?")
     
@@ -70,6 +76,12 @@ while True:
     else:
         print("Not quite. Try again.")
 ```
+
+Indefinite iteration
+--------------------
+
+- We do not specify how many times a `while` loop will execute in advance
+- This makes iteration indefinite
 
 Controlling Iteration
 ---------------------
