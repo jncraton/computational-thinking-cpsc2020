@@ -97,6 +97,7 @@ i = 0
 
 while i <= 10:
     print(i)
+    i += 1
 ```
 
 Infinite Loop
@@ -104,7 +105,7 @@ Infinite Loop
 
 - We must be careful to avoid looping forever
 - A loop that never stops is called an infinite loop
-- This is a common type of bug in simple programs
+- This is a common type of bugs
 
 Infinite Loop
 -------------
