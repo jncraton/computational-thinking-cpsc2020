@@ -139,7 +139,7 @@ else
 ----
 
 - `for` supports an else clause
-- It will be executed if the loop is not interupted
+- It will be executed if the loop is not interrupted
 
 else example
 ------------
