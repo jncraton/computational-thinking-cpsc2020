@@ -88,6 +88,7 @@ Lists
 
 - A list is a sequence of values
 - Lists are defined using square brackets (`[` and `]`)
+- Lists can be iterated using `for`
 
 List example
 ------------
@@ -132,4 +133,26 @@ range parameter example
 # Count to 30 by 3
 for i in range(0, 31, 3):
     print(i)
+```
+
+else
+----
+
+- `for` supports an else clause
+- It will be executed if the loop is not interupted
+
+else example
+------------
+
+```python
+user_color = input("Enter a color:")
+
+for color in ['red', 'green', 'blue']:
+    if user_color == color:
+        break
+else:
+    print("You didn't enter an allowed color")
+    exit()
+    
+print("You entered a correct color")
 ```
