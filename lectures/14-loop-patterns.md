@@ -144,8 +144,8 @@ def min(nums):
 Linear Search
 -------------
 
-- Sometimes we want to find a specifical value
-- This can be accoplished by checking items one by one
+- Sometimes we want to find a specific value
+- This can be accomplished by checking items one by one
 
 Check if a word has no vowels
 -----------------------------
