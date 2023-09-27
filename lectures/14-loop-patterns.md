@@ -140,3 +140,30 @@ def min(nums):
             
     return num
 ```
+
+Linear Search
+-------------
+
+- Sometimes we want to find a specifical value
+- This can be accoplished by checking items one by one
+
+Check if a word has no vowels
+-----------------------------
+
+Solution
+--------
+
+```python
+word = input("Enter a word with no vowels:")
+valid_word = True
+
+for letter in word:
+    for vowel in 'aeiou':
+        if letter == vowel:
+            valid_word = False
+        
+if valid_word:
+    print("That's correct")
+else:
+    print("Your word included a vowel.")     
+```
