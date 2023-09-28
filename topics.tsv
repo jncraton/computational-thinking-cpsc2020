@@ -13,12 +13,11 @@ lab	Text Adventure Game
 lecture	Exceptions	Conditionals
 lecture	Built-in Fuctions	Functions
 lecture	Custom Functions	Functions
-lab	Vacuum Lab 1 (no history, random only)
-lecture	Parameters, Arguments, Returns, Why Functions	Functions
+lab	Canelled Vacuum Lab 1 (no history, random only)
 lecture	While	Iterations
 lecture	For	Iterations
-lab	Guess Number Game
 lecture	Loop Patterns	Iterations
+lab	Guess Number Game
 lecture Strings	Strings
 lecture Indexing and Slicing	Strings
 lab	Chatbot
