@@ -155,7 +155,3 @@ True
 >>> "12" < "102"
 False
 ```
-
-String Methods
---------------
-
