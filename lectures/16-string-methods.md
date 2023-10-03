@@ -188,7 +188,7 @@ Example
 'd'
 ```
 
-Infered indices
+Inferred indices
 ---------------
 
 - If a start index is left out, it is assumed to be zero
@@ -218,13 +218,13 @@ format
 ------
 
 - The textbook uses the `format` method on strings
-- It is antiquated and has largely been superceded by [f-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals) since Python 3.6.
+- It is antiquated and has largely been superseded by [f-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals) since Python 3.6.
 - You will not be required to use or understand the `format` method in this class
 
 f-strings
 ---------
 
-- Proivde simple string formatting
+- Provide simple string formatting
 - Python expressions can be included within strings
 - An `f` should be used before the opening quote of the string literal
 

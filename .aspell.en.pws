@@ -1,19 +1,23 @@
-personal_ws-1.1 en 44 
+personal_ws-1.1 en 54 
 Advanded
 Algorthm
 Benji
 CPSC
 ChatGPT
 Craton
+Cyber
+DS
 Genesys
 Groucho
 Homebrew
 Iterables
 KACE
+KWC
 Langugage
 NaN
 OSBoxes
 QEMU
+RavenEdge
 Sayre
 Shedd
 VM
@@ -22,8 +26,10 @@ VirtualBox
 algorithmically
 computable
 deterministically
+dir
 elif
 fidelitas
+fieldhouse
 iterable
 iterables
 len
@@ -36,10 +42,14 @@ px
 randint
 reimplement
 runtime
+startswith
 subexpressions
 subproblems
+substring
+substrings
 th
 utilitas
 veritas
 virt
 virtualized
+whitespace
