@@ -1,3 +1,6 @@
+Important Dates
+===============
+
 RavenEdge Career Fair
 ---------------------
 
@@ -95,7 +98,7 @@ find
 - Returns -1 if substring is not found
 
 Example
-=======
+-------
 
 ```python
 >>> a = "Hello, world!"
@@ -205,7 +208,7 @@ Example
 String Formatting
 -----------------
 
-- Some text and resource will use the `%` operator of the `format` method for string formatting
+- Some books and resources will use the `%` operator of the `format` method for string formatting
 - We will prefer f-strings in this class as they are newer and have fewer sharp edges
 
 Formatted String Literals
