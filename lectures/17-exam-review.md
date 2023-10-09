@@ -31,7 +31,7 @@ Conditional Execution
 Functions
 ---------
 
-- Functions provide names set of instructions that can be called
+- Functions provide named sets of instructions that can be called
 - Many built-in functions exist (`input`, `min`, etc)
 - Custom functions can be created using `def`
 
