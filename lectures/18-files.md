@@ -12,7 +12,7 @@ Storage
 -------
 
 - Instructions are executed by the CPU
-- Values used so far live in main memory
+- Values and variables as discussed so far live in main memory
 
 Persistence
 -----------
@@ -126,6 +126,9 @@ handle = open("example.py")
 for line in handle:
     print(line, end='')
 ```
+
+Survey Example
+--------------
 
 Key Ideas
 ---------
