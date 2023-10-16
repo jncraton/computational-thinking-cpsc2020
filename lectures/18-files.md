@@ -81,7 +81,7 @@ contents = file_handle.read() # Raises Exception
 Lines
 -----
 
-- Plain text may be separated into lines for easier consumtion
+- Plain text may be separated into lines for easier consumption
 - Lines are separated by a special character called a newline
 - We can create a newline character in Python using a `\n` escape sequence
 
@@ -103,7 +103,7 @@ Reading Lines
 -------------
 
 - The `readline` method will return the next line as a string value
-- The `readlines` method will return an interable of all lines
+- The `readlines` method will return an iterable of all lines
 - The file handle can be iterated directly to operate on lines
 
 Example
