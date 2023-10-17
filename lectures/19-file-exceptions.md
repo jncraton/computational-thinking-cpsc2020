@@ -8,9 +8,9 @@ No class this Friday
 CONspiracy 2023
 ---------------
 
-- Annual CSSCD Cybersecruity Conference
+- Annual CSSCD Cybersecurity Conference
 - This Friday from 8am to 5pm at Flagship Enterprise Center
-- [Reigstration is open](https://www.eventbrite.com/e/conspiracy-2023-tickets-658586288317?aff=ebdssbdestsearch&from=d725b5452fe411ee903172bdca9f6a1d) and covered for AU CS/Cyber/DS students
+- [Registration is open](https://www.eventbrite.com/e/conspiracy-2023-tickets-658586288317?aff=ebdssbdestsearch&from=d725b5452fe411ee903172bdca9f6a1d) and covered for AU CS/Cyber/DS students
 - Use promo code VOL2320 for free registration
 
 ---
@@ -57,7 +57,7 @@ except:
 User Selected Files
 -------------------
 
-- File name need not be hardcoded
+- File name need not be hard-coded
 - Names can be entered by a user
 - This makes proper error handling more important
 
@@ -104,6 +104,8 @@ contents = handle.read()
 
 print(contents)
 ```
+
+---
 
 Find all words in a file with no vowels
 
