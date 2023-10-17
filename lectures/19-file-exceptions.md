@@ -125,6 +125,9 @@ for word in handle:
         print(word)
 ```
 
+Example
+-------
+
 Count all `if`, `elif`, and `else` keywords in a program
 
 Key Ideas
