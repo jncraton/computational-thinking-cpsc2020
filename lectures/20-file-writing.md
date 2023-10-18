@@ -99,7 +99,14 @@ with
 - File handles are one use, but there are money others
 - `with` always closes the file, even when exceptions are raised
 
-Example
--------
+Excercise
+---------
 
 Write all primes up to 10,000 to a file
+
+Key Ideas
+---------
+
+- Files can be opened with the "w" flag
+- We can avoid truncation with the "a" flag
+- The `with` statement can be used to automatically close files
