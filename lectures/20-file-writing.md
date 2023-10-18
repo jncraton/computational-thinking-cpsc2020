@@ -96,7 +96,7 @@ with
 ----
 
 - The `with` statement can be used with all [context manager types](https://docs.python.org/3/library/stdtypes.html#context-manager-types)
-- File handles are one use, but there are money others
+- File handles are one use, but there are many others
 - `with` always closes the file, even when exceptions are raised
 
 Exercise
