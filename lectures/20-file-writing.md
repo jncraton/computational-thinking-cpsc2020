@@ -99,7 +99,7 @@ with
 - File handles are one use, but there are money others
 - `with` always closes the file, even when exceptions are raised
 
-Excercise
+Exercise
 ---------
 
 Write all primes up to 10,000 to a file
