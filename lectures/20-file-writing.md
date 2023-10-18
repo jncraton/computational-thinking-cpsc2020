@@ -77,6 +77,24 @@ outfile.write("Hello, world")
 outfile.close()
 ```
 
+Exceptions
+----------
+
+- An exception crashing the program can prevent a proper close
+
+Example
+-------
+
+```python
+outfile = open("myfile.txt", "a")
+
+outfile.write("Hello, world")
+
+int("not a number")
+
+outfile.close()
+```
+
 Closing Files
 -------------
 
