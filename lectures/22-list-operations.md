@@ -16,6 +16,24 @@ complete = start + end
 print(complete)
 ```
 
+Appending
+---------
+
+- The `+` operator may be used for appending
+- Single items must be represented as a list of length 1
+
+Example
+-------
+
+```python
+mylist = [1,2,3]
+
+# The following will raise an exception
+mylist = mylist + 4
+
+print(mylist)
+```
+
 List * operator
 ---------------
 

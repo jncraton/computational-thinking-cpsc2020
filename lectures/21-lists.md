@@ -1,3 +1,6 @@
+Lab Review
+==========
+
 Lists
 =====
 
@@ -138,7 +141,7 @@ Nested Lists
 ------------
 
 - Lists can be used as list values
-- Nested list only count as 1 element when computing `len`
+- Nested lists only count as 1 element when computing `len`
 
 Example
 -------
