@@ -1,5 +1,5 @@
 Lists
------
+=====
 
 list
 ----
@@ -32,7 +32,7 @@ Empty lists
 Example
 -------
 
-```
+```python
 if []:
     print("This won't print")
 ```
@@ -77,7 +77,7 @@ Indices
 Example
 -------
 
-```
+```python
 mylist = [1, 2, 3]
 
 mylist[-4] = 7
