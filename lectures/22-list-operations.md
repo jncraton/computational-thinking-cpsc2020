@@ -137,7 +137,7 @@ print(mylist)
 sort
 ----
 
-- The `sort` method can be used to sort list element in place
+- The `sort` method can be used to sort list elements in place
 - The list will be modified by this operation
 - `sort` always returns `None`
 
