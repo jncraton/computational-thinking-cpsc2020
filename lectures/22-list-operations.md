@@ -104,7 +104,7 @@ append
 ------
 
 - The `append` method can be used to add an item to the end of a list
-- List items should not be lists themselves
+- If lists are passed to append, a nested list will be created
 
 Example
 -------
