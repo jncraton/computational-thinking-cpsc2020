@@ -152,7 +152,7 @@ mylist.sort()
 print(mylist)
 ```
 
-Inplace modification
+In-place modification
 --------------------
 
 - It can be tempting to assign the result of sort back to the original list
