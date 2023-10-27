@@ -39,3 +39,112 @@ Dictionary Keys
 - Integers may be used as keys
 - Strings may be used as keys
 - Any other hashable type may be used as a key
+
+Example
+-------
+
+```
+values = {}
+
+values["a"] = 1
+values["b"] = 2
+
+print(values["a"])
+```
+
+Printing Dictionaries
+---------------------
+
+- Dictionaries can be printed directly
+- They will show value mapping between curly braces `{}`
+
+Example
+-------
+
+```python
+values = {}
+
+values["a"] = 1
+values["b"] = 2
+
+print(values)
+```
+
+Instantiating Dictionaries with Values
+--------------------------------------
+
+- The output format from the previous example can be used to create new lists directly
+
+Example
+-------
+
+```python
+values = {"a": 1, "b": 2}
+
+print(values)
+```
+
+Whitespace
+----------
+
+- Whitespace may be used inside dictionary declarations
+- New lines may be used to organize declarations
+
+Example
+-------
+
+```python
+poketypes = {
+    "Charmander": "fire",
+    "Squirtle": "water",
+    "Bulbasaur": "grass",
+}
+
+print(f"Squirtle is {poketypes['Squirtle']} type")
+```
+
+in
+----
+
+- The `in` operator can be used with list
+- `in` will return True if the key exist in the list
+
+Example
+-------
+
+```
+hrs = {
+    "Bonds": 762,
+    "Aaron": 755,
+    "Ruth": 714,
+}
+
+print("Pujols" in hrs)
+print("Aaron" in hrs)
+print(762 in hrs)
+```
+
+Word Counter
+------------
+
+- Let's build a program to count the number of words in a text
+
+Example
+-------
+
+```python
+text = """In the beginning was the Word, and the Word was with God, and the Word was God."""
+
+counts = {}
+
+for word in text.split():
+    word = word.strip(",.")
+    
+    if not word in counts:
+        counts[word] = 0
+        
+    counts[word] += 1
+
+print(counts)
+```
+
