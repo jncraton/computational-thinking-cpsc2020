@@ -1,4 +1,4 @@
-personal_ws-1.1 en 61 
+personal_ws-1.1 en 64 
 Advanded
 Algorthm
 Benji
@@ -13,6 +13,8 @@ DS
 Falsy
 Genesys
 Groucho
+Hashability
+Hashable
 Homebrew
 Iterables
 KACE
@@ -35,6 +37,7 @@ dir
 elif
 fidelitas
 fieldhouse
+hashable
 iterable
 iterables
 len

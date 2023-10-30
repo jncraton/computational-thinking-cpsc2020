@@ -5,7 +5,7 @@ List
 ----
 
 - Lists map numbers to values
-- Lists are *dense*, meaning numbers from 0 up to the list lenght all map to a value
+- Lists are *dense*, meaning numbers from 0 up to the list length all map to a value
 
 Dictionaries
 ------------
