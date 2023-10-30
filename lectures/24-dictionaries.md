@@ -43,7 +43,7 @@ Dictionary Keys
 Example
 -------
 
-```
+```python
 values = {}
 
 values["a"] = 1
@@ -112,7 +112,7 @@ in
 Example
 -------
 
-```
+```python
 hrs = {
     "Bonds": 762,
     "Aaron": 755,
