@@ -42,3 +42,10 @@ d = {"a": 1, "b": 2, "c": 3}
 for key in d:
     print(d[key])
 ```
+
+Working Problems
+----------------
+
+- Professional developers will frequently be asked to solve simple programming tasks in interviews
+- It is important to practice these sorts of problems
+- Example problems: [LeetCode](https://leetcode.com/problemset/all/), [Project Euler](https://projecteuler.net/archives)
