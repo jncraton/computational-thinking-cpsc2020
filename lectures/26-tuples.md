@@ -102,7 +102,7 @@ Destructuring Assignment
 ------------------------
 
 - A destructuring assignment can be used to assign multiple values at once
-- The right hand side must be the same lenght as the left hand side
+- The right hand side must be the same length as the left hand side
 
 Example
 -------
