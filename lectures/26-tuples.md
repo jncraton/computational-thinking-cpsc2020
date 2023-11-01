@@ -5,7 +5,7 @@ Container Types
 ---------------
 
 - Strings contain a sequence of characters
-- Lists contain a sequence of values of any time
+- Lists contain a sequence of values of any type
 - Dictionaries contain values of any type indexed by key
 
 Tuples
