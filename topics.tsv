@@ -32,10 +32,9 @@ lecture	List Methods	Lists
 lecture	List Functions	Lists
 lab	List Lab
 lecture	Dictionaries	Dictionaries
-lecture	Dictionaries as Counters	Dictionaries
-lecture	Dictionary Traversal	Dictionaries
-lab	Dict lab
+lecture	Dictionary Traversal and LeetCode Roman numerals	Dictionaries
 lecture	Tuples	Tuples
+lab	Dict lab
 lecture	Tuples and Dictionaries	Tuples
 lecture	List Comprehensions	Tuples
 lab	Tuple lab
