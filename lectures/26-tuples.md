@@ -98,9 +98,74 @@ t[1].append(3)
 print(t)
 ```
 
+Destructuring Assignment
+------------------------
+
+- A destructuring assignment can be used to assign multiple values at once
+- The right hand side must be the same lenght as the left hand side
+
+Example
+-------
+
+```python
+a, b = (1, 2)
+
+print(a)
+print(b)
+```
+
+Example
+-------
+
+```python
+word1, word2 = "Hello world".split()
+
+print(word1)
+print(word2)
+```
+
 Tuple Comparison
 ----------------
 
 - Tuples are compared one element at a time (like strings)
 - Once a larger element is found, that tuple is considered to larger
     - Future elements are not considered
+
+Example
+-------
+
+```python
+smaller = (1, 3, 1000)
+larger = (1, 4, 0)
+
+print(smaller < larger)
+```
+
+DSU Pattern
+-----------
+
+- Uses tuples for sorting items
+- Decorate items using a sort key
+- Sort items
+- Undecorate the items by removing the sort key
+
+Example
+-------
+
+```python
+sentence = "The quick brown fox jumped over the lazy dog"
+
+decorated = []
+
+for word in sentence.split():
+    decorated.append((len(word), word))
+
+decorated.sort()
+
+undecorated = []
+
+for _, word in decorated:
+    undecorated.append(word)
+
+print(undecorated)
+```
