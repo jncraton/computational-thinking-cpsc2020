@@ -20,7 +20,7 @@ for kv_tuple in runtimes.items():
     print(kv_tuple)
 ```
 
-Descructuring and for
+Destructuring and for
 ---------------------
 
 - Destructuring can be used to assign multiple variables in a `for` loop
@@ -66,7 +66,7 @@ for letter in enumerate(alphabet):
     print(letter)
 ```
 
-Modifing Lists Items
+Modifying Lists Items
 --------------------
 
 - Enumeration can be helpful if we need a reference to list items during iteration
