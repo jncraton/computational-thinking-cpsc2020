@@ -90,7 +90,7 @@ print(squares)
 Filtering
 ---------
 
-- Filtering can be applied to list comprehensions using and `if` clause
+- Filtering can be applied to list comprehensions using an `if` clause
 
 Example
 -------
