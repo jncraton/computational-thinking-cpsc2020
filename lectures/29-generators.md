@@ -1,0 +1,8 @@
+Generators
+==========
+
+yield
+-----
+
+Generator Expressions
+---------------------
