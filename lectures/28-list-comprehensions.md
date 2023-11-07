@@ -5,7 +5,7 @@ Creating Lists
 --------------
 
 - We frequently want to create a list from another list
-- This can be accoplished using a `for` loop
+- This can be accomplished using a `for` loop
 
 Example
 -------
