@@ -18,7 +18,7 @@ print(sent.find("the"))
 split
 -----
 
-- The string `split` method can be used to split on whitespace
+- The string `split` method can be used to split strings
 
 Example
 -------
