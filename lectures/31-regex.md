@@ -90,7 +90,7 @@ print(nums)
 Fuzzy matching
 --------------
 
-- We can use more permissive expressions to capture values in mutliple formats
+- We can use more permissive expressions to capture values in multiple formats
 
 Example
 -------
