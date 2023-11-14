@@ -1,5 +1,5 @@
 Regular Expressions
--------------------
+===================
 
 Search
 ------
@@ -38,11 +38,19 @@ for number in numbers:
     print(number)
 ```
 
+Metacharacters
+--------------
+
+- Certain characters, such as `.` are not matched literally
+- The full list of metachars is:
+
+`. ^ $ * + ? { } [ ] \ | ( )`
+
 Character classes
 -----------------
 
 - We can search for groups of characters to match against a single character using `[]`
-- We can use `-` to indicate a range of characters
+- We can use "`-`" to indicate a range of characters
 
 Example
 -------
@@ -77,4 +85,50 @@ text = "What is 123 + 456?"
 nums = re.findall("\d+", text)
 
 print(nums)
+```
+
+Fuzzy matching
+--------------
+
+- We can use more permissive expressions to capture values in mutliple formats
+
+Example
+-------
+
+```python
+import re
+
+phone_nums = """
+(765) 555 1234
+317-555-6789
+76555551357
+"""
+
+matches = re.findall("[\d\(\)\- ]+", phone_nums)
+
+print(matches)
+```
+
+Substitutions
+-------------
+
+- `sub` can be used to perform regex replacements
+
+Example
+-------
+
+```python
+import re
+
+phone_nums = """
+(765) 555 1234
+317-555-6789
+76555551357
+"""
+
+matches = re.findall("[\d\(\)\- ]+", phone_nums)
+
+cleaned = [re.sub("[ \-\(\)]", "", m) for m in matches]
+
+print(cleaned)
 ```
