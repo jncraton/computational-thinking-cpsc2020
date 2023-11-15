@@ -133,7 +133,6 @@ Regular Languages
 -----------------
 
 - Are insufficient to parse most programming languages
-- Are useful for parsing tokens
 - Can be processed by a simple finite automaton
 
 Deterministic Finite Automaton (DFA)
