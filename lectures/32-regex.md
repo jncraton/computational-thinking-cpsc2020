@@ -79,8 +79,8 @@ print(cities)
 Match Objects
 -------------
 
-- Search returns a match object on success
-- Groups can be extracted from these matches
+- `search` returns a match object on success
+- Groups can be extracted from the match
 
 Example
 -------
@@ -118,6 +118,7 @@ More RE Information
 -------------------
 
 - [RE How-to](https://docs.python.org/3/howto/regex.html)
+- [Py4E Chapter](https://www.py4e.com/html3/11-regex)
 
 Chomsky Hierarchy
 -----------------
