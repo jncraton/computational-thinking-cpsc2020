@@ -1,6 +1,7 @@
-personal_ws-1.1 en 71 
+personal_ws-1.1 en 78 
 Advanded
 Algorthm
+Automata
 Benji
 CONspiracy
 CPSC
@@ -9,6 +10,8 @@ ChatGPT
 Craton
 Cyber
 Cybersecurity
+DFA
+DFAs
 DS
 DSU
 Destructuring
@@ -26,6 +29,8 @@ LeetCode
 Metacharacters
 NaN
 OSBoxes
+Pushdown
+Py
 QEMU
 RavenEdge
 Sayre
@@ -56,10 +61,12 @@ pseudorandom
 px
 randint
 reimplement
+rightarrow
 runtime
 startswith
 subexpressions
 subproblems
+subseteq
 substring
 substrings
 th
