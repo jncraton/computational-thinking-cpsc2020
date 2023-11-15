@@ -75,3 +75,83 @@ cities = re.findall("(.*), [A-Z]{2}", addresses)
 
 print(cities)
 ```
+
+Match Objects
+-------------
+
+- Search returns a match object on success
+- Groups can be extracted from these matches
+
+Example
+-------
+
+```python
+import re
+
+text = "a1 b2 c3"
+
+match = re.search("b(\d)", text)
+
+print(match.groups())
+print(match.group(1))
+```
+
+Group 0
+-------
+
+- Match group `0` is always the full match
+
+Example
+-------
+
+```python
+import re
+
+text = "cat dog bat"
+
+match = re.search("b([a-z])t", text)
+
+print(match.group(0))
+```
+
+More RE Information
+-------------------
+
+- [RE How-to](https://docs.python.org/3/howto/regex.html)
+
+Chomsky Hierarchy
+-----------------
+
+Grammar       Automaton (Computer)
+------------- ----------------------
+Unrestricted  Turing Machines
+Context Free  Pushdown Automata
+Regular       Finite State Automata
+
+Regular Languages
+-----------------
+
+- Are insufficient to parse most programming languages
+- Are useful for parsing tokens
+- Can be processed by a simple finite automaton
+
+Deterministic Finite Automaton (DFA)
+------------------------------------
+
+- Finite set of states $Q$
+- Finite set of input symbols called the alphabet $\Sigma$
+- Transition function $\delta : Q \times \Sigma \rightarrow Q$
+- Initial or start state $q_0 \in Q$
+- Set of accept states $F \subseteq Q$
+
+Drawing DFAs
+------------
+
+- States are nodes on the graph
+- Start state indicated by arrow
+- Accept states indicated by double border
+- Transitions indicated as labelled arrows
+
+---
+
+![DFA to accept string containing an even number of zeroes](https://upload.wikimedia.org/wikipedia/commons/9/9d/DFAexample.svg){height=540px}
