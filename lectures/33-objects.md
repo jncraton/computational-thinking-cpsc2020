@@ -46,7 +46,7 @@ print(r.step)
 Methods
 -------
 
-- A function which is defined inside a class body
+- A function that is a member of an object
 - When called as an attribute of an object, the function can operate on the object state
 
 Method Example
