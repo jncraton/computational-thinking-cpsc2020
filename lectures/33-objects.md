@@ -30,7 +30,7 @@ Functions
 Attribute and Method Access
 ---------------------------
 
-- Attributes and methods are accessed using `.`
+- Attributes and methods are accessed using "`.`"
 
 Attribute Example
 -----------------
