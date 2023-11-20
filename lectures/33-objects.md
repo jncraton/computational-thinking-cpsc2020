@@ -115,3 +115,9 @@ class Length:
 l = Length(2)
 print(l.feet)
 ```
+
+self
+----
+
+- The first argument passed to a method will be a reference to the object instance
+- `self` is chosen as the name for this parameter by convention
