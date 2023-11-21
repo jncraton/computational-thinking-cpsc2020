@@ -76,3 +76,32 @@ def page1():
 def page2():
     return "Page 2 <a href=/page1>Go to page 1</a>"
 ```
+
+Extended Example
+----------------
+
+```python
+from flask import Flask, request, session
+import languagemodels
+
+app = Flask(__name__)
+app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
+
+@app.route("/")
+def home():
+    if not "history" in session:
+        session["history"] = ""
+        
+    usertext = request.args.get("usertext", "")
+    session["history"] += f"<p>User: {usertext}"    
+    
+    response = languagemodels.do(f"Respond to a user: {usertext}")
+    session["history"] += f"<p>Bot: {response}"
+    
+    return """
+<form action=/>
+<input type=text name=usertext />
+<input type=submit />
+</form>
+""" + session["history"]
+```
