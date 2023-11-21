@@ -14,6 +14,10 @@ Hypertext
 - Text document with links to other text documents
 - Provides the basis for the world wide web
 
+---
+
+![Hyperlinked documents](https://upload.wikimedia.org/wikipedia/commons/4/41/Sistema_hipertextual.jpg)
+
 HTTP
 ----
 
