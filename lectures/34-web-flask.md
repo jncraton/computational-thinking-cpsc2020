@@ -42,7 +42,7 @@ URL
 -----
 
 - Provides a unique identifier for a hypertext document
-- Sent by a useragent as part of an HTTP request
+- Sent by a user agent as part of an HTTP request
 
 HTML
 ----
