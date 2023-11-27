@@ -1,8 +1,9 @@
-personal_ws-1.1 en 78 
+personal_ws-1.1 en 86 
 Advanded
 Algorthm
 Automata
 Benji
+CLI
 CONspiracy
 CPSC
 CSSCD
@@ -26,12 +27,15 @@ KACE
 KWC
 Langugage
 LeetCode
+MacOS
 Metacharacters
 NaN
 OSBoxes
+Powershell
 Pushdown
 Py
 QEMU
+REPL
 RavenEdge
 Sayre
 Shedd
@@ -39,6 +43,7 @@ VM
 ValueError
 VirtualBox
 algorithmically
+cmd
 computable
 del
 destructuring
@@ -55,6 +60,8 @@ metachars
 natively
 nd
 numerics
+param
+paramN
 parens
 pre
 pseudorandom
@@ -70,6 +77,7 @@ subseteq
 substring
 substrings
 th
+thonny
 undecorate
 unpowered
 utilitas
