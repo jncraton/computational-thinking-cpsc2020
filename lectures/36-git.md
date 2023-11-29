@@ -79,6 +79,35 @@ Staging
 
 - Before files are commited, they must be staged
 
+Add
+---
+
+- `git add` can be used to track and stage a file
+
+Example
+-------
+
+```
+> git add main.py
+> git status
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   main.py
+```
+
+Commit
+------
+
+- `git commit` can be used to create a new commit
+- The `-m` flag can be used to provide a message
+- File names can be provided
+- The `-a` flag will commit all changes
+
+Log
+---
+
+- `git log` can show the commit history
+
 ---
 
 ![Git lifecycle](https://git-scm.com/book/en/v2/images/lifecycle.png)
