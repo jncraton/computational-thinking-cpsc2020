@@ -10,7 +10,7 @@ Software Size
 Team Size
 ---------
 
-- Some software is developed by indviduals
+- Some software is developed by individuals
 - Many applications are developed by large teams
 - Thousands of developers may work on large application such as Windows or the Linux kernel
 
@@ -77,7 +77,7 @@ Commits
 Staging
 -------
 
-- Before files are commited, they must be staged
+- Before files are committed, they must be staged
 
 Add
 ---

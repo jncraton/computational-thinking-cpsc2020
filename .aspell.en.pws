@@ -1,4 +1,4 @@
-personal_ws-1.1 en 86 
+personal_ws-1.1 en 90 
 Advanded
 Algorthm
 Automata
@@ -22,6 +22,7 @@ Groucho
 Hashability
 Hashable
 Homebrew
+Init
 Iterables
 KACE
 KWC
@@ -37,6 +38,7 @@ Py
 QEMU
 REPL
 RavenEdge
+SLOC
 Sayre
 Shedd
 VM
@@ -44,6 +46,7 @@ ValueError
 VirtualBox
 algorithmically
 cmd
+codebase
 computable
 del
 destructuring
@@ -56,6 +59,7 @@ hashable
 iterable
 iterables
 len
+lifecycle
 metachars
 natively
 nd
