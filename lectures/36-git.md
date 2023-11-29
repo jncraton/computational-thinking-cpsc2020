@@ -35,7 +35,7 @@ Git
 ---
 
 - Distributed version control system
-- Original developed to manage the source code of the Linux kernel
+- Originally developed to manage the source code of the Linux kernel
 - Most widely used version control system today
 
 Init
@@ -44,6 +44,25 @@ Init
 - We can create a new git repository using `git init`
 - This creates the `.git` metadata directory
 - This repository will have no commits or pointers to commits
+
+Status
+------
+
+- `git status` can be use to check the current state of the repository
+
+Example
+-------
+
+```
+> git init
+Initialized empty Git repository...
+> git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+```
 
 Commits
 -------
