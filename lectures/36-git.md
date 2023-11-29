@@ -5,13 +5,13 @@ Software Size
 -------------
 
 - One way to measure software size is via source lines of code (SLOC)
-- A modern piece of large software, such as an operating system, may have tens of millions of lines of code
+- A modern piece of large software, such as an operating system, may have tens of millions of [lines of code](https://en.wikipedia.org/wiki/Source_lines_of_code#Example)
 
 Team Size
 ---------
 
 - Some software is developed by indviduals
-- Many applications developed by large teams
+- Many applications are developed by large teams
 - Thousands of developers may work on large application such as Windows or the Linux kernel
 
 ---
