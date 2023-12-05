@@ -5,7 +5,7 @@ Programs
 --------
 
 - We have created Python programs as complete text files in this course
-- Text files can then be interpretted and run by the interpretter
+- Text files can then be interpreted and run by the interpreter
 
 REPL
 ----
