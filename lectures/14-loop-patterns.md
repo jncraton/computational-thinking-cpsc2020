@@ -132,7 +132,7 @@ Solution
 import math
 
 def min(nums):
-    smallest = -math.inf
+    smallest = math.inf
     
     for num in nums:
         if num < smallest:
