@@ -1,59 +1,50 @@
 type	name	reading	content
-lecture	Intro	Intro
-lecture	Why Computation	Intro
+lecture	Intro	Intro	Computational Thinking
+lecture	Why Computation	Intro	Computational Thinking
 lecture	Computational Thinking	Intro	Computational Thinking, Imperative Programming
-lab	Hello World (Python Install)	Statements
+lab	Hello World (Python Install)		Statements
 lecture	Expessions	Variables	Expressions,Types,Literals,Logical Operators
 lecture	Variables	Variables	Variables,Statements,Comments
-lab	Fuel Economy Calculator
-lecture	Conditional Execution (if)	Conditionals,Variables,Strings,Expressions
-lecture Alternative Execution (else)	Conditionals,Expressions,Strings
-lecture	Nested Conditionals Execution	Conditionals,Nesting
-lab	Text Adventure Game
-lecture	Exceptions	Conditionals
-lecture	Built-in Fuctions	Functions
-lecture	Custom Functions	Functions
-lab	Canelled Vacuum Lab 1 (no history, random only)
-lecture	While	Iterations
-lecture	For	Iterations
-lecture	Loop Patterns	Iterations
-lab	Guess Number Game
-lecture Strings	Strings
-lecture Methods and Formatting	Strings
-lab	Chatbot
-lecture Exam Review	Strings
-exam	Exam 1
-review	Exam Reflection + Files	File
-lecture	Opening Files	Files
-lecture Modifying Files	Files
-lab	File Lab
-lecture Lists	Lists
-lecture	List Methods	Lists
-lecture	List Functions	Lists
-lab	List Lab
-lecture	Dictionaries	Dictionaries
-lecture	Dictionary Traversal and LeetCode Roman numerals	Dictionaries
-lecture	Tuples	Tuples
-lab	Dict lab
-lecture	Tuples and Dictionaries	Tuples
-lecture	List Comprehensions	Tuples
-lecture Generators
-lab	Tuple lab
-lecture	Regular Expressions	Regular Expressions
-lecture	Regular Expressions	Regular Expressions
-lecture	Regular Expressions	Regular Expressions
-lab	Regex lab
-lecture	Objects	Objects
-lecture	Classes	Objects
-lecture	Inheritance	Objects
-lecture	Data Analysis Related
-lecture	Unit Testing
-lab	?
-lecture Command Line
-lecture Applied Security Related
-review	Final Review
-lab	No Lab
-lecture	Parts of a Computer?
-lecture	VMs?
-lecture	CS History?
-lecture	Debugging?
+lab	Fuel Economy Calculator		Variables,Statements,Comments
+lecture	Conditional Execution (if)	Conditionals	Conditionals,Variables,Strings,Expressions	
+lecture	Alternative Execution (else)	Conditionals	Conditionals,Variables,Expressions
+lecture	Nested Conditionals Execution	Conditionals	Conditionals,Nesting
+lab	Text Adventure Game		Conditionals,Strings
+lecture	Exceptions	Conditionals	Conditionals,Expressions
+lecture	Built-in Fuctions	Functions	Functions,Expressions,Modules
+lecture	Custom Functions	Functions	Functions,Expressions
+lab	Canelled		
+lecture	While	Iterations	Iteration,Conditionals	
+lecture	For	Iterations	Iteration,Conditionals
+lecture	Loop Patterns	Iterations	Iteration,Expressions
+lab	Guess Number Game		Iterations,Statements,Conditionals,Expressions
+lecture	Strings	Strings	Strings
+lecture	Methods and Formatting	Strings	Strings,Functions,Expressions
+lab	Chatbot		Modules,Strings,Expressions
+lecture	Exam Review		Iteration,Expressions,Statements
+exam	Exam 1		
+review	Exam Reflection + Files	Files	Files
+lecture	Opening Files	Files	Files,Conditionals,Strings
+lecture	Modifying Files	Files	Files,Conditionals,Strings
+lab	Chatbot		Modules,Strings,Expressions
+lecture	Lists	Lists	Lists,Expressions
+lecture	List Methods	Lists	Lists,Functions
+lecture	List Functions	Lists	Lists,Functions
+lab	Salary Data Exploration		Lists,Files
+lecture	Dictionaries	Dictionaries	Dictionaries
+lecture	Dictionary Traversal and LeetCode Roman numerals	Dictionaries	Dictionaries,Conditionals
+lecture	Tuples	Tuples	Tuples
+lab	Shakespeare Word Frequency		Dictionaries,Files,Tuples
+lecture	Tuples and Dictionaries	Tuples	Tuples,Dictionaries
+lecture	List Comprehensions	Tuples	Generators,Tuples,Dictionaries,Iteration
+lecture	Generators	Tuples	Generators,Tuples,Dictionaries,Iteration
+lab	Vacuum Agent		
+lecture	Regular Expressions	Regular Expressions	
+lecture	Regular Expressions	Regular Expressions	
+lecture	Regular Expressions	Regular Expressions	
+lab	Vacuum Agent		
+lecture	Objects and Classes	Objects	Object,Functions,Classes
+lecture	Web Applications	None	Applications
+lecture	Command Line Interfaces	None	Tools
+lecture	Git	Git Book	Tools
+lecture	Notebooks	None	Tools
