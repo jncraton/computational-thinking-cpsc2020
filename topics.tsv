@@ -6,7 +6,7 @@ lab	Hello World (Python Install)		Statements
 lecture	Expessions	Variables	Expressions,Types,Literals,Logical Operators
 lecture	Variables	Variables	Variables,Statements,Comments
 lab	Fuel Economy Calculator		Variables,Statements,Comments
-lecture	Conditional Execution (if)	Conditionals	Conditionals,Variables,Strings,Expressions	
+lecture	Conditional Execution (if)	Conditionals	Conditionals,Variables,Strings,Expressions
 lecture	Alternative Execution (else)	Conditionals	Conditionals,Variables,Expressions
 lecture	Nested Conditionals Execution	Conditionals	Conditionals,Nesting
 lab	Text Adventure Game		Conditionals,Strings
@@ -14,7 +14,7 @@ lecture	Exceptions	Conditionals	Conditionals,Expressions
 lecture	Built-in Fuctions	Functions	Functions,Expressions,Modules
 lecture	Custom Functions	Functions	Functions,Expressions
 lab	Canelled		
-lecture	While	Iterations	Iteration,Conditionals	
+lecture	While	Iterations	Iteration,Conditionals
 lecture	For	Iterations	Iteration,Conditionals
 lecture	Loop Patterns	Iterations	Iteration,Expressions
 lab	Guess Number Game		Iterations,Statements,Conditionals,Expressions
