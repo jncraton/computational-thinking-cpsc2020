@@ -22,7 +22,7 @@ lecture	Strings	Strings	Strings
 lecture	Methods and Formatting	Strings	Strings,Functions,Expressions
 lab	Chatbot		Modules,Strings,Expressions
 lecture	Exam Review		Iteration,Expressions,Statements
-exam	Exam 1		
+exam	Exam 1		Expression,Conditionals,Functions,Iteration
 review	Exam Reflection + Files	Files	Files
 lecture	Opening Files	Files	Files,Conditionals,Strings
 lecture	Modifying Files	Files	Files,Conditionals,Strings
@@ -38,15 +38,16 @@ lab	Shakespeare Word Frequency		Dictionaries,Files,Tuples
 lecture	Tuples and Dictionaries	Tuples	Tuples,Dictionaries
 lecture	List Comprehensions	Tuples	Generators,Tuples,Dictionaries,Iteration
 lecture	Generators	Tuples	Generators,Tuples,Dictionaries,Iteration
-lab	Vacuum Agent		
-lecture	Regular Expressions	Regular Expressions	
-lecture	Regular Expressions	Regular Expressions	
-lecture	Regular Expressions	Regular Expressions	
-lab	Final Project		
+lab	Vacuum Agent		Tuples,Dictionaries,Conditionals
+lecture	Regular Expression Matching	Regular Expressions	Regular Expressions,Modules,Strings
+lecture	Regular Expression Extraction	Regular Expressions	Regular Expressions,Strings
+lecture	Regular Expression Substitution	Regular Expressions	Regular Expressions,Strings
+lab	Final Project		Functions,Iteration,Conditionals
 lecture	Objects and Classes	Objects	Object,Functions,Classes
-lecture	Web Applications	None	Applications
-lab	Final Project		
-lecture	Command Line Interfaces	None	Tools
+lecture	Web Applications		Modules
+lecture	Command Line Interfaces		Tools
+lab	Final Project		Functions,Iteration,Conditionals
 lecture	Git	Git Book	Tools
-lecture	Notebooks	None	Tools
-lab	Final Project		
+lecture	Notebooks		Tools
+lecture	Final Exam Review		Expressions,Conditionals,Functions,Iteration,Lists,Dictionaries,Files
+lab	Final Project		Functions,Iteration,Conditionals
