@@ -28,6 +28,19 @@ Upon completion of this course, students will be able to:
 - Use the command line to interact with a computer system
 - Test and debug software effectively
 
+Liberal Arts Quantitative Reasoning Objectives
+----------------------------------------------
+
+Upon completion of this course, students will be able to:
+
+1. Interpret information that has been presented in mathematical form (e.g. with functions, equations, graphs, diagrams, tables, words, geometric figures).
+2. Represent information/data in mathematical form as appropriate (e.g. with functions, equations, graphs, diagrams, tables, words, geometric figures).
+3. Demonstrate skill in accurately solving problems using mathematical procedures.
+4. Analyze mathematical arguments, determining whether stated conclusions can be inferred using deductive reasoning.
+5. Communicate which assumptions have been made in the solution process, citing the limitations of the process where applicable.
+6. Analyze mathematical results in order to determine the reasonableness of the solution.
+7. Clearly explain the representation, solution, and interpretation of a mathematics problem.
+
 Course Overview
 ---------------
 
