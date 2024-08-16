@@ -13,17 +13,22 @@ lab	Text Adventure Game		Conditionals,Strings
 lecture	Exceptions	Conditionals	Conditionals,Expressions
 lecture	Built-in Fuctions	Functions	Functions,Expressions,Modules
 lecture	Custom Functions	Functions	Functions,Expressions
-lab	Canelled		
-lecture	While	Iterations	Iteration,Conditionals
-lecture	For	Iterations	Iteration,Conditionals
-lecture	Loop Patterns	Iterations	Iteration,Expressions
-lab	Guess Number Game		Iterations,Statements,Conditionals,Expressions
-lecture	Strings	Strings	Strings
-lecture	Methods and Formatting	Strings	Strings,Functions,Expressions
-lab	Chatbot		Modules,Strings,Expressions
+lab	Continue Previous Lab
+lecture Testing Overview	None	Testing, Functions
+lecture Testing	Function None	Testing, Functions
+lecture Modular Design and Testability	None	Testing, Functions
+lab	Unit Tests	Testing, Functions
 lecture	Exam Review		Iteration,Expressions,Statements
 exam	Exam 1		Expression,Conditionals,Functions,Iteration
 review	Exam Reflection + Files	Files	Files
+lecture	While	Iterations	Iteration,Conditionals
+lecture	For	Iterations	Iteration,Conditionals
+lab	Guess Number Game		Iterations,Statements,Conditionals,Expressions
+lecture	Loop Patterns	Iterations	Iteration,Expressions
+lecture	Strings	Strings	Strings
+lecture	Methods and Formatting	Strings	Strings,Functions,Expressions
+lab	Chatbot		Modules,Strings,Expressions
+lecture Notebooks  Tools
 lecture	Opening Files	Files	Files,Conditionals,Strings
 lecture	Modifying Files	Files	Files,Conditionals,Strings
 lab	Chatbot		Modules,Strings,Expressions
@@ -46,8 +51,6 @@ lab	Final Project		Functions,Iteration,Conditionals
 lecture	Objects and Classes	Objects	Object,Functions,Classes
 lecture	Web Applications		Modules
 lecture	Command Line Interfaces		Tools
-lab	Final Project		Functions,Iteration,Conditionals
 lecture	Git	Git Book	Tools
-lecture	Notebooks		Tools
 lecture	Final Exam Review		Expressions,Conditionals,Functions,Iteration,Lists,Dictionaries,Files
-lab	Final Project		Functions,Iteration,Conditionals
+lab	Final Project Presentations		Functions,Iteration,Conditionals

@@ -20,7 +20,7 @@ Professional Career
 -------------------
 
 - Software Engineer Team Lead at Genesys
-- Software consultant
+- Software Consultant
 
 ---
 
