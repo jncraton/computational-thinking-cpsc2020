@@ -1,9 +1,12 @@
-all: index.html syllabus.html syllabus.docx syllabus.txt env.html lectures/index.html examples/index.html
+all: index.html syllabus.html syllabus.docx syllabus.txt env.html syllabus.md lectures/index.html examples/index.html
 
 .PHONY: clean lectures
 
-syllabus.md: readme.md
+syllabus.md: syllabus-template.md head.md tail.md
 	markdown-pp $< -o $@
+
+readme.md: syllabus.md
+	cp -f $< $@
 
 syllabus.txt: syllabus.md
 	cp syllabus.md syllabus.txt
@@ -73,9 +76,32 @@ examples/index.html:
 lectures/reveal.js:
 	cd lectures && git clone --depth=1 --branch 3.9.2 https://github.com/hakimel/reveal.js
 
+update:
+	wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.gitignore \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/head.tex \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/makefile \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/reference.docx \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/requirements.txt \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/runtime.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/head.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/tail.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/env.md \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/style.css \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
+
+	mkdir -p .github/workflows
+	cd .github/workflows && wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.github/workflows/pages.yml
+
+	# readme.md was previously used as syllabus template
+	# Copy it if needed when updating
+	cp --no-clobber readme.md syllabus-template.md
+
+	make readme.md
+
 clean:
 	rm -rf pandoc*
-	rm -f index.html index.md syllabus* env.html *.pdf
+	rm -f index.html index.md syllabus.md syllabus.docx syllabus.html syllabus.pdf env.html *.pdf
 	rm -rf lectures/*.html lectures/all.md
 	rm -rf examples/index.html
 	find lectures -name "*.html" -exec rm -f {} \;
