@@ -6,12 +6,6 @@ CPSC 2020 Fundamentals of Computational Thinking and Problem Solving
 
 !INCLUDE "head.md"
 
-Links
------
-
-- [Course Website](https://jncraton.github.io/computational-thinking-cpsc2020/)
-- [Lecture Slides](https://jncraton.github.io/computational-thinking-cpsc2020/lectures)
-
 Course Catalog Description
 --------------------------
 
