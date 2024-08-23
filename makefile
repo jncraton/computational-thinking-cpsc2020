@@ -1,4 +1,4 @@
-all: index.html syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html syllabus.md lectures/index.html examples/index.html
+all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html
 
 .PHONY: clean lectures
 
@@ -68,7 +68,8 @@ lectures/all-slides.html: lectures/all.md
 	pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o $@ $<
 
 lectures/index.html: lectures lectures/all.html lectures/all-slides.html lectures/reveal.js
-	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 -P "*.html" > index.html
+	python3 gen_lecture_index.py
+	pandoc lectures/index.md -o $@
 
 examples/index.html:
 	cd examples && tree -H '.' -L 1 --noreport --charset utf-8 -P "*" > index.html
@@ -88,6 +89,7 @@ update:
 	           https://raw.githubusercontent.com/jncraton/course-template/master/env.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/style.css \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_lecture_index.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
 
 	mkdir -p .github/workflows
@@ -96,6 +98,7 @@ update:
 	# readme.md was previously used as syllabus template
 	# Copy it if needed when updating
 	cp --no-clobber readme.md syllabus-template.md
+	git add -f syllabus-template.md
 
 	make readme.md
 

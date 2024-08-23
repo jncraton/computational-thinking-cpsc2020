@@ -21,12 +21,6 @@ Office hours
 - Friday: 11am - noon, 1pm - 3pm
 - Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.com/meet)
 
-Links
------
-
-- [Course Website](https://jncraton.github.io/computational-thinking-cpsc2020/)
-- [Lecture Slides](https://jncraton.github.io/computational-thinking-cpsc2020/lectures)
-
 Course Catalog Description
 --------------------------
 
