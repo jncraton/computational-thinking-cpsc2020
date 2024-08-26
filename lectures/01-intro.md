@@ -5,7 +5,7 @@ About Me
 --------
 
 - Professor Craton
-- Father of two kids (Josiah and Benji)
+- Father of two kids - Josiah (2) and Benji (8)
 - My wife's name is Karin
 - We live in Anderson very near campus
 
@@ -41,7 +41,6 @@ Quizzes
 -------
 
 - Given regularly at beginning and end of class
-- Should be easy for you
 - Allow me to confirm that everyone is keeping up with course material
 
 General Advice
@@ -60,16 +59,16 @@ Try New Things
 Growth Mindset
 --------------
 
-- Your talents can be developed
+- Talents can be developed
 - Learning requires effort
-- You are not "bad at math" in a fixed sense
-- Your talents have room to grow
+- Mathematical skills are not "bad" in a fixed sense
+- Skills have room to grow
 
 Comparison
 ----------
 
 - Try not to compare yourself to others
-- Compare yourself to yourself last month
+- Compare yourself to yourself in the past
 
 > Never be the brightest person in the room; then you can’t learn anything.
 > 
