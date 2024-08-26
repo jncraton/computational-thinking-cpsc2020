@@ -1,6 +1,9 @@
 CPSC 2020 Fundamentals of Computational Thinking
 ================================================
 
+Welcome
+-------
+
 About Me
 --------
 
