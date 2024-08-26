@@ -1,16 +1,13 @@
 CPSC 2020 Fundamentals of Computational Thinking
 ================================================
 
-Welcome
--------
-
 About Me
 --------
 
 - Professor Craton
 - Father of two kids - Josiah (2) and Benji (8)
 - My wife's name is Karin
-- We live in Anderson very near campus
+- We live in Anderson near campus
 
 Academic Career
 ---------------
