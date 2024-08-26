@@ -51,7 +51,6 @@ Try New Things
 
 - College is a time for experimentation and growth
 - Get involved with the community
-- Take every opportunity
 
 > A ship in port is safe; but that is not what ships are built for. Sail out to sea and do new things.
 >
