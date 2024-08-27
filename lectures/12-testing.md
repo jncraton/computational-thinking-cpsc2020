@@ -55,7 +55,7 @@ assert(square(25) == 625)
 Types of Tests
 --------------
 
-- Unit - Tests invididual parts of the system
+- Unit - Tests individual parts of the system
 - Integration - Tests components integrated from smaller components
 - End-to-end - Tests an entire system
 

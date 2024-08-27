@@ -19,7 +19,7 @@ Antikythera Mechanism
 - Oldest known computer
 - Dated to around 200BCE
 - Found in a shipwreck off the coast of the Greek island Antikythera in 1901
-- Accurately computes positions of astonomical bodies and dates of eclipses
+- Accurately computes positions of astronomical bodies and dates of eclipses
 
 ---
 
