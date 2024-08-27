@@ -23,7 +23,7 @@ Antikythera Mechanism
 
 ---
 
-![Recreation](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG/360px-Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG)
+![Model](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG/360px-Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG)
 
 ---
 
