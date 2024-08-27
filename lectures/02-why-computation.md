@@ -9,6 +9,24 @@ Why Computation?
 
 ---
 
+![Antikythera mechanism](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg/538px-NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg)
+
+---
+
+Antikythera Mechanism
+---------------------
+
+- Oldest known computer
+- Dated to around 200BCE
+- Found in a shipwreck off the coast of the Greek island Antikythera in 1901
+- Accurately computes positions of astonomical bodies and dates of eclipses
+
+---
+
+![Recreation](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG/360px-Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG)
+
+---
+
 What did you learn about bicycles?
 
 ---
