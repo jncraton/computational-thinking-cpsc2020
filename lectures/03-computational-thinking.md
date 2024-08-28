@@ -158,8 +158,8 @@ Search
 ------
 
 1. Stop if `scanned` matches `stored`
-2. Move head right
-3. Stop if `scanned` is empty
+2. Stop if `scanned` is empty
+3. Move head right
 4. Repeat
 
 ---
