@@ -109,68 +109,69 @@ Example Problems
 Simple Computer
 ---------------
 
-- List-based computer with movable head operating on two items
-- Possible Instructions
-  - Repeat program until end of list
-  - Move head right
-  - Stop if `stored` matches L
+- Tape-based computer with programmable head
+- The number under the head can be `scanned`
+- One number can be `stored` in the head
+- A `counter` in the head can be incremented
 
 ---
 
-Search through list for a match
+![Example machine](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Turing_Machine_Model_Davey_2012.jpg/640px-Turing_Machine_Model_Davey_2012.jpg)
+
+---
+
+![Alternate conception](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Turing_machine_from_Boolos_and_Jeffrey.JPG/640px-Turing_machine_from_Boolos_and_Jeffrey.JPG)
+
+Instructions
+------------
+
+- Move head left
+- Move head right
+- Stop if `scanned` is empty
+- Stop if `scanned` matches `stored`
+- Increment `counter`
+- Increment `counter` if `stored` matches `scanned`
+- Repeat
+
+---
+
+Count the number of items on the tape
+
+`counter` should be equal to the count of the items on the tape when the machine stops
+
+Counting
+--------
+
+1. Stop if `scanned` is empty
+2. Increment `counter`
+3. Repeat
+
+---
+
+Search through list for an item matching `stored`
+
+The machine head should stop with the head on the first match if there is a match or stop after the end of the list if there is no match.
 
 ---
 
 Search
 ------
 
-- Stop if `stored` matches L
-- Move head right
-- Repeat until end of list
-
-New Instruction
---------------
-
-- Increment counter if `stored` matches L
+1. Stop if `scanned` matches `stored`
+2. Move head right
+3. Stop if `scanned` is empty
+4. Repeat
 
 ---
 
 Count the number of matching items in a list
 
-Counting
---------
+`counter` should be equal to the count of matching items on the tape when the machine stops
 
-- Increment `counter` if `stored` matches L
-- Move head right
-- Repeat
+Counting Matches
+----------------
 
----
-
-Sort a set of items in some natural order
-
-New Instruction
----------------- 
-
-- Swap L and R if R is less than L
-
-
-Sorting
--------
-
-- Swap L and R if R is less than L
-- Move head right
-- Repeat until end of list
-
-New Instruction
----------------- 
-
-- Return head to start if end of list
-
-Sorting
--------
-
-- Swap L and R if R is less than L
-- Move head right
-- Return head to start if end of list
-- Repeat until end of list
- 
+1. Increment `counter` if `scanned` matches `stored`
+2. Move head right
+3. Stop if `scanned` is empty
+4. Repeat
