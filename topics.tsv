@@ -28,8 +28,8 @@ lecture	Loop Patterns	Iterations	Iteration,Expressions
 lecture	Strings	Strings	Strings
 lecture	Methods and Formatting	Strings	Strings,Functions,Expressions
 lab	Chatbot		Modules,Strings,Expressions
-lecture Notebooks  Tools
 lecture	Opening Files	Files	Files,Conditionals,Strings
+lecture	File Exceptions	Files	Files,Conditionals,Strings
 lecture	Modifying Files	Files	Files,Conditionals,Strings
 lab	Chatbot		Modules,Strings,Expressions
 lecture	Lists	Lists	Lists,Expressions
@@ -54,3 +54,4 @@ lecture	Command Line Interfaces		Tools
 lecture	Git	Git Book	Tools
 lecture	Final Exam Review		Expressions,Conditionals,Functions,Iteration,Lists,Dictionaries,Files
 lab	Final Project Presentations		Functions,Iteration,Conditionals
+lecture Notebooks  Tools
