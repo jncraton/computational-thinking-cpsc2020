@@ -136,3 +136,33 @@ def is_freezing(temp, unit):
     else:
         return False
 ```
+
+Global Variable
+---------------
+
+- Defined over the entire scope
+- Torn down only on program termination
+- Useful for storing global data
+
+Global Variable
+---------------
+
+```
+def get_tip(price):
+    return int(percentage) / 100 * float(price)
+
+percentage = input("Tip percentage: ")
+price = input("Meal price: ")
+
+print("Tip:", get_tip(price))
+```
+
+-----
+
+How would we test get_tip?
+
+State
+-----
+
+- Managing state is critical for creating readable code
+- Testability is enhance when we limit external state
