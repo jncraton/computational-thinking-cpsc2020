@@ -27,6 +27,16 @@ Example
 1 + 1
 ```
 
+Evaluation in Python
+--------------------
+
+- Expressions in programs are evaluated automatically
+- Single expressions can be quickly evaluated using the [Shell](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
+
+---
+
+![Thonny Shell](media/thonny-expression.png)
+
 Literals
 --------
 
@@ -115,13 +125,15 @@ Comparison Operations
 ---------------------
 
 - Always return `True` or `False`
-- Examples include:
-  - Less than `<`
-  - Greater than `>`
-  - Less than or equal `<=`
-  - Greater than or equal `>=`
-  - Equal `==`
-  - Not equal `!=`
+
+| Operator | Name |
+|----------|------|
+| `<` | Less than |
+| `>` | Greater than |
+| `<=` |  Less than or equal |
+| `>=` | Greater than or equal |
+| `==` | Equal |
+| `!=` | Not equal |
 
 Examples
 --------
