@@ -4,7 +4,7 @@ Variables
 Definition
 ----------
 
-A variable is a name that refers to a value
+A variable is a named container for a value
 
 Statements
 ----------
