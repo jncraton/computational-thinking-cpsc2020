@@ -78,7 +78,7 @@ user_msg = input("I'm an AI assistant. How may I help you?")
 
 print("It sounds like you'd like help with the following:")
 print(user_msg)
-print("As an AI assistant I'm not able to help with that.")
+print("As an AI assistant, I'm not able to help with that.")
 ```
 
 int
