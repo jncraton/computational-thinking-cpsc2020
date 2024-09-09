@@ -53,7 +53,7 @@ Getting Help
 ------------
 
 - Reach out if you need help on a lab
-- Others students can be a great source of help
+- Other students can be a great source of help
 - Learn to know when you are using other resources as a crutch
 
 Conditional Execution
