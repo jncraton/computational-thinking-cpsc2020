@@ -71,6 +71,7 @@ Style
 
 - Deep nesting can become difficult to read
 - As a rule of thumb, we'd like to avoid nesting more than 3 layers deep
+- Lines should not exceed 79 characters ([PEP8](https://peps.python.org/pep-0008/#maximum-line-length))
 
 Exit
 ----
