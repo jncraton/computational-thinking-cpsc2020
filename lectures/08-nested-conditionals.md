@@ -54,7 +54,7 @@ Star Wars Quiz
 age = int(input("How old are you?"))
 color = input("What is your favorite color?")
 
-if age < 21:
+if age < 25:
     if color == 'red':
         print("You are Darth Maul")
     else:
