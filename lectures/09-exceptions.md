@@ -70,7 +70,7 @@ Example
 ```python
 try:
     int("red")
-except:
+except ValueError:
     print("Please enter a valid number")
 ```
 
@@ -89,7 +89,7 @@ entry = input("Enter a number between 1 and 10")
 
 try:
     num = int(entry)
-except:
+except ValueError:
     entry = input("That's not a number. Try again:")
     num = int(entry)
 
@@ -105,7 +105,7 @@ entry = input("Enter a number between 1 and 10")
 
 try:
     num = int(entry)
-except:
+except ValueError:
     print("That's not a number. Let's just use 5.")
     num = 5
 
@@ -118,7 +118,7 @@ Catching all exceptions
 
 - By default, all exceptions are caught by except
 - This can cause problems
-- We'll talk about addressing this later
+- You generally want to avoid catching all exceptions
 
 Example
 -------
@@ -147,7 +147,7 @@ entry = input("Enter a number between 1 and 10")
 
 try:
     num = int(entry)
-except:
+except ValueError:
     pass
 
 square = num * num
