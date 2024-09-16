@@ -1,7 +1,13 @@
-Major Declaration
-=================
+Announcements
+=============
 
----
+Cyber Team
+----------
+
+The Anderson Cyber Team would like to invite you to join our kickoff on September 18th at 7 PM in Decker 346. We will be serving ice cream and will be playing Wii bowling! At this gathering you can learn more about ACT and enjoy some free ice cream. Please bring yourself and your friends, we would love to see you there!
+
+Major Declaration
+-----------------
 
 - [Declare your major](https://andersoncentral.etrieve.cloud/#/form/37) if you know what you planning to study
 - If you aren't sure, you may still want to declare your most likely choice
