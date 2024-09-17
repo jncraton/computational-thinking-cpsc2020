@@ -136,7 +136,7 @@ random
 Example
 -------
 
-```
+```python
 import random
 
 # Print random number between 0.0 and 1.0
