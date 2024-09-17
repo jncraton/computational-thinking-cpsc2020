@@ -15,7 +15,7 @@ Example
 -------
 
 - `int` is a function
-- It takes one arguments and returns a value
+- It takes one argument and returns a value
 
 ```python
 num = int("42")
