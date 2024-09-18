@@ -101,3 +101,13 @@ Recursive functions
 
 - Functions may call themselves
 - This must be done carefully to avoid infinite recursion
+
+Lab Tomorrow
+------------
+
+- Cyber-oriented capture-the-flag experience
+- Must be completed in class
+
+---
+
+The Anderson Cyber Team would like to invite you to join our kickoff on September 18th at 7 PM in Decker 346. We will be serving ice cream and will be playing Wii bowling! At this gathering you can learn more about ACT and enjoy some free ice cream. Please bring yourself and your friends, we would love to see you there!
