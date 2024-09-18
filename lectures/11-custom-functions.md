@@ -101,8 +101,3 @@ Recursive functions
 
 - Functions may call themselves
 - This must be done carefully to avoid infinite recursion
-
----
-
-- No lab this Friday (September 22nd)
-- Your current lab is still due September 28th
