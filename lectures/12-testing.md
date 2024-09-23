@@ -14,7 +14,7 @@ Career Fair
 - October 2nd, 1pm - 3pm
 - Located in Reardon
 - Attendance is expected
-- This class will be cancelled that day
+- This class will be canceled that day
 
 Testing
 =======
