@@ -80,3 +80,6 @@ Types of Tests
 ---
 
 ![Testing Pyramid](https://upload.wikimedia.org/wikipedia/commons/a/a4/Testing_Pyramid.png)
+
+Lab Feedback
+============
