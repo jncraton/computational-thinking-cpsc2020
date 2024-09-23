@@ -1,3 +1,21 @@
+Important Dates
+===============
+
+Exam 1
+------
+
+- October 1
+- In-class Canvas exam
+- May use a single-page, hand-written note sheet
+
+Career Fair
+-----------
+
+- October 2nd, 1pm - 3pm
+- Located in Reardon
+- Attendance is expected
+- This class will be cancelled that day
+
 Testing
 =======
 
