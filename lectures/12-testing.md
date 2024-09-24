@@ -12,7 +12,7 @@ Career Fair
 -----------
 
 - October 2nd, 1pm - 3pm
-- Located in Reardon
+- Located in the KWC
 - Attendance is expected
 - This class will be canceled that day
 
