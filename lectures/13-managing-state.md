@@ -84,7 +84,7 @@ Global Variable
 Global Variable
 ---------------
 
-```
+```python
 def get_tip(price):
     return int(percentage) / 100 * float(price)
 
