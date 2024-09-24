@@ -6,7 +6,6 @@ Testability
 
 - In order to test code, it helps for it to be written with tests in mind
 - Isolation of functionality is important
-- 
 
 Readability
 -----------
