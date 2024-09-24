@@ -19,7 +19,7 @@ Pure Functions
 
 - No side effects
 - No reliance on external state
-- Always returns the same output given the same inputs
+- Always return the same output given the same inputs
 
 Pure Function
 -------------
