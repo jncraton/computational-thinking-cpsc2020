@@ -14,3 +14,18 @@ Boundaries
 > Architectural boundaries should be separated so that changing one part of the system has no effect on any other part of the system.
 >
 > Bob Martin
+
+Bank Application
+----------------
+
+- Check balance
+- Deposit
+- Withdraw
+
+Rock Paper Scissors
+-------------------
+
+- Get user input
+- Select a computer input
+- Determine a winner
+- Display the results
