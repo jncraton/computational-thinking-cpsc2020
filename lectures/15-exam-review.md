@@ -8,6 +8,7 @@ Key Topics
 - Expressions and Variables
 - Conditional Execution
 - Functions
+- Testing
 
 Computational Thinking
 ----------------------
