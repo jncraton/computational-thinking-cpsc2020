@@ -1,8 +1,13 @@
-Midterm Exam
+---
+
+Trivia Night
 ------------
 
-- First exam will be Tuesday, October 10th
-- Topics through strings (chapter 6) will be covered
+- October 9th @ 6pm
+- Prizes for the top 3 teams
+- 3 member teams
+- Teams that represent 3 unique majors get a bonus
+- Teams that represent 3 different cohorts get a bonus
 
 Iteration
 =========
