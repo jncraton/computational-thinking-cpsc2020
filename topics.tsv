@@ -20,7 +20,7 @@ lecture Modular Design and Testability	None	Testing, Functions
 lab	Unit Tests	Testing, Functions
 lecture	Exam Review		Iteration,Expressions,Statements
 exam	Exam 1		Expression,Conditionals,Functions,Iteration
-review	Exam Reflection + Files	Files	Files
+review	Exam Reflection	None	Expression,Conditionals,Functions,Iteration
 lecture	While	Iterations	Iteration,Conditionals
 lecture	For	Iterations	Iteration,Conditionals
 lab	Guess Number Game		Iterations,Statements,Conditionals,Expressions
