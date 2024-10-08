@@ -161,7 +161,7 @@ continue
 --------
 
 - `continue` can be reused to skip the remainder of an iteration
-- Control will return to the cognitional on the while statement
+- Control will return to the conditional on the while statement
 
 Example
 -------
