@@ -6,6 +6,14 @@ Group Advising
 - For first year majors
 - October 15th @ 6pm in 346
 
+Survey Feedback
+---------------
+
+- More homework or examples
+- Pacing
+- Support
+- Classroom environment
+
 Iteration
 =========
 
