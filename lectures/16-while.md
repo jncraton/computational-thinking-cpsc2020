@@ -126,7 +126,7 @@ Infinite Loop
 
 - We must be careful to avoid looping forever
 - A loop that never stops is called an infinite loop
-- This is a common type of bugs
+- This is a common type of bug
 
 Infinite Loop
 -------------
