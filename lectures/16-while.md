@@ -70,9 +70,9 @@ Example
 
 ```python
 while True:
-    best_prof = input("Who is the best professor?")
+    answer = input("What is the capital of France?")
     
-    if best_prof == "Craton":
+    if answer == "Paris":
         print("That's correct!")
         exit()
     else:
