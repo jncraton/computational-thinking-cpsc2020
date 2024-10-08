@@ -1,3 +1,14 @@
+---
+
+Trivia Night
+------------
+
+- October 9th @ 6pm in 346
+- Prizes for the top 3 teams
+- 3 member teams
+- Teams that represent 3 unique majors get a bonus
+- Teams that represent 3 different cohorts get a bonus
+
 Definite Iteration
 ==================
 
