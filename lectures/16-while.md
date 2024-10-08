@@ -48,6 +48,17 @@ x = x + 1 # Increment
 x = x - 1 # Decrement
 ```
 
+Augmented Assignment
+--------------------
+
+We can shorten common reassignment using [augmented assignment](https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements):
+
+
+```python
+x += 1 # Increment
+x -= 1 # Decrement
+```
+
 Recursion
 ---------
 
