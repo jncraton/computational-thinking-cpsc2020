@@ -17,7 +17,7 @@ Definite Iteration
 
 - We frequently want to iterate a fixed number of times
 - We may want to iterate over a fixed number of items
-- Definite iteration provides a tools for this
+- Definite iteration provides a tool for this
 
 for
 ---
