@@ -54,6 +54,7 @@ Mean
 Solution
 --------
 
+<!--
 ```python
 total = 0
 count = 0
@@ -66,6 +67,7 @@ mean = total / count
 
 print("Total:", total, "Count:", count, "Mean:", mean)
 ```
+-->
 
 ---
 
@@ -157,6 +159,7 @@ Check if a word has no vowels
 Solution
 --------
 
+<!--
 ```python
 word = input("Enter a word with no vowels:")
 valid_word = True
@@ -171,3 +174,4 @@ if valid_word:
 else:
     print("Your word included a vowel.")     
 ```
+-->
