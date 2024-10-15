@@ -1,26 +1,3 @@
-Important Dates
-===============
-
-RavenEdge Career Fair
----------------------
-
-- 1-3pm Wednesday in the fieldhouse of KWC
-- Required for all CS/Cyber/DS majors
-- Not explicitly required for this course (because it is open to non-majors)
-- No class Wednesday
-
-Upcoming Exam
--------------
-
-- Last new content before exam is today
-- You are allowed 1 page of handwritten notes for the exam
-- Paper and pencil are also allowed for working problems if desired
-
-Review Homework
----------------
-
-A review homework assignment has been posted on Canvas
-
 String Methods
 ==============
 
