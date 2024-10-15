@@ -171,3 +171,18 @@ Create a program to print every other letter in a string
 ---
 
 Create a program to find a word in a string and print the position of the word
+
+Solution
+--------
+
+```python
+sentence = "the quick brown fox jumped over the lazy dog"
+word = "fox"
+
+for sent_idx in range(0, len(sentence)):
+    for word_idx in range(len(word)):
+        if sentence[sent_idx + word_idx] != word[word_idx]:
+            break
+    else:
+        print(sent_idx)
+```
