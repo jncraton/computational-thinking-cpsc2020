@@ -163,3 +163,11 @@ True
 >>> "12" < "102"
 False
 ```
+
+---
+
+Create a program to print every other letter in a string
+
+---
+
+Create a program to find a word in a string and print the position of the word
