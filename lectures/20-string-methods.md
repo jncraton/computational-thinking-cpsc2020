@@ -241,3 +241,11 @@ import random
 for _ in range(10):
     print(f"{random.random():.2f}")
 ```
+
+---
+
+Create a program that will capitalize the first word in a provided sentence.
+
+---
+
+Create a program that will search a string for a word and display the word along with the 5 characters before and 5 characters after it.
