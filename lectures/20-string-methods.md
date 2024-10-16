@@ -182,19 +182,13 @@ Example
 'Hello, worl'
 ```
 
-String Formatting
------------------
-
-- Some books and resources will use the `%` operator of the `format` method for string formatting
-- We will prefer f-strings in this class as they are newer and have fewer sharp edges
-
 Formatted String Literals
 -------------------------
 
 format
 ------
 
-- The textbook uses the `format` method on strings
+- [Prior editions](https://github.com/csev/py4e/pull/424) of the textbook used the `format` method on strings
 - It is antiquated and has largely been superseded by [f-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals) since Python 3.6.
 - You will not be required to use or understand the `format` method in this class
 
