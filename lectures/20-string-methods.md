@@ -246,6 +246,29 @@ for _ in range(10):
 
 Create a program that will capitalize the first word in a provided sentence.
 
+Solution
+--------
+
+```python
+sentence = "hello world"
+
+sentence = sentence[0].upper() + sentence[1:]
+
+print(sentence)
+```
+
 ---
 
 Create a program that will search a string for a word and display the word along with the 5 characters before and 5 characters after it.
+
+Solution
+--------
+
+```python
+sentence = "the quick brown fox jumped over the lazy dog"
+word = "fox"
+
+index = sentence.find(word)
+
+print(sentence[index - 5: index + len(word) + 5])
+```
