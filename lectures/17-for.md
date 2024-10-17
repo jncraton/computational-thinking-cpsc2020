@@ -60,7 +60,6 @@ Sum of digits in a number
 Solution
 --------
 
-<!--
 ```python
 num = input("Enter a number:")
 
@@ -71,7 +70,6 @@ for digit in num:
     
 print("The digits sum to", total)
 ```
--->
 
 Word counter
 ------------
@@ -79,7 +77,6 @@ Word counter
 Solution
 --------
 
-<!--
 ```python
 text = input("Enter text to count words:")
 
@@ -91,7 +88,6 @@ for character in text:
 
 print(words)
 ```
--->
 
 break and continue
 ------------------
