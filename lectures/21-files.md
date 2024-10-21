@@ -169,7 +169,7 @@ for line in handle:
     print(line, end='')
 ```
 
-Excercise
+Exercise
 ---------
 
 1. Create a plain text file with numbers on each line

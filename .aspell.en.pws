@@ -1,4 +1,4 @@
-personal_ws-1.1 en 99 
+personal_ws-1.1 en 103 
 Advanded
 Algorthm
 Antikythera
@@ -37,6 +37,7 @@ Langugage
 LeetCode
 MacOS
 Metacharacters
+NVMe
 NaN
 OSBoxes
 Powershell
@@ -46,7 +47,9 @@ QEMU
 REPL
 RavenEdge
 Reardon
+SATA
 SLOC
+SSD
 Sayre
 Shedd
 Testability
@@ -69,6 +72,7 @@ iterable
 iterables
 len
 lifecycle
+mSATA
 metachars
 natively
 nd
