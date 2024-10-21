@@ -1,5 +1,13 @@
+---
+
 Lab Questions
-=============
+
+Midterm Grades
+--------------
+
+- Submitted by professors tomorrow (10/22)
+- You midterm grade will be the grade that you see in Canvas
+- Reach out before tomorrow if you have questions or concerns about your grade
 
 Files
 =====
