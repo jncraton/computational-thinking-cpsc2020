@@ -28,6 +28,26 @@ Persistence
 - Main memory is cleared when unpowered
 - Long-term storage must use secondary memory
 
+---
+
+![Laptop HDD](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Laptop-hard-drive-exposed.jpg/627px-Laptop-hard-drive-exposed.jpg)
+
+---
+
+![HDD in Operation](https://upload.wikimedia.org/wikipedia/commons/c/cf/HDD_Startup_and_Shutdown.webm){height=540px}
+
+---
+
+![SATA SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2023_Dysk_SSD_Patriot_P210_2TB.jpg/622px-2023_Dysk_SSD_Patriot_P210_2TB.jpg)
+
+---
+
+![mSATA SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Intel_525_mSATA_SSD.jpg/305px-Intel_525_mSATA_SSD.jpg)
+
+---
+
+![NVMe SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg/320px-SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg)
+
 Files
 -----
 
