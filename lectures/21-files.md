@@ -178,6 +178,19 @@ Exercise
 1. Create a plain text file with numbers on each line
 2. Create a Python program that prints the sum of the numbers in the file
 
+Solution
+--------
+
+```python
+handle = open("myfile.txt")
+
+total = 0
+for line in handle:
+    total += int(line)
+    
+print(total)
+```
+
 Survey Example
 --------------
 
