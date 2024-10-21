@@ -30,6 +30,10 @@ Persistence
 
 ---
 
+![DRAM](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Pair32mbEDO-DRAMdimms.jpg/503px-Pair32mbEDO-DRAMdimms.jpg)
+
+---
+
 ![Laptop HDD](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Laptop-hard-drive-exposed.jpg/627px-Laptop-hard-drive-exposed.jpg)
 
 ---
