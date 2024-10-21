@@ -2,6 +2,16 @@
 
 Lab Questions
 
+---
+
+Sweatshirts
+
+---
+
+Prayer Boxes
+------------
+
+
 Midterm Grades
 --------------
 
@@ -64,7 +74,7 @@ Opening Files
 
 - The `open` function may be used to open a file
 - It requires a filename as a parameter
-- It returns a file handle 
+- It returns a file handle
 
 ---
 
@@ -158,6 +168,12 @@ handle = open("example.py")
 for line in handle:
     print(line, end='')
 ```
+
+Excercise
+---------
+
+1. Create a plain text file with numbers on each line
+2. Create a Python program that prints the sum of the numbers in the file
 
 Survey Example
 --------------
