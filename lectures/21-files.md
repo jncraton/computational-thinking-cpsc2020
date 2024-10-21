@@ -11,6 +11,9 @@ Sweatshirts
 Prayer Boxes
 ------------
 
+- Located in Decker 346 and 351 this week
+- Write requests and leave in boxes
+- Faculty and staff will pray for these requests
 
 Midterm Grades
 --------------
