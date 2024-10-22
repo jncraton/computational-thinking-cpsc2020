@@ -107,10 +107,7 @@ except FileNotFoundError:
 contents = handle.read()
 
 for word in contents.split():
-    for vowel in "aeiou":
-        if vowel in word:
-            break
-    else:
+    if word.istitle():
         print(word)
 ```
 -->
