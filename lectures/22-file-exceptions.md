@@ -30,7 +30,7 @@ Example
 ```python
 try:
     handle = open("missing.txt")
-except:
+except FileNotFoundError:
     print("File not found")
 ```
 
@@ -49,7 +49,7 @@ filename = input("Select a file to read:")
 
 try:
     handle = open(filename)
-except:
+except FileNotFoundError:
     print(f"Error opening {filename}")
     exit(1)
     
