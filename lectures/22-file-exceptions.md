@@ -91,7 +91,6 @@ Exercise
 - `print` all capitalized words in a user-selected file.
 - Show an appropriate error message if the file is not found.
 
-<!--
 Solution
 --------
 
@@ -110,15 +109,11 @@ for word in contents.split():
     if word.istitle():
         print(word)
 ```
--->
-
 
 Excercise
 ---------
 
 Count all `if`, `elif`, and `else` keywords in a program
-
-<!--
 
 Solution
 --------
@@ -150,7 +145,6 @@ print(f"if: {count_if}")
 print(f"elif: {count_elif}")
 print(f"else: {count_else}")
 ```
--->
 
 Key Ideas
 ---------
