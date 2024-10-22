@@ -85,17 +85,20 @@ contents = handle.read()
 print(contents)
 ```
 
----
+Excercise
+---------
 
-Find all words in a file with no vowels
+- `print` all capitalized words in a user-selected file.
+- Show an appropriate error message if the file is not found.
 
+<!--
 Solution
 --------
 
 ```python
 try:
     handle = open("words.txt")
-except:
+except FileNotFoundError:
     print("File not found")
     exit(1)
 
@@ -106,9 +109,11 @@ for word in handle:
     else:
         print(word)
 ```
+-->
 
-Example
--------
+
+Excercise
+---------
 
 Count all `if`, `elif`, and `else` keywords in a program
 
