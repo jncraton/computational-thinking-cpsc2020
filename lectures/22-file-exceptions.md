@@ -85,7 +85,7 @@ contents = handle.read()
 print(contents)
 ```
 
-Excercise
+Exercise
 ---------
 
 - `print` all capitalized words in a user-selected file.
