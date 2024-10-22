@@ -96,14 +96,18 @@ Solution
 --------
 
 ```python
+filename = input("Filename:")
+
 try:
-    handle = open("words.txt")
+    handle = open(filename)
 except FileNotFoundError:
     print("File not found")
     exit(1)
 
-for word in handle:
-    for vowel in "aeiouy":
+contents = handle.read()
+
+for word in contents.split():
+    for vowel in "aeiou":
         if vowel in word:
             break
     else:
@@ -116,6 +120,40 @@ Excercise
 ---------
 
 Count all `if`, `elif`, and `else` keywords in a program
+
+<!--
+
+Solution
+--------
+
+```python
+filename = input("Filename:")
+
+try:
+    handle = open(filename)
+except FileNotFoundError:
+    print("File not found")
+    exit(1)
+
+contents = handle.read()
+
+count_if = 0
+count_elif = 0
+count_else = 0
+
+for word in contents.split():
+    if word == "if":
+        count_if += 1
+    elif word == "elif":
+        count_elif += 1
+    elif word == "else":
+        count_else += 1
+        
+print(f"if: {count_if}")
+print(f"elif: {count_elif}")
+print(f"else: {count_else}")
+```
+-->
 
 Key Ideas
 ---------
