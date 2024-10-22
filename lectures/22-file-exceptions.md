@@ -1,23 +1,3 @@
-CONspiracy 2023
-===============
-
----
-
-No class this Friday
-
-CONspiracy 2023
----------------
-
-- Annual CSSCD Cybersecurity Conference
-- This Friday from 8am to 5pm at Flagship Enterprise Center
-- [Registration is open](https://www.eventbrite.com/e/conspiracy-2023-tickets-658586288317?aff=ebdssbdestsearch&from=d725b5452fe411ee903172bdca9f6a1d) and covered for AU CS/Cyber/DS students
-- Use promo code VOL2320 for free registration
-
----
-
-![Conference Registration (AU promo code: VOL2320)](media/conspiracy-2023.png){height=540px}
-
-
 File Exceptions
 ===============
 
