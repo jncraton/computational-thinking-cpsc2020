@@ -120,7 +120,12 @@ with
 Exercise
 ---------
 
-Write all primes up to 10,000 to a file
+Write the first 1000 positive integers to a file
+
+Exercise
+--------
+
+Read the values from that file one at a time and write their squares to a second file
 
 Key Ideas
 ---------
