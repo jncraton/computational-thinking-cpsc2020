@@ -127,6 +127,17 @@ Exercise
 
 Read the values from that file one at a time and write their squares to a second file
 
+Solution
+--------
+
+```python
+with open("nums.txt") as nums:
+    with open("squares.txt", "w") as squares:
+        for num in nums:
+            square = int(num) * int(num)
+            squares.write(f"{square}\n")
+```
+
 Key Ideas
 ---------
 
