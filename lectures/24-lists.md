@@ -144,7 +144,7 @@ print(mylist)
 Exercise
 --------
 
-Create a Python program to store all even numbers less than 20 in a list.
+Create a Python program that will add 1 to every element in a list.
 
 Nested Lists
 ------------
@@ -160,3 +160,8 @@ mylist = [1, 2, [3, 4, 5], 6]
 
 print(len(mylist))
 ```
+
+Exercise
+--------
+
+Create a Python program that will count all individual elements in nested lists.
