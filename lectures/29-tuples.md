@@ -1,5 +1,5 @@
 ---
-reading: '[Tuples](https://www.py4e.com/html3/10-tuples)'
+reading: '[PY4E: Tuples](https://www.py4e.com/html3/10-tuples)'
 ...
 
 Tuples

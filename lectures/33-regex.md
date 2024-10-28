@@ -1,5 +1,5 @@
 ---
-reading: '[Regex](https://www.py4e.com/html3/11-regex)'
+reading: '[PY4E: Regex](https://www.py4e.com/html3/11-regex)'
 ...
 
 Regular Expressions

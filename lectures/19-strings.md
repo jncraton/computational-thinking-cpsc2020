@@ -1,5 +1,5 @@
 ---
-reading: '[Strings](https://www.py4e.com/html3/06-strings)'
+reading: '[PY4E: Strings](https://www.py4e.com/html3/06-strings)'
 ...
 
 ---
