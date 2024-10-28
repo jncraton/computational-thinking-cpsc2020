@@ -110,7 +110,7 @@ for word in contents.split():
         print(word)
 ```
 
-Excercise
+Exercise
 ---------
 
 Count all `if`, `elif`, and `else` keywords in a program

@@ -141,6 +141,11 @@ for i in range(len(mylist)):
 print(mylist)
 ```
 
+Exercise
+--------
+
+Create a Python program to store all even numbers less than 20 in a list.
+
 Nested Lists
 ------------
 
