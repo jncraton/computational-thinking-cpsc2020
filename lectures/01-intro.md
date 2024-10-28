@@ -1,3 +1,7 @@
+---
+reading: '[Intro](https://www.py4e.com/html3/01-intro)'
+...
+
 CPSC 2020 Fundamentals of Computational Thinking
 ================================================
 
