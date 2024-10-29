@@ -34,6 +34,11 @@ mylist = mylist + 4
 print(mylist)
 ```
 
+Exercise
+--------
+
+Create a program that builds a list of 10 randomly generated numbers
+
 List * operator
 ---------------
 
@@ -169,6 +174,11 @@ mylist = mylist.sort()
 print(mylist)
 ```
 
+Exercise
+--------
+
+Create a Python program that prints the three largest numbers in a list
+
 Deleting Elements
 -----------------
 
@@ -209,3 +219,7 @@ mylist.remove(1)
 print(mylist)
 ```
 
+Exercise
+--------
+
+Create a Python program to remove all single-digit numbers from a list
