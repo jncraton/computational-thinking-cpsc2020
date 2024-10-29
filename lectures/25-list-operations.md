@@ -39,6 +39,20 @@ Exercise
 
 Create a program that builds a list of 10 randomly generated numbers
 
+Solution
+--------
+
+```python
+import random
+
+nums = []
+
+for _ in range(10):
+    nums += [random.randint(1,100)]
+
+print(nums)
+```
+
 List * operator
 ---------------
 
