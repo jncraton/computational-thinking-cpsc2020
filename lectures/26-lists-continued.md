@@ -115,8 +115,8 @@ Example
 -------
 
 ```python
-a = 'banana'
-b = 'banana'
+a = list('banana')
+b = list('banana')
 
 print(a is b)
 ```
@@ -176,6 +176,7 @@ for i in range(len(scores)):
         letter_grades[i] = 'C'
 
 print(letter_grades)
+print(scores)
 ```
 
 Lists as arguments
@@ -201,4 +202,23 @@ mynums = [1, 2, 3, 4]
 print(mynums)
 print(square_all(mynums))
 print(mynums)
+```
+
+Exercise
+--------
+
+Adjust the following program so that first_half does not modify the list it is passed
+
+```python
+mylist = list(range(10))
+
+def first_half(values):
+    """ Returns the first half of a list of values """
+    for i in range(len(values) // 2):
+        values.pop(-1)
+
+    return values
+
+print(first_half(mylist))
+print(mylist)
 ```
