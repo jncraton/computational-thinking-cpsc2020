@@ -137,6 +137,23 @@ b = list('banana')
 print(a == b)
 ```
 
+Exercise
+--------
+
+Write a Python function that will return `True` if and only if the two lists contain the same items but are not the same list.
+
+```python
+def equal_but_not_same(a, b):
+    
+
+a = [1, 2]
+
+assert(equal_but_not_same([1, 2], [1, 2]) == True)
+assert(equal_but_not_same(a, [1, 2]) == True)
+assert(equal_but_not_same([1], [2]) == False)
+assert(equal_but_not_same(a, a) == False)
+```
+
 Multiple References
 -------------------
 
