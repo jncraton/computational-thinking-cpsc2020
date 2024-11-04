@@ -56,6 +56,11 @@ values["b"] = 2
 print(values["a"])
 ```
 
+Exercise
+--------
+
+Create a program that builds a dictionary that maps the days of the week to the time you need to wake up on these days.
+
 Printing Dictionaries
 ---------------------
 
@@ -110,8 +115,8 @@ print(f"Squirtle is {poketypes['Squirtle']} type")
 in
 ----
 
-- The `in` operator can be used with list
-- `in` will return True if the key exist in the list
+- The `in` operator can be used
+- `in` will return True if the key exist in the dictionary
 
 Example
 -------
@@ -128,13 +133,19 @@ print("Aaron" in hrs)
 print(762 in hrs)
 ```
 
-Word Counter
-------------
+Exercise
+--------
 
-- Let's build a program to count the number of words in a text
+Create a program that can count the number of occurrences of each word in a text
 
-Example
--------
+```python
+text = """In the beginning was the Word, and the Word was with God, and the Word was God."""
+```
+
+Solution
+--------
+
+<!--
 
 ```python
 text = """In the beginning was the Word, and the Word was with God, and the Word was God."""
@@ -152,3 +163,4 @@ for word in text.split():
 print(counts)
 ```
 
+-->
