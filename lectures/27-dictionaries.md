@@ -139,7 +139,11 @@ Exercise
 Create a program that can count the number of occurrences of each word in a text
 
 ```python
-text = """In the beginning was the Word, and the Word was with God, and the Word was God."""
+text = """
+  In the beginning was the Word,
+  and the Word was with God,
+  and the Word was God.
+"""
 ```
 
 Solution
