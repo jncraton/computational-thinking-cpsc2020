@@ -161,6 +161,12 @@ DSU Pattern
 Exercise
 --------
 
+Write a Python program that creates a list of all words in a sentece. The list should be sorted by the length of the word, smallest first. For example, the sentence "She is a girl" should produce:
+
+```
+['a', 'is', 'She', 'girl']
+```
+
 <!--
 
 ```python
