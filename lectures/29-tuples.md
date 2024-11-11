@@ -172,7 +172,8 @@ Write a Python program that creates a list of all words in a sentece. The list s
 ['a', 'is', 'She', 'girl']
 ```
 
-<!--
+Solution
+--------
 
 ```python
 sentence = "The quick brown fox jumped over the lazy dog"
@@ -191,5 +192,3 @@ for _, word in decorated:
 
 print(undecorated)
 ```
-
--->
