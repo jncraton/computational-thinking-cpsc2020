@@ -133,6 +133,11 @@ print(word1)
 print(word2)
 ```
 
+Exercise
+--------
+
+Write a concise program to swap the values in two variables, `a` and `b`
+
 Tuple Comparison
 ----------------
 
