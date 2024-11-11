@@ -101,6 +101,3 @@ print(nums)
 big_squares = [n*n for n in nums if n > 5]
 print(big_squares)
 ```
-
-Lab 6 Updates
--------------

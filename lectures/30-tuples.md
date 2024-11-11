@@ -131,6 +131,3 @@ ages = ["19", "24", "23"]
 for name, age in zip(names, ages):
      print(f"{name} is {age}")
 ```
-
-Lab 6 Solutions
----------------
