@@ -158,8 +158,10 @@ DSU Pattern
 - Sort items
 - Undecorate the items by removing the sort key
 
-Example
--------
+Exercise
+--------
+
+<!--
 
 ```python
 sentence = "The quick brown fox jumped over the lazy dog"
@@ -178,3 +180,5 @@ for _, word in decorated:
 
 print(undecorated)
 ```
+
+-->
