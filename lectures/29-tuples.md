@@ -2,8 +2,8 @@
 reading: '[PY4E: Tuples](https://www.py4e.com/html3/10-tuples)'
 ...
 
-Lab Solution
-------------
+Lab Review
+----------
 
 [Lab 8](https://github.com/jncraton/sloc)
 
