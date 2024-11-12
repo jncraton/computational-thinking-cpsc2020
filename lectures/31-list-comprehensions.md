@@ -101,3 +101,25 @@ print(nums)
 big_squares = [n*n for n in nums if n > 5]
 print(big_squares)
 ```
+
+Generator Expressions
+---------------------
+
+- Work somewhat like list comprehensions
+- Produce generators instead of lists
+- Generator wait to compute values until they are needed
+
+Example
+=======
+
+```python
+# Don't try this with a list
+# We'll run out of memory
+squares = (i*i for i in range(100**100))
+
+# Find the first square larger than a million
+for square in squares:
+    if square > 1000000:
+        print(square)
+        break
+```
