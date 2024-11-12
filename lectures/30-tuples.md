@@ -66,6 +66,23 @@ for letter in enumerate(alphabet):
     print(letter)
 ```
 
+Exercise
+--------
+
+Use `enumerate` to print only the letters with an even-numbered index in a string.
+
+<!--
+
+```python
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+for i, letter in enumerate(alphabet):
+    if i % 2 == 0:
+        print(letter)
+```
+
+-->
+
 Modifying Lists Items
 --------------------
 
@@ -131,3 +148,25 @@ ages = ["19", "24", "23"]
 for name, age in zip(names, ages):
      print(f"{name} is {age}")
 ```
+
+Exercise
+--------
+
+Use zip to create a list of each pair of letters in a string. For example, the string "abcd" should produce the following list:
+
+```python
+[('a', 'b'), ('b', 'c'), ('c', 'd')]
+```
+
+<!--
+
+alphabet = "abcd"
+
+pairs = []
+
+for pair in zip(alphabet, alphabet[1:]):
+    pairs.append(pair)
+    
+print(pairs)
+
+-->
