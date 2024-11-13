@@ -115,7 +115,7 @@ Generator Expressions
 - Generator wait to compute values until they are needed
 
 Example
-=======
+-------
 
 ```python
 # Don't try this with a list
