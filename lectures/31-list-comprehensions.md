@@ -57,6 +57,11 @@ double = lambda x: x * 2
 print(double(4))
 ```
 
+Exercise
+--------
+
+Create a `square` function using `lambda` instead of `def`.
+
 Map and Lambda
 --------------
 
