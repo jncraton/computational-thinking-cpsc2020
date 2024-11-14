@@ -1,157 +1,107 @@
+---
+reading: '[PY4E: Regex](https://www.py4e.com/html3/11-regex)'
+...
+
 Regular Expressions
 ===================
 
-Substitutions
--------------
+find
+----
 
-- `sub` can be used to perform regex replacements
-
-Example
--------
-
-```python
-import re
-
-phone_nums = """
-(765) 555 1234
-317-555-6789
-76555551357
-"""
-
-matches = re.findall("[\d\(\)\- ]+", phone_nums)
-
-cleaned = [re.sub("[ \-\(\)]", "", m) for m in matches]
-
-print(cleaned)
-```
-
-Extraction
-----------
-
-- Parens `()` can be used to indicate which portion of an expression to extract
+- The string `find` method can be used to get the location of one string in another
 
 Example
 -------
 
 ```python
-import re
+sent = "Where is the word 'the'?"
 
-text = "1234515a5"
-
-print(re.findall("(.)5", text))
+print(sent.find("the"))
 ```
 
-Exact counts
-------------
+split
+-----
 
-- Brackets `{}` can be used to specify an exact count on the preceding character class
+- The string `split` method can be used to split strings
 
 Example
 -------
 
 ```python
-import re
+ip = "10.75.123.76"
 
-text = "46012 765 46013"
+octets = ip.split(".")
 
-zips = re.findall("\d{5}", text)
-
-print(zips)
+print(octets)
 ```
 
-Example
--------
-
-```python
-import re
-
-addresses = """
-Anderson, IN
-Chicago, IL
-Indianapolis, IN
-"""
-
-cities = re.findall("(.*), [A-Z]{2}", addresses)
-
-print(cities)
-```
-
-Match Objects
--------------
-
-- `search` returns a match object on success
-- Groups can be extracted from the match
-
-Example
--------
-
-```python
-import re
-
-text = "a1 b2 c3"
-
-match = re.search("b(\d)", text)
-
-print(match.groups())
-print(match.group(1))
-```
-
-Group 0
--------
-
-- Match group `0` is always the full match
-
-Example
--------
-
-```python
-import re
-
-text = "cat dog bat"
-
-match = re.search("b([a-z])t", text)
-
-print(match.group(0))
-```
-
-More RE Information
+Regular Expressions
 -------------------
 
-- [RE How-to](https://docs.python.org/3/howto/regex.html)
-- [Py4E Chapter](https://www.py4e.com/html3/11-regex)
+- Available in the `re` module
+- Provide their own mini language for parsing strings
+- Useful for somewhat advanced string processing tasks
 
-Chomsky Hierarchy
------------------
+search
+------
 
-Grammar       Automaton (Computer)
-------------- ----------------------
-Unrestricted  Turing Machines
-Context Free  Pushdown Automata
-Regular       Finite State Automata
+- The re `search` method can be used to find a matching span in a string
+- Will return `None` if no match
 
-Regular Languages
------------------
+Example
+-------
 
-- Are insufficient to parse most programming languages
-- Can be processed by a simple finite automaton
+```python
+import re
 
-Deterministic Finite Automaton (DFA)
-------------------------------------
+zips = "46012, 46013 46014. 46015"
 
-- Finite set of states $Q$
-- Finite set of input symbols called the alphabet $\Sigma$
-- Transition function $\delta : Q \times \Sigma \rightarrow Q$
-- Initial or start state $q_0 \in Q$
-- Set of accept states $F \subseteq Q$
+if re.search("46013", zips):
+    print("46013 is present")
+```
 
-Drawing DFAs
-------------
+Character Matching
+------------------
 
-- States are nodes on the graph
-- Start state indicated by arrow
-- Accept states indicated by double border
-- Transitions indicated as labeled arrows
+- By default, regular expressions match characters literally
+- Some special character can create more complex matches
+- For example `.` will match any character
 
----
+Example
+-------
 
-![DFA to accept string containing an even number of zeroes](https://upload.wikimedia.org/wikipedia/commons/9/9d/DFAexample.svg){height=540px}
+```python
+import re
+
+words = "cat dog fox pig"
+
+if re.search(".ox", words):
+    print("A word ending in ox was found")
+```
+
+Counting Characters
+-------------------
+
+- Count modifiers can be appended to character classes
+- One more more can be matched using `+`
+- Zero or more can be matched using `*`
+
+match
+-----
+
+- Match will return `True` if a string matches from the beginning
+
+Example
+-------
+
+```python
+import re
+
+words = "cats"
+
+if re.match("cat", words):
+    print("The strings match")
+```
+
+Lab 7
+-----

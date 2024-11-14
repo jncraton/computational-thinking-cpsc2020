@@ -1,0 +1,157 @@
+Regular Expressions
+===================
+
+Substitutions
+-------------
+
+- `sub` can be used to perform regex replacements
+
+Example
+-------
+
+```python
+import re
+
+phone_nums = """
+(765) 555 1234
+317-555-6789
+76555551357
+"""
+
+matches = re.findall("[\d\(\)\- ]+", phone_nums)
+
+cleaned = [re.sub("[ \-\(\)]", "", m) for m in matches]
+
+print(cleaned)
+```
+
+Extraction
+----------
+
+- Parens `()` can be used to indicate which portion of an expression to extract
+
+Example
+-------
+
+```python
+import re
+
+text = "1234515a5"
+
+print(re.findall("(.)5", text))
+```
+
+Exact counts
+------------
+
+- Brackets `{}` can be used to specify an exact count on the preceding character class
+
+Example
+-------
+
+```python
+import re
+
+text = "46012 765 46013"
+
+zips = re.findall("\d{5}", text)
+
+print(zips)
+```
+
+Example
+-------
+
+```python
+import re
+
+addresses = """
+Anderson, IN
+Chicago, IL
+Indianapolis, IN
+"""
+
+cities = re.findall("(.*), [A-Z]{2}", addresses)
+
+print(cities)
+```
+
+Match Objects
+-------------
+
+- `search` returns a match object on success
+- Groups can be extracted from the match
+
+Example
+-------
+
+```python
+import re
+
+text = "a1 b2 c3"
+
+match = re.search("b(\d)", text)
+
+print(match.groups())
+print(match.group(1))
+```
+
+Group 0
+-------
+
+- Match group `0` is always the full match
+
+Example
+-------
+
+```python
+import re
+
+text = "cat dog bat"
+
+match = re.search("b([a-z])t", text)
+
+print(match.group(0))
+```
+
+More RE Information
+-------------------
+
+- [RE How-to](https://docs.python.org/3/howto/regex.html)
+- [Py4E Chapter](https://www.py4e.com/html3/11-regex)
+
+Chomsky Hierarchy
+-----------------
+
+Grammar       Automaton (Computer)
+------------- ----------------------
+Unrestricted  Turing Machines
+Context Free  Pushdown Automata
+Regular       Finite State Automata
+
+Regular Languages
+-----------------
+
+- Are insufficient to parse most programming languages
+- Can be processed by a simple finite automaton
+
+Deterministic Finite Automaton (DFA)
+------------------------------------
+
+- Finite set of states $Q$
+- Finite set of input symbols called the alphabet $\Sigma$
+- Transition function $\delta : Q \times \Sigma \rightarrow Q$
+- Initial or start state $q_0 \in Q$
+- Set of accept states $F \subseteq Q$
+
+Drawing DFAs
+------------
+
+- States are nodes on the graph
+- Start state indicated by arrow
+- Accept states indicated by double border
+- Transitions indicated as labeled arrows
+
+---
+
+![DFA to accept string containing an even number of zeroes](https://upload.wikimedia.org/wikipedia/commons/9/9d/DFAexample.svg){height=540px}
