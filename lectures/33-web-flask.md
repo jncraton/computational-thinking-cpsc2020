@@ -77,6 +77,29 @@ def page2():
     return "Page 2 <a href=/page1>Go to page 1</a>"
 ```
 
+Form Example
+------------
+
+```python
+from flask import Flask, request
+
+app = Flask(__name__)
+
+@app.route("/")
+def square():
+    result = ""
+    if request.args.get('num'):
+        result = float(request.args.get('num')) ** 2
+    
+    return f"""
+        <form>
+            <input name=num autofocus />
+            <input type=submit value=Square />
+        </form>
+        {result}
+    """
+```
+
 Extended Example
 ----------------
 
