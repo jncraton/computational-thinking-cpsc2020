@@ -85,7 +85,7 @@ from flask import Flask, request, session
 import languagemodels
 
 app = Flask(__name__)
-app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
+app.secret_key = "FyJYMJmwZUWASo5J"
 
 @app.route("/")
 def home():
@@ -93,15 +93,18 @@ def home():
         session["history"] = ""
         
     usertext = request.args.get("usertext", "")
-    session["history"] += f"<p>User: {usertext}"    
+
+    if usertext:
+        session["history"] += f"<p>User: {usertext}"
+        
+        response = languagemodels.do(f"Respond to a user: {usertext}")
+        session["history"] += f"<p>Bot: {response}"
     
-    response = languagemodels.do(f"Respond to a user: {usertext}")
-    session["history"] += f"<p>Bot: {response}"
-    
-    return """
-<form action=/>
-<input type=text name=usertext />
-<input type=submit />
-</form>
-""" + session["history"]
+    return f"""
+        {session['history']}
+        <form action=/>
+        <input type=text name=usertext autofocus />
+        <input type=submit />
+        </form>
+        """
 ```
