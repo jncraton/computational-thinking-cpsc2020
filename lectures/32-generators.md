@@ -124,3 +124,8 @@ def myrange(start, stop, step):
 for i in myrange(1, 10, 2):
     print(i)
 ```
+
+Exercise
+--------
+
+Create a generator that will yield every odd number that is not divisible by 5.
