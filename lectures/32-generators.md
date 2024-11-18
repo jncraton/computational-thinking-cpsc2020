@@ -103,3 +103,24 @@ letter_words = {w[0]: w for w in words}
 
 print(letter_words)
 ```
+
+Custom Generators
+-----------------
+
+- The `yield` keyword can be used to emit values from generators
+- Custom generators look like functions but maintain their state between yielding values
+
+Example
+-------
+
+```python
+def myrange(start, stop, step):
+    i = start
+    
+    while i < stop:
+        yield i
+        i += step
+        
+for i in myrange(1, 10, 2):
+    print(i)
+```
