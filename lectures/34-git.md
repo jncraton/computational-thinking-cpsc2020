@@ -119,8 +119,4 @@ Log
 
 ---
 
-![Git lifecycle](https://git-scm.com/book/en/v2/images/lifecycle.png)
-
----
-
 ![Git areas](https://git-scm.com/book/en/v2/images/areas.png)
