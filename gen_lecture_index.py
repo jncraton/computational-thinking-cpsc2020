@@ -13,6 +13,8 @@ def get_reading(lecture):
 
         matches = re.search(r"\-\-\-.*?\.\.\.", md, flags=re.M|re.DOTALL)
 
+        print(md, matches)
+
         if matches:
             yaml_block = matches.group(0)
             yaml_block = yaml_block[3:-3]
