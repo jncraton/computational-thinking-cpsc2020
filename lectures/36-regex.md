@@ -1,6 +1,44 @@
 Regular Expressions
 ===================
 
+Counting Characters
+-------------------
+
+- Count modifiers can be appended to character classes
+- One more more can be matched using `+`
+- Zero or more can be matched using `*`
+
+Exercise
+--------
+
+Create a single, concise regular expression to match a string with 0 or more `a`'s followed by at least 1 `b` followed by at least 1 `c`. Examples:
+
+- `abc`
+- `bc`
+- `aabbcc`
+
+These should not match:
+
+- `acb`
+- `ac`
+
+match
+-----
+
+- Match will return `True` if a string matches from the beginning
+
+Example
+-------
+
+```python
+import re
+
+words = "cats"
+
+if re.match("cat", words):
+    print("The strings match")
+```
+
 Search
 ------
 
