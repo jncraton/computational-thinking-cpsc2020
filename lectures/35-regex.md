@@ -105,6 +105,3 @@ words = "cats"
 if re.match("cat", words):
     print("The strings match")
 ```
-
-Lab 7
------
