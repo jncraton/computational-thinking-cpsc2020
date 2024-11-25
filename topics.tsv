@@ -42,16 +42,17 @@ lecture	Tuples	Tuples	Tuples
 lab	Vacuum Agent		Tuples,Dictionaries,Conditionals
 lecture	Tuples and Dictionaries	Tuples	Tuples,Dictionaries
 lecture	List Comprehensions	Tuples	Generators,Tuples,Dictionaries,Iteration
-lecture	Generators	Tuples	Generators,Tuples,Dictionaries,Iteration
+cancelled
 lab	Shakespeare Word Frequency		Dictionaries,Files,Tuples
+lecture	Generators	Tuples	Generators,Tuples,Dictionaries,Iteration
+lecture	Web Applications		Modules
+lecture	Git	Git Book	Tools
+lab	Final Project		Functions,Iteration,Conditionals
 lecture	Regular Expression Matching	Regular Expressions	Regular Expressions,Modules,Strings
 lecture	Regular Expression Extraction	Regular Expressions	Regular Expressions,Strings
 lecture	Regular Expression Substitution	Regular Expressions	Regular Expressions,Strings
-lab	Final Project		Functions,Iteration,Conditionals
 lecture	Objects and Classes	Objects	Object,Functions,Classes
-lecture	Web Applications		Modules
 lecture	Command Line Interfaces		Tools
-lecture	Git	Git Book	Tools
 lecture	Final Exam Review		Expressions,Conditionals,Functions,Iteration,Lists,Dictionaries,Files
 lab	Final Project Presentations		Functions,Iteration,Conditionals
 lecture Notebooks  Tools
