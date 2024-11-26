@@ -1,3 +1,42 @@
+DFAs
+====
+
+Chomsky Hierarchy
+-----------------
+
+Grammar       Automaton (Computer)
+------------- ----------------------
+Unrestricted  Turing Machines
+Context Free  Pushdown Automata
+Regular       Finite State Automata
+
+Regular Languages
+-----------------
+
+- Are insufficient to parse most programming languages
+- Can be processed by a simple finite automaton
+
+Deterministic Finite Automaton (DFA)
+------------------------------------
+
+- Finite set of states $Q$
+- Finite set of input symbols called the alphabet $\Sigma$
+- Transition function $\delta : Q \times \Sigma \rightarrow Q$
+- Initial or start state $q_0 \in Q$
+- Set of accept states $F \subseteq Q$
+
+Drawing DFAs
+------------
+
+- States are nodes on the graph
+- Start state indicated by arrow
+- Accept states indicated by double border
+- Transitions indicated as labeled arrows
+
+---
+
+![DFA to accept string containing an even number of zeroes](https://upload.wikimedia.org/wikipedia/commons/9/9d/DFAexample.svg){height=540px}
+
 Regular Expressions
 ===================
 
@@ -171,30 +210,6 @@ cleaned = [re.sub("[ \-\(\)]", "", m) for m in matches]
 print(cleaned)
 ```
 
-Substitutions
--------------
-
-- `sub` can be used to perform regex replacements
-
-Example
--------
-
-```python
-import re
-
-phone_nums = """
-(765) 555 1234
-317-555-6789
-76555551357
-"""
-
-matches = re.findall("[\d\(\)\- ]+", phone_nums)
-
-cleaned = [re.sub("[ \-\(\)]", "", m) for m in matches]
-
-print(cleaned)
-```
-
 Extraction
 ----------
 
@@ -289,39 +304,3 @@ More RE Information
 
 - [RE How-to](https://docs.python.org/3/howto/regex.html)
 - [Py4E Chapter](https://www.py4e.com/html3/11-regex)
-
-Chomsky Hierarchy
------------------
-
-Grammar       Automaton (Computer)
-------------- ----------------------
-Unrestricted  Turing Machines
-Context Free  Pushdown Automata
-Regular       Finite State Automata
-
-Regular Languages
------------------
-
-- Are insufficient to parse most programming languages
-- Can be processed by a simple finite automaton
-
-Deterministic Finite Automaton (DFA)
-------------------------------------
-
-- Finite set of states $Q$
-- Finite set of input symbols called the alphabet $\Sigma$
-- Transition function $\delta : Q \times \Sigma \rightarrow Q$
-- Initial or start state $q_0 \in Q$
-- Set of accept states $F \subseteq Q$
-
-Drawing DFAs
-------------
-
-- States are nodes on the graph
-- Start state indicated by arrow
-- Accept states indicated by double border
-- Transitions indicated as labeled arrows
-
----
-
-![DFA to accept string containing an even number of zeroes](https://upload.wikimedia.org/wikipedia/commons/9/9d/DFAexample.svg){height=540px}
