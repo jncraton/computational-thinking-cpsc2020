@@ -1,3 +1,10 @@
+Advent of Code
+--------------
+
+- Advent calendar of small programming puzzles
+- [AU leaderboard](https://adventofcode.com/2024/leaderboard/private/view/1507160) (join with 1507160-fceefd29 if desired)
+- [About Advent of Code 2024](https://adventofcode.com/2024/about)
+
 Command Line Interfaces
 =======================
 
