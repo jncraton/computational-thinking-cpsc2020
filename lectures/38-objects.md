@@ -88,8 +88,8 @@ Exercise
 
 Create a `Student` class with `class_level` and `gpa` attributes
 
-Method
-------
+Methods
+-------
 
 - Functions defined in the class body become attached to objects
 - When called, these have access to the object instance
