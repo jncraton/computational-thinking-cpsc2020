@@ -1,3 +1,6 @@
+Lab 11 Review
+-------------
+
 ---
 reading: '[PY4E: Objects](https://www.py4e.com/html3/14-objects)'
 ...
@@ -67,24 +70,29 @@ Class
 
 - A template for creating user-defined objects
 - Class definitions normally contain method definitions which operate on instances of the class
-- Class names are written in camel case by convention
+- Class names are written in upper camel case by convention
 
 Example
 -------
 
 ```python
-class Character:
+class Player:
     hp = 100
 
-alice = Character()
+alice = Player()
 print(alice.hp)
 ```
+
+Exercise
+--------
+
+Create a `student` class with `class_level` and `gpa` attributes
 
 Method
 ------
 
-- Function defined in the class body become attributes
-- When called as attributes, these have access to the object instance
+- Functions defined in the class body become attached to objects
+- When called, these have access to the object instance
 
 Example
 -------
