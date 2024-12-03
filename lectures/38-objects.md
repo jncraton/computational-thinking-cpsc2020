@@ -86,7 +86,7 @@ print(alice.hp)
 Exercise
 --------
 
-Create a `student` class with `class_level` and `gpa` attributes
+Create a `Student` class with `class_level` and `gpa` attributes
 
 Method
 ------
@@ -108,6 +108,11 @@ car = Vehicle()
 car.accelerate()
 print(car.speed)
 ```
+
+Exercise
+--------
+
+Add a `set_gpa` method to your `Student` class that will set their GPA to a supplied number
 
 Constructor
 -----------
