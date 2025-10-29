@@ -1,15 +1,14 @@
 {
-  "start_date": "2024-08-26",
-  "end_date": "2024-12-06",
+  "start_date": "2025-08-25",
+  "end_date": "2025-12-05",
   "lecture_days": "MTW",
-  "lab_days": "F",
+  "lab_days": "R",
   "breaks": [
-    "2024-09-02 Labor Day",
-    "2024-10-02 Career Fair",
-    "2024-10-03 Fall Break",
-    "2024-10-04 Fall Break",
-    "2024-11-27 Thanksgiving",
-    "2024-11-28 Thanksgiving",
-    "2024-11-29 Thanksgiving"
+    "2025-09-01 Labor Day",
+    "2025-10-16 Fall Break",
+    "2025-10-17 Fall Break",
+    "2025-11-26 Thanksgiving Break",
+    "2025-11-27 Thanksgiving Break",
+    "2025-11-28 Thanksgiving Break"
   ]
 }
