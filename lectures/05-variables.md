@@ -1,3 +1,7 @@
+---
+reading: '[PY4E: Variables](https://www.py4e.com/html3/02-variables)'
+...
+
 Variables
 =========
 
