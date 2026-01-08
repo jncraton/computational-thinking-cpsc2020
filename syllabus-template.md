@@ -14,6 +14,7 @@ An introduction to concepts in the field of computer science, the skills of comp
 Required Resources
 ------------------
 
+- [Course Lecture Notes](https://jncraton.github.io/computational-thinking-cpsc2020/lectures/)
 - [Python for Everybody](https://www.py4e.com/) (free online resource)
 
 Course Objectives
