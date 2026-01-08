@@ -16,10 +16,10 @@ syllabus.txt: syllabus.md
 	cp syllabus.md syllabus.txt
 
 syllabus.html: syllabus.md
-	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
+	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css --lua-filter=filters.lua -o $@ $<
 
-index.html: syllabus.md
-	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
+index.html: syllabus.html
+	cp -f $< $@
 
 syllabus.docx: syllabus.md
 	pandoc -V lang=en --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
@@ -96,6 +96,7 @@ update:
 	           https://raw.githubusercontent.com/jncraton/course-template/master/tail.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/env.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/style.css \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/filters.lua \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/revealjs-template.html \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_lecture_index.py \
