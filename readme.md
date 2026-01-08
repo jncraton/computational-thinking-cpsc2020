@@ -36,11 +36,12 @@ Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.c
 Course Catalog Description
 --------------------------
 
-An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis is placed on effective testing and debugging, and an introduction to the command line environment is presented.
+An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis on effective testing and debugging, and an introduction to the command line environment is presented.
 
 Required Resources
 ------------------
 
+- [Course Lecture Notes](https://jncraton.github.io/computational-thinking-cpsc2020/lectures/)
 - [Python for Everybody](https://www.py4e.com/) (free online resource)
 
 Course Objectives
@@ -83,7 +84,7 @@ Regular quizzes will be given covering the lecture material. Students will have 
 
 ### Exams
 
-A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material.
+Exams will be taken in this course. All exams are cumulative with a focus on more recent material.
 
 Grading Scale
 -------------
