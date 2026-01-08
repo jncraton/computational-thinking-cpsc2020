@@ -9,7 +9,7 @@ CPSC 2020 Fundamentals of Computational Thinking and Problem Solving
 Course Catalog Description
 --------------------------
 
-An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis is placed on effective testing and debugging, and an introduction to the command line environment is presented.
+An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis on effective testing and debugging, and an introduction to the command line environment is presented.
 
 Required Resources
 ------------------
@@ -56,6 +56,6 @@ Regular quizzes will be given covering the lecture material. Students will have 
 
 ### Exams
 
-A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material.
+Exams will be taken in this course. All exams are cumulative with a focus on more recent material.
 
 !INCLUDE "tail.md"
