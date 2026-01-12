@@ -1,7 +1,6 @@
-Why Computation?
-================
+# Why Computation?
 
------
+---
 
 > Any sufficiently advanced technology is indistinguishable from magic.
 >
@@ -13,8 +12,7 @@ Why Computation?
 
 ---
 
-Antikythera Mechanism
----------------------
+## Antikythera Mechanism
 
 - Oldest known computer
 - Dated to around 200BCE
@@ -44,30 +42,25 @@ Why did we read about bicycles?
 ---
 
 > To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge.
-> 
+>
 > David Sayre
 
-What are computers capable of?
-------------------------------
+## What are computers capable of?
 
-Capabilities
-------------
+## Capabilities
 
 - Perform mathematical operations
 - Store data
 - Retrieve data
 
-How do computers function
--------------------------
+## How do computers function
 
 - Retrieve information from data storage (RAM, drives, network, etc)
 - Perform mathematical operations on data
 
-How does the computer know which operations to perform?
--------------------------------------------------------
+## How does the computer know which operations to perform?
 
-Solving Problems
-----------------
+## Solving Problems
 
 - In order to solve complex problems, we need to decompose them to subproblems solvable with simple instructions
 - Computers (or humans) can execute the basic instructions
@@ -76,12 +69,10 @@ Solving Problems
 
 ![[Chain-of-thought Prompting](https://arxiv.org/pdf/2201.11903.pdf)](media/cot.png)
 
-Executing Instructions
-----------------------
+## Executing Instructions
 
 - Computer programs are instructions to follow to solve our problem
 - Instructions must be complete and unambiguous
 - It is not easy to craft correct instructions
 
-Instruction Example
--------------------
+## Instruction Example

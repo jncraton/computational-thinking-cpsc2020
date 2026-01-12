@@ -1,13 +1,10 @@
-List Operations
-===============
+# List Operations
 
-List + operator
----------------
+## List + operator
 
 - The `+` operator can be used to concatenate lists
 
-Example
--------
+## Example
 
 ```python
 start = [1, 2]
@@ -16,14 +13,12 @@ complete = start + end
 print(complete)
 ```
 
-Appending
----------
+## Appending
 
 - The `+` operator may be used for appending
 - Single items must be represented as a list of length 1
 
-Example
--------
+## Example
 
 ```python
 mylist = [1,2,3]
@@ -34,13 +29,11 @@ mylist = mylist + 4
 print(mylist)
 ```
 
-Exercise
---------
+## Exercise
 
 Create a program that builds a list of 10 randomly generated numbers
 
-Solution
---------
+## Solution
 
 ```python
 import random
@@ -53,13 +46,11 @@ for _ in range(10):
 print(nums)
 ```
 
-List * operator
----------------
+## List \* operator
 
 - The `*` operator can be used to duplicate lists
 
-Example
--------
+## Example
 
 ```python
 mylist = [1, 2, 3]
@@ -67,14 +58,12 @@ longlist = mylist * 20
 print(longlist)
 ```
 
-Slicing
--------
+## Slicing
 
 - Lists support slicing as used with strings
 - Omitted values will be treated as the start and end of the list
 
-Example
--------
+## Example
 
 ```python
 mylist = [1, 2, 3, 4, 5, 6]
@@ -84,13 +73,11 @@ print(mylist[:4])
 print(mylist[1:])
 ```
 
-Slices in assignment
---------------------
+## Slices in assignment
 
 - Slices can be used in the left hand side of an assignment
 
-Example
--------
+## Example
 
 ```python
 mylist = [1, 2, 3, 4, 5, 6]
@@ -100,15 +87,13 @@ mylist[1:4] = [7, 8, 9]
 print(mylist)
 ```
 
-Copying Lists
--------------
+## Copying Lists
 
 - Because lists are mutable, it can be useful to create copies
 - The `copy` method can be used for this
 - Slicing syntax (`[:]`) can also be used
 
-Example
--------
+## Example
 
 ```python
 mylist = [1,2,3]
@@ -119,14 +104,12 @@ mylist = mylist + [4]
 print(mylist, original)
 ```
 
-append
-------
+## append
 
 - The `append` method can be used to add an item to the end of a list
 - If lists are passed to append, a nested list will be created
 
-Example
--------
+## Example
 
 ```python
 mylist = [1,2,3]
@@ -136,14 +119,12 @@ mylist.append(4)
 print(mylist)
 ```
 
-extend
-------
+## extend
 
 - The `extend` method can add many elements to a list
 - The argument passed in should be a list
 
-Example
--------
+## Example
 
 ```python
 mylist = [1,2,3]
@@ -153,15 +134,13 @@ mylist.extend([4, 5, 6])
 print(mylist)
 ```
 
-sort
-----
+## sort
 
 - The `sort` method can be used to sort list elements in place
 - The list will be modified by this operation
 - `sort` always returns `None`
 
-Example
--------
+## Example
 
 ```python
 mylist = [4, 1, 3, 2]
@@ -171,14 +150,12 @@ mylist.sort()
 print(mylist)
 ```
 
-In-place modification
---------------------
+## In-place modification
 
 - It can be tempting to assign the result of sort back to the original list
 - This is not desirable, as it will replace the value with `None`
 
-Example
--------
+## Example
 
 ```python
 mylist = [4, 1, 3, 2]
@@ -188,20 +165,17 @@ mylist = mylist.sort()
 print(mylist)
 ```
 
-Exercise
---------
+## Exercise
 
 Create a Python program that prints the three largest numbers in a list
 
-Deleting Elements
------------------
+## Deleting Elements
 
 - `pop` will remove and return an element at a position (or the last element by default)
 - `del` can be used to remove the element without returning it (can use slices)
 - `remove` will remove the element by value
 
-pop Example
------------
+## pop Example
 
 ```python
 mylist = [1, 2, 3]
@@ -211,8 +185,7 @@ removed = mylist.pop(1)
 print(mylist, removed)
 ```
 
-del Example
------------
+## del Example
 
 ```python
 mylist = [1, 2, 3]
@@ -222,8 +195,7 @@ del mylist[1]
 print(mylist)
 ```
 
-remove Example
---------------
+## remove Example
 
 ```python
 mylist = [1, 2, 3]
@@ -233,7 +205,6 @@ mylist.remove(1)
 print(mylist)
 ```
 
-Exercise
---------
+## Exercise
 
 Create a Python program to remove all single-digit numbers from a list

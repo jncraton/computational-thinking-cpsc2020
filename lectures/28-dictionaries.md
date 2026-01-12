@@ -1,13 +1,10 @@
-Iterating over Dictionaries
-===========================
+# Iterating over Dictionaries
 
-Iterating over Keys
--------------------
+## Iterating over Keys
 
 - The native method to iterate over a dictionary using for will iterate over keys
 
-Example
--------
+## Example
 
 ```python
 d = {"a": 1, "b": 2, "c": 3}
@@ -16,15 +13,13 @@ for key in d:
     print(key)
 ```
 
-Iterating over Values
----------------------
+## Iterating over Values
 
 - It is sometimes useful to access just values from a dictionary
 - The `values` method can be used to get values as an iterable
 - Alternatively, we can access values by their key
 
-Example
--------
+## Example
 
 ```python
 d = {"a": 1, "b": 2, "c": 3}
@@ -33,8 +28,7 @@ for value in d.values():
     print(value)
 ```
 
-Example
--------
+## Example
 
 ```python
 d = {"a": 1, "b": 2, "c": 3}
@@ -43,8 +37,7 @@ for key in d:
     print(d[key])
 ```
 
-Working Problems
-----------------
+## Working Problems
 
 - Professional developers will frequently be asked to solve simple programming tasks in interviews
 - It is important to practice these sorts of problems

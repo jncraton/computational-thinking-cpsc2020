@@ -1,14 +1,11 @@
-Lists
-=====
+# Lists
 
-List functions
---------------
+## List functions
 
 - Many built-in functions can operate on lists
 - Examples include `len`, `max`, `min`, and `sum`
 
-Example
--------
+## Example
 
 ```python
 mylist = [1, 2, 3, 4]
@@ -19,14 +16,12 @@ print(f"Smallest value: {min(mylist)}")
 print(f"Largest value: {max(mylist)}")
 ```
 
-Numeric lists
--------------
+## Numeric lists
 
 - Some functions will only work properly on lists with numeric elements
 - `sum` won't work properly with strings, for example
 
-Example
--------
+## Example
 
 ```python
 mylist = ["a", "b", "c"]
@@ -34,13 +29,11 @@ mylist = ["a", "b", "c"]
 print(sum(mylist))
 ```
 
-List constructor
-----------------
+## List constructor
 
 - The `list` constructor can be used to create a list from a string
 
-Example
--------
+## Example
 
 ```python
 items = list("abcdef")
@@ -49,15 +42,13 @@ print(type(items))
 print(items)
 ```
 
-Lists and Strings
------------------
+## Lists and Strings
 
 - A list is a sequence of arbitrary values
 - A string is different data type that represents a sequence of characters
 - They cannot always be used interchangeably
 
-Example
--------
+## Example
 
 ```python
 items = "abc"
@@ -66,8 +57,7 @@ for letter in items:
     print(letter)
 ```
 
-Example
--------
+## Example
 
 ```python
 items = ["a", "b", "c"]
@@ -75,8 +65,7 @@ items = ["a", "b", "c"]
 items.split()
 ```
 
-Objects and values
-------------------
+## Objects and values
 
 - Two values can hold the same contents without pointing to the same object
 - Consider the following assignment:
@@ -90,13 +79,11 @@ b = 'banana'
 
 ![Possible assignment results](https://www.py4e.com/images/list1.svg){height=540px}
 
-is
-----
+## is
 
 - The `is` operator can be used to test if two values are the same object
 
-Example
--------
+## Example
 
 ```python
 a = 'banana'
@@ -105,14 +92,12 @@ b = 'banana'
 print(a is b)
 ```
 
-Lists
------
+## Lists
 
 - Because lists are mutable, a new list is a new object
 - Two lists with the same values may not be the same object
 
-Example
--------
+## Example
 
 ```python
 a = list('banana')
@@ -121,14 +106,12 @@ b = list('banana')
 print(a is b)
 ```
 
-List equivalence
-----------------
+## List equivalence
 
 - We can also use `==` to compare lists
 - This will perform a deep compare to check if the two lists have identical values
 
-Example
--------
+## Example
 
 ```python
 a = list('banana')
@@ -137,14 +120,13 @@ b = list('banana')
 print(a == b)
 ```
 
-Exercise
---------
+## Exercise
 
 Write a Python function that will return `True` if and only if the two lists contain the same items but are not the same list.
 
 ```python
 def equal_but_not_same(a, b):
-    
+
 
 a = [1, 2]
 
@@ -154,13 +136,11 @@ assert(equal_but_not_same([1], [2]) == False)
 assert(equal_but_not_same(a, a) == False)
 ```
 
-Multiple References
--------------------
+## Multiple References
 
 - Multiple variable can point to the same object
 
-Example
--------
+## Example
 
 ```
 a = [1, 2, 3]
@@ -169,15 +149,13 @@ b = a
 print(a is b)
 ```
 
-Aliasing
---------
+## Aliasing
 
 - An object with more than one reference to it is aliased
 - Care must be taken when aliasing mutable objects
 - A modification to one will affect the other
 
-Example
--------
+## Example
 
 ```python
 scores = [100, 85, 75, 87]
@@ -196,22 +174,20 @@ print(letter_grades)
 print(scores)
 ```
 
-Lists as arguments
-------------------
+## Lists as arguments
 
 - If a list is passed to a function, it will be aliased
 - A modification inside the list will be seen by the caller
 
-Example
--------
+## Example
 
 ```python
 def square_all(numbers):
     """ Return a list with the squares of all numbers"""
-    
+
     for i in range(len(numbers)):
         numbers[i] = numbers[i] * numbers[i]
-        
+
     return numbers
 
 mynums = [1, 2, 3, 4]
@@ -221,8 +197,7 @@ print(square_all(mynums))
 print(mynums)
 ```
 
-Exercise
---------
+## Exercise
 
 Adjust the following program so that first_half does not modify the list it is passed
 

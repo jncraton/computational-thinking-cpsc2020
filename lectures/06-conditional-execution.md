@@ -1,23 +1,21 @@
 ---
 reading: '[PY4E: Conditionals](https://www.py4e.com/html3/03-conditional)'
-...
+---
 
-Lab Notes
-=========
+# Lab Notes
 
-Assignment
-----------
+## Assignment
+
+---
 
 - Used to store values for later use
-
 
 ```python
 a = 4
 name = input("What is your name")
 ```
 
-Converting to Integers
-----------------------
+## Converting to Integers
 
 - `int` can be used to convert values into integers
 
@@ -28,11 +26,9 @@ Converting to Integers
 42
 ```
 
-`type`
-------
+## `type`
 
 - `type` can be used check the type of a value
-
 
 ```python
 >>> type("Hello")
@@ -41,8 +37,7 @@ Converting to Integers
 <class 'int'>
 ```
 
-Storing converted values
-------------------------
+## Storing converted values
 
 - `int` does not modify value in place
 - Results must be stored or used
@@ -53,36 +48,31 @@ int(answer) # Has no meaningful side effects
 answer_num = int(answer) # Stores answer as int
 ```
 
-Getting Help
-------------
+## Getting Help
 
 - Reach out if you need help on a lab
 - Other students can be a great source of help
 - Learn to know when you are using other resources as a crutch
 
-Conditional Execution
-=====================
+# Conditional Execution
 
-Control Flow
-------------
+## Control Flow
 
 - By default, the Python interpreter runs the next instruction in our program
 - In order to create more complex programs, it is helpful to choose which instruction runs next
 - This is modification of the control plane of program execution
 
-if statement
-------------
+## if statement
 
 - Conditionally runs a block of code
-- A Boolean expression (the *condition*) follows the if statement
+- A Boolean expression (the _condition_) follows the if statement
 - The `if` statement is terminated by a `:`
 
 ```python
 if i == 0:
 ```
 
-Example
--------
+## Example
 
 ```python
 if x > 0:
@@ -93,14 +83,12 @@ if x > 0:
 
 ![`if` control flow diagram](https://www.py4e.com/images/if.svg){height=540px}
 
-Compound Statements
-------------------
+## Compound Statements
 
 - Statements may be grouped together into blocks
 - Blocks of statements should be indented using 4 spaces
 
-Example
--------
+## Example
 
 ```python
 if False == True:
@@ -110,17 +98,14 @@ if False == True:
 print("This will print")
 ```
 
-New Operations
-==============
+# New Operations
 
-Integer division
-----------------
+## Integer division
 
 - `//` performs integer division
 - `%` is the modulo operator and computes the remainder after division
 
-Division Example
-----------------
+## Division Example
 
 ```python
 >>> 11 / 4
@@ -129,8 +114,7 @@ Division Example
 2
 ```
 
-Modulo Example
---------------
+## Modulo Example
 
 ```python
 >>> 11 % 4
@@ -149,8 +133,7 @@ Why would we want a modulo operation?
 
 ---
 
-Even or Odd
------------
+## Even or Odd
 
 ```python
 number = int(input("Enter a number:"))

@@ -1,14 +1,11 @@
-String Methods
-==============
+# String Methods
 
-Methods
--------
+## Methods
 
 - Methods are functions that operate on a known piece of data
 - Most operators are shortcuts to object methods
 
-Example
--------
+## Example
 
 ```python
 >>> 1 + 2
@@ -17,13 +14,11 @@ Example
 3
 ```
 
-dir
----
+## dir
 
 - `dir` can be used to list methods available on an object
 
-Example
--------
+## Example
 
 ```python
 >>> dir(1)
@@ -32,14 +27,12 @@ Example
 ['__add__', ...]
 ```
 
-upper and lower
----------------
+## upper and lower
 
 - `upper` can be used to uppercase a string
 - `lower` can be used to lowercase it
 
-Example
--------
+## Example
 
 ```python
 >>> a = "Hello, world!"
@@ -53,8 +46,7 @@ Example
 
 How could we compare strings ignoring case?
 
-Solution
---------
+## Solution
 
 ```python
 color = input("Enter a color:")
@@ -67,15 +59,13 @@ else:
     print("Unknown color")
 ```
 
-find
-----
+## find
 
 - `find` can be used to get the position of a substring
 - Returns the index of the start of the substring
 - Returns -1 if substring is not found
 
-Example
--------
+## Example
 
 ```python
 >>> a = "Hello, world!"
@@ -83,13 +73,11 @@ Example
 7
 ```
 
-strip
------
+## strip
 
 - `strip` returns a copy of the string with leading and trailing whitespace removed
 
-Example
--------
+## Example
 
 ```python
 >>> text = "    Hello, world!          "
@@ -97,13 +85,11 @@ Example
 'Hello, world'
 ```
 
-startswith
-----------
+## startswith
 
 - `startswith` will return True if the string begins with the supplied prefix
 
-Example
--------
+## Example
 
 ```python
 >>> text = "Hello, world!"
@@ -113,13 +99,11 @@ True
 False
 ```
 
-count
------
+## count
 
 - `count` will count the number of non-overlapping substrings in some text
 
-Example
--------
+## Example
 
 ```python
 >>> sentence = "The quick brown fox jumped over the lazy dog"
@@ -127,14 +111,12 @@ Example
 4
 ```
 
-Slicing
--------
+## Slicing
 
 - String indexing in Python supports returning substrings as well as individual characters
 - A colon (`:`) is used to separate the start and end index
 
-Example
--------
+## Example
 
 ```python
 >>> alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -148,14 +130,12 @@ Example
 'c'
 ```
 
-Negative Indexes
-----------------
+## Negative Indexes
 
 - In Python, it is legal for an index to be negative
 - A negative index will index from the end of the object
 
-Example
--------
+## Example
 
 ```python
 >>> text = "Hello, world!"
@@ -165,14 +145,12 @@ Example
 'd'
 ```
 
-Inferred indices
----------------
+## Inferred indices
 
 - If a start index is left out, it is assumed to be zero
 - If an end index is left out, it is assumed to be negative 1
 
-Example
--------
+## Example
 
 ```python
 >>> text = "Hello, world"
@@ -182,47 +160,40 @@ Example
 'Hello, worl'
 ```
 
-Formatted String Literals
--------------------------
+## Formatted String Literals
 
-format
-------
+## format
 
 - [Prior editions](https://github.com/csev/py4e/pull/424) of the textbook used the `format` method on strings
 - It is antiquated and has largely been superseded by [f-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals) since Python 3.6.
 - You will not be required to use or understand the `format` method in this class
 
-f-strings
----------
+## f-strings
 
 - Provide simple string formatting
 - Python expressions can be included within strings
 - An `f` should be used before the opening quote of the string literal
 
-Example
--------
+## Example
 
 ```python
 >>> f"The answer is {7*6}"
 ```
 
-Example
--------
+## Example
 
 ```python
 name = input("What is you name?")
-  
+
 print(f"Hello, {name}")
 ```
 
-Format Specifiers
------------------
+## Format Specifiers
 
 - Can be added after an expression to adjust formatting
 - This can be used for rounding or other purposes such as alignment
 
-Example
--------
+## Example
 
 ```python
 num = 1
@@ -232,8 +203,7 @@ for pokemon in ["Charmander", "Charmeleon", "Charizard"]:
     num += 1
 ```
 
-Example
--------
+## Example
 
 ```python
 import random
@@ -246,8 +216,7 @@ for _ in range(10):
 
 Create a program that will capitalize the first word in a provided sentence.
 
-Solution
---------
+## Solution
 
 ```python
 sentence = "hello world"
@@ -261,8 +230,7 @@ print(sentence)
 
 Create a program that will search a string for a word and display the word along with the 5 characters before and 5 characters after it.
 
-Solution
---------
+## Solution
 
 ```python
 sentence = "the quick brown fox jumped over the lazy dog"

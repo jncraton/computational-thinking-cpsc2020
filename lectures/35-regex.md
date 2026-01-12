@@ -1,20 +1,18 @@
 ---
 reading: '[PY4E: Regex](https://www.py4e.com/html3/11-regex)'
-...
+---
 
-Vacuum Lab Review
------------------
+## Vacuum Lab Review
 
-Regular Expressions
-===================
+---
 
-find
-----
+# Regular Expressions
+
+## find
 
 - The string `find` method can be used to get the location of one string in another
 
-Example
--------
+## Example
 
 ```python
 sent = "Where is the word 'the'?"
@@ -22,13 +20,11 @@ sent = "Where is the word 'the'?"
 print(sent.find("the"))
 ```
 
-split
------
+## split
 
 - The string `split` method can be used to split strings
 
-Example
--------
+## Example
 
 ```python
 ip = "10.75.123.76"
@@ -38,21 +34,18 @@ octets = ip.split(".")
 print(octets)
 ```
 
-Regular Expressions
--------------------
+## Regular Expressions
 
 - Available in the `re` module
 - Provide their own mini language for parsing strings
 - Useful for somewhat advanced string processing tasks
 
-search
-------
+## search
 
 - The re `search` method can be used to find a matching span in a string
 - Will return `None` if no match
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -63,15 +56,13 @@ if re.search("46013", zips):
     print("46013 is present")
 ```
 
-Character Matching
-------------------
+## Character Matching
 
 - By default, regular expressions match characters literally
 - Some special character can create more complex matches
 - For example `.` will match any character
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -82,7 +73,6 @@ if re.search(".ox", words):
     print("A word ending in ox was found")
 ```
 
-Exercise
---------
+## Exercise
 
 Create a regular expression that can match all 5 letter words that start with "c"

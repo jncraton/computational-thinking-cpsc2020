@@ -1,18 +1,14 @@
-Project Overview
-----------------
+## Project Overview
 
-Web Applications
-================
+# Web Applications
 
-Local Applications
-------------------
+## Local Applications
 
 - Apps created so far are accessible from the local device only
 - Basic functions (`print` and `input`) interact with the system in text mode
 - These limitation make it challenging to create modern apps
 
-Hypertext
----------
+## Hypertext
 
 - Text document with links to other text documents
 - Provides the basis for the world wide web
@@ -21,19 +17,16 @@ Hypertext
 
 ![Hyperlinked documents](https://upload.wikimedia.org/wikipedia/commons/4/41/Sistema_hipertextual.jpg)
 
-HTTP
-----
+## HTTP
 
 - Hypertext transfer protocol
 - Provides a mechanism to request hypertext documents from remote systems
 
-Flask
------
+## Flask
 
 - Python package to implement HTTP servers
 
-Example
--------
+## Example
 
 ```python
 from flask import Flask
@@ -45,26 +38,22 @@ def home():
     return "Hello, world!"
 ```
 
-URL
------
+## URL
 
 - Provides a unique identifier for a hypertext document
 - Sent by a user agent as part of an HTTP request
 
-HTML
-----
+## HTML
 
 - Hypertext markup language
 - Domain specific language used to describe hypertext documents
 
-Hyperlinks
-----------
+## Hyperlinks
 
 - Created in HTML using `<a>` tags
 - A hypertext reference (`href`) may be included to link to another document
 
-Example
--------
+## Example
 
 ```python
 from flask import Flask
@@ -80,8 +69,7 @@ def page2():
     return "Page 2 <a href=/page1>Go to page 1</a>"
 ```
 
-Form Example
-------------
+## Form Example
 
 ```python
 from flask import Flask, request
@@ -93,7 +81,7 @@ def square():
     result = ""
     if request.args.get('num'):
         result = float(request.args.get('num')) ** 2
-    
+
     return f"""
         <form>
             <input name=num autofocus />
@@ -103,8 +91,7 @@ def square():
     """
 ```
 
-Extended Example
-----------------
+## Extended Example
 
 ```python
 from flask import Flask, request, session
@@ -117,15 +104,15 @@ app.secret_key = "FyJYMJmwZUWASo5J"
 def home():
     if not "history" in session:
         session["history"] = ""
-        
+
     usertext = request.args.get("usertext", "")
 
     if usertext:
         session["history"] += f"<p>User: {usertext}"
-        
+
         response = languagemodels.do(f"Respond to a user: {usertext}")
         session["history"] += f"<p>Bot: {response}"
-    
+
     return f"""
         {session['history']}
         <form action=/>

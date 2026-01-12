@@ -1,23 +1,21 @@
 ---
 reading: '[PY4E: Variables](https://www.py4e.com/html3/02-variables)'
-...
+---
 
-Variables
-=========
+# Variables
 
-Definition
-----------
+## Definition
+
+---
 
 A variable is a named container for a value
 
-Statements
-----------
+## Statements
 
 - A statement is a unit of code that the Python interpreter can execute
 - Example: `print("Hello, world")`
 
-Assignment Statement
---------------------
+## Assignment Statement
 
 - Creates or rebinds a variable
 - Gives the variable a value
@@ -26,16 +24,14 @@ Assignment Statement
 myvar = 42
 ```
 
-Variables
----------
+## Variables
 
 - A variable is a named container for a value
 - Useful for organizing data flow
 - Provide human-readable names for values
 - Allow values to be reused
 
-Example
--------
+## Example
 
 ```python
 >>> base = 5
@@ -45,16 +41,14 @@ Example
 15.0
 ```
 
-Variable Names
---------------
+## Variable Names
 
 - Should document what the variable is used for
 - May include letters and numbers
 - Should be lowercase
 - May not begin with a number
 
-Reserved Words
---------------
+## Reserved Words
 
 Reserved words may not be used as variable names
 
@@ -66,16 +60,14 @@ Reserved words may not be used as variable names
     break   except    import   or        with
     class   False     in       pass      yield
 
-Input Statement
----------------
+## Input Statement
 
 - `input(prompt=None)`
 - Accepts user input as an `str` (string)
 - `prompt` will be shown to user if provided
 - [Documentation for input](https://docs.python.org/3/library/functions.html#input)
 
-input Example
--------------
+## input Example
 
 ```python
 user_msg = input("I'm an AI assistant. How may I help you?")
@@ -85,13 +77,11 @@ print(user_msg)
 print("As an AI assistant, I'm not able to help with that.")
 ```
 
-int
----
+## int
 
 - `int` converts strings to integers
 
-Examples
---------
+## Examples
 
 ```python
 >>> '12'
@@ -104,15 +94,13 @@ Examples
 ...ValueError...
 ```
 
-Comments
---------
+## Comments
 
 - Can be inserted into code as notes for human readers
 - Ignored by Python interpreter
 - Begin with `#` symbol
 
-Example Program
----------------
+## Example Program
 
 ```python
 # Gather user inputs

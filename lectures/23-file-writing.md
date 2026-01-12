@@ -1,20 +1,16 @@
-File Writing
-============
+# File Writing
 
-File Handles
-------------
+## File Handles
 
 - Provide an interface to work with an open file
 - Common operations include reading, writing, and closing
 
-Reading
--------
+## Reading
 
 - Open a file with default file mode (read)
 - Use the read method to move text content from the file to a string
 
-Example
--------
+## Example
 
 ```python
 pyfile = open("example.py")
@@ -24,14 +20,12 @@ source = pyfile.read()
 print(source)
 ```
 
-Writing
--------
+## Writing
 
 - Open a file with mode set to "w"
 - Use the write method to write to the file
 
-Example
--------
+## Example
 
 ```python
 outfile = open("myfile.txt", "w")
@@ -41,13 +35,11 @@ outfile.write("Hello, world")
 outfile.close()
 ```
 
-Closing
--------
+## Closing
 
 - Files must be properly closed to ensure all data is correctly written
 
-Example
--------
+## Example
 
 ```python
 outfile = open("myfile.txt", "w")
@@ -55,19 +47,16 @@ outfile = open("myfile.txt", "w")
 outfile.write("Hello, world")
 ```
 
-Truncation
-----------
+## Truncation
 
 - When a file is opened for writing, it is truncated by default
 - This means all existing content will be destroyed
 
-Appending
----------
+## Appending
 
 - Files can be opened for appending using the "a" flag
 
-Example
--------
+## Example
 
 ```python
 outfile = open("myfile.txt", "a")
@@ -77,13 +66,11 @@ outfile.write("Hello, world")
 outfile.close()
 ```
 
-Exceptions
-----------
+## Exceptions
 
 - An exception crashing the program can prevent a proper close
 
-Example
--------
+## Example
 
 ```python
 outfile = open("myfile.txt", "a")
@@ -95,40 +82,34 @@ int("not a number")
 outfile.close()
 ```
 
-Closing Files
--------------
+## Closing Files
 
 - It is important to close files when we finish using them
 - It can be easy to forget to do this
 - `with` can be used to automatically close a file
 
-Example
--------
+## Example
 
 ```python
 with open("myfile.txt", "w") as outfile:
     outfile.write("Hello, world")
 ```
 
-with
-----
+## with
 
 - The `with` statement can be used with all [context manager types](https://docs.python.org/3/library/stdtypes.html#context-manager-types)
 - File handles are one use, but there are many others
 - `with` always closes the file, even when exceptions are raised
 
-Exercise
----------
+## Exercise
 
 Write the first 1000 positive integers to a file
 
-Exercise
---------
+## Exercise
 
 Read the values from that file one at a time and write their squares to a second file
 
-Solution
---------
+## Solution
 
 ```python
 with open("nums.txt") as nums:
@@ -138,8 +119,7 @@ with open("nums.txt") as nums:
             squares.write(f"{square}\n")
 ```
 
-Key Ideas
----------
+## Key Ideas
 
 - Files can be opened with the "w" flag
 - We can avoid truncation with the "a" flag

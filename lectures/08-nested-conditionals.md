@@ -1,21 +1,17 @@
-Nested Conditional Execution
-============================
+# Nested Conditional Execution
 
-Review
-------
+## Review
 
 - `if` conditionally executes code
 - `elif` conditionally executes alternative code
 - `else` executes if no other conditions are met
 
-Nesting Conditionals
---------------------
+## Nesting Conditionals
 
 - We can nest blocks of code
 - Conditional execution can be nested to create more complex control flow
 
-Example
--------
+## Example
 
 ```python
 if x == y:
@@ -39,16 +35,14 @@ else:
 
 How would we approach building a quiz like this?
 
-Process
--------
+## Process
 
-- Problem Formulation - Conceptualize  a  problem
+- Problem Formulation - Conceptualize a problem
 - Solution Expression - Formulate unambiguous algorithm
 - Execution - Computer runs instructions to produce result
 - Evaluation - User explores result to confirm thinking
 
-Star Wars Quiz
---------------
+## Star Wars Quiz
 
 ```python
 age = int(input("How old are you?"))
@@ -66,20 +60,17 @@ else:
         print("You are Luke Skywalker")
 ```
 
-Style
------
+## Style
 
 - Deep nesting can become difficult to read
 - As a rule of thumb, we'd like to avoid nesting more than 3 layers deep
 - Lines should not exceed 79 characters ([PEP8](https://peps.python.org/pep-0008/#maximum-line-length))
 
-Exit
-----
+## Exit
 
 - `exit` can be used to immediately terminate a program.
 
-Exit Example
-------------
+## Exit Example
 
 ```python
 dividend = int(input("Enter value for divdend:"))
@@ -96,8 +87,7 @@ print("Quotient:", quotient)
 print("Remainder:", remainder)
 ```
 
-Key Topics to Date
-------------------
+## Key Topics to Date
 
 - `input` and `print` statements
 - Arithmetic expressions (`2 + 3`)

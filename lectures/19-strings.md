@@ -1,26 +1,20 @@
 ---
 reading: '[PY4E: Strings](https://www.py4e.com/html3/06-strings)'
-...
-
 ---
 
-Group Advising
---------------
+## Group Advising
 
 - For first year majors
 - October 15th @ 6pm in 346
 
-Strings
-=======
+# Strings
 
-Definition
-----------
+## Definition
 
 - A string is a sequence of characters
 - String literals can be created using single or double quotes
 
-Valid Strings
--------------
+## Valid Strings
 
 ```python
 "Hello, world"
@@ -31,14 +25,12 @@ Valid Strings
 'b'
 ```
 
-Accessing Items
----------------
+## Accessing Items
 
 - A string is a sequence
 - Items in the sequence can be accessed using square brackets `[]`
 
-Example
--------
+## Example
 
 ```python
 >>> name = "Jordan"
@@ -52,14 +44,12 @@ Example
 
 ![Indexing starts from 0](https://www.py4e.com/images/string.svg){height=540px}
 
-Immutability
-------------
+## Immutability
 
 - Strings in Python are immutable
 - This means they cannot be changed
 
-Example
--------
+## Example
 
 ```python
 >>> word = "cat"
@@ -71,8 +61,7 @@ Traceback (most recent call last):
 TypeError: 'str' object does not support item assignment
 ```
 
-Creating a New String
----------------------
+## Creating a New String
 
 - If we need to change a string we must create a new modified version
 - This can be accomplished using string expressions
@@ -86,14 +75,12 @@ Creating a New String
 'bat'
 ```
 
-Looping
--------
+## Looping
 
 - Strings are iterable
 - We can easily loop over the characters in a string using `for`
 
-Example
--------
+## Example
 
 ```python
 dna = "GGTGTACGGC"
@@ -107,14 +94,12 @@ for base in dna:
 print("Guanine bases:", guanine_count)
 ```
 
-in
---
+## in
 
 - The `in` operator can be used with strings
 - An `in` expression will return true if the value on the left is contained within the value on the right
 
-Example
--------
+## Example
 
 ```python
 >>> "a" in "cat"
@@ -127,15 +112,13 @@ True
 False
 ```
 
-String comparison
------------------
+## String comparison
 
 - Comparison operators are defined for strings
 - `==` checks for equality as expected
 - `<` and `>` are a little more complicated
 
-Example
--------
+## Example
 
 ```python
 >>> "cat" == "cat"
@@ -146,14 +129,12 @@ False
 False
 ```
 
-Alphabetical order
-------------------
+## Alphabetical order
 
 - Generally, comparison operators can be used to confirm whether strings are in alphabetical order
 - All uppercase letters come before all lowercase letter
 
-Example
--------
+## Example
 
 ```python
 >>> "bat" < "cat"
@@ -176,8 +157,7 @@ Create a program to print every other letter in a string
 
 Create a program to find a word in a string and print the position of the word
 
-Solution
---------
+## Solution
 
 ```python
 sentence = "the quick brown fox jumped over the lazy dog"

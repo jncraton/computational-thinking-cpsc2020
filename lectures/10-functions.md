@@ -1,22 +1,19 @@
 ---
 reading: '[PY4E: Functions](https://www.py4e.com/html3/04-functions)'
-...
+---
 
-Functions
-=========
+# Functions
 
 ---
 
 A function is a named sequence of statements that performs a computation
 
-Calling Functions
------------------
+## Calling Functions
 
 - We've already done this
 - Use the function name followed by parens containing arguments to pass
 
-Example
--------
+## Example
 
 - `int` is a function
 - It takes one argument and returns a value
@@ -25,18 +22,15 @@ Example
 num = int("42")
 ```
 
-Return value
-------------
+## Return value
 
 - The name for the value returned from a function
 
-Built-in function
------------------
+## Built-in function
 
 - Python includes many functions that we may have use for
 
-min and max
------------
+## min and max
 
 - `min` and `max` return the minimum and maximum of their arguments
 
@@ -47,8 +41,7 @@ min and max
 12
 ```
 
-Iterables
----------
+## Iterables
 
 - `min` and `max` can also operate on iterables such as strings
 
@@ -59,8 +52,7 @@ Iterables
 'r'
 ```
 
-len
----
+## len
 
 - `len` can be used to return the length of a value
 
@@ -73,8 +65,7 @@ len
 0
 ```
 
-Type conversions
-----------------
+## Type conversions
 
 - `int`, `float`, and `str` can be used to convert types
 
@@ -87,18 +78,15 @@ Type conversions
 '1.5'
 ```
 
-Modules
-=======
+# Modules
 
-math
-----
+## math
 
 - The math module can be used to access various math functions
 - `import math` can be used to create the math object used to access the module
 - A module is a file containing Python definitions and statements
 
-Dot notation
-------------
+## Dot notation
 
 - Modules contain functions and variables
 - These can be accessed using the `.` character
@@ -109,8 +97,7 @@ import math
 print(math.pi)
 ```
 
-Example
--------
+## Example
 
 ```python
 import math
@@ -124,21 +111,18 @@ angle_deg = angle_rad * 180 / math.pi
 print("Angle to top:", angle_deg)
 ```
 
-help
-----
+## help
 
 - `help` can be used to provide information about an object
 - `help(math)` provides information about available math functions
 
-random
-------
+## random
 
 - The random module provides access to pseudorandom numbers
 - These numbers will appear random, but are generated deterministically
 - They should not be used in cryptography
 
-Example
--------
+## Example
 
 ```python
 import random
@@ -147,8 +131,7 @@ import random
 print(random.random())
 ```
 
-randint
--------
+## randint
 
 - `randint` returns a random integer between bounds
 
@@ -157,8 +140,7 @@ randint
 random.randint(1, 10)
 ```
 
-choice
-------
+## choice
 
 - `choice` select one item from an iterable
 

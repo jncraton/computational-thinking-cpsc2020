@@ -1,16 +1,12 @@
-Lab 9 Review
-------------
+## Lab 9 Review
 
-Generator Expressions
-=====================
+# Generator Expressions
 
-List Comprehensions
--------------------
+## List Comprehensions
 
 - List comprehensions can be used to quickly build a new list from an existing list
 
-Example
--------
+## Example
 
 ```python
 nums = list(range(10))
@@ -19,14 +15,12 @@ odds = [n for n in nums if n % 2 == 1]
 print(odds)
 ```
 
-Generator Expressions
----------------------
+## Generator Expressions
 
 - The expression inside a list comprehension is known as a generator expression
 - These can be used in other contexts
 
-Example
--------
+## Example
 
 ```python
 nums = list(range(10))
@@ -35,15 +29,13 @@ odds = (n for n in nums if n % 2 == 1)
 print(odds)
 ```
 
-Generators
-----------
+## Generators
 
 - A `generator` object is an iterable that can only be iterated once
 - The object cannot be index like a list
 - Value are created just in time for their use
 
-Example
--------
+## Example
 
 ```python
 squares = (n*n for n in range(2, 5))
@@ -54,13 +46,11 @@ print(next(squares))
 print(next(squares))
 ```
 
-for
----
+## for
 
 - Generator expressions can be iterated using `for`
 
-Example
--------
+## Example
 
 ```python
 words = "lorem ipsum dolor sit amet".split()
@@ -71,14 +61,12 @@ for letter in first_letters:
     print(letter)
 ```
 
-Creating Dictionaries
----------------------
+## Creating Dictionaries
 
 - We can create dictionaries from pairs of values using the `dict` constructor
 - This technique can be combined with generator expressions
 
-Example
--------
+## Example
 
 ```python
 words = ["apple", "boy", "carrot"]
@@ -88,13 +76,11 @@ letter_words = dict((w[0], w) for w in words)
 print(letter_words)
 ```
 
-Dictionary Comprehension
-------------------------
+## Dictionary Comprehension
 
 - Dictionaries can be quickly created using specialized [dictionary comprehension](https://peps.python.org/pep-0274/) syntax
 
-Example
--------
+## Example
 
 ```python
 words = ["apple", "boy", "carrot"]
@@ -104,28 +90,25 @@ letter_words = {w[0]: w for w in words}
 print(letter_words)
 ```
 
-Custom Generators
------------------
+## Custom Generators
 
 - The `yield` keyword can be used to emit values from generators
 - Custom generators look like functions but maintain their state between yielding values
 
-Example
--------
+## Example
 
 ```python
 def myrange(start, stop, step):
     i = start
-    
+
     while i < stop:
         yield i
         i += step
-        
+
 for i in myrange(1, 10, 2):
     print(i)
 ```
 
-Exercise
---------
+## Exercise
 
 Create a generator that will yield every odd number that is not divisible by 5.

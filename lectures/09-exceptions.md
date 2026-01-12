@@ -1,37 +1,30 @@
-Announcements
-=============
+# Announcements
 
-Cyber Team
-----------
+## Cyber Team
 
 The Anderson Cyber Team would like to invite you to join our kickoff on September 18th at 7 PM in Decker 346. We will be serving ice cream and will be playing Wii bowling! At this gathering you can learn more about ACT and enjoy some free ice cream. Please bring yourself and your friends, we would love to see you there!
 
-Major Declaration
------------------
+## Major Declaration
 
 - [Declare your major](https://andersoncentral.etrieve.cloud/#/form/37) if you know what you planning to study
 - If you aren't sure, you may still want to declare your most likely choice
 - This allows you to access major-specific course planning and get an academic advisor in your area
 
-Lab Questions
-=============
+# Lab Questions
 
 ---
 
 Pokemon Nesting Example
 
-Exceptions
-==========
+# Exceptions
 
-Failure
--------
+## Failure
 
 - Code can fail for a variety of reasons
 - Some errors can be caught before the program is run
 - Others must be handled during runtime
 
-Example
--------
+## Example
 
 ```python
 >>> speed = input("What is the air velocity of an unladen swallow?")
@@ -41,14 +34,12 @@ What do you mean, an African or a European swallow?
 ValueError: invalid literal for int() with base 10:
 ```
 
-Exceptions
-----------
+## Exceptions
 
 - Raised when error occurs during runtime
-- Immediately ends the program with an error message*
+- Immediately ends the program with an error message\*
 
-Example
--------
+## Example
 
 ```python
 num = input("Enter a number between 1 and 10")
@@ -58,14 +49,12 @@ square = int(num) * int(num)
 print("The square of your number is:", square)
 ```
 
-Catching Exceptions
--------------------
+## Catching Exceptions
 
 - It is possible to continue execution after an exception is raised
 - This requires us to catch the exception from a `try` block
 
-Example
--------
+## Example
 
 ```python
 try:
@@ -74,15 +63,13 @@ except ValueError:
     print("Please enter a valid number")
 ```
 
-Processing Exceptions
----------------------
+## Processing Exceptions
 
 - Report the error to the user
 - Try again
 - Do something else
 
-Try again
----------
+## Try again
 
 ```python
 entry = input("Enter a number between 1 and 10")
@@ -97,8 +84,7 @@ square = num * num
 print("The square of your number is:", square)
 ```
 
-Do something else
------------------
+## Do something else
 
 ```python
 entry = input("Enter a number between 1 and 10")
@@ -113,15 +99,13 @@ square = num * num
 print("The square of your number is:", square)
 ```
 
-Catching all exceptions
------------------------
+## Catching all exceptions
 
 - By default, all exceptions are caught by except
 - This can cause problems
 - You generally want to avoid catching all exceptions
 
-Example
--------
+## Example
 
 ```python
 dividend = input("Enter dividend:")
@@ -133,14 +117,12 @@ except:
     print("You did not enter numbers.")
 ```
 
-Ignoring Exceptions
--------------------
+## Ignoring Exceptions
 
 - We should almost never ignore exceptions
 - It is possible to ignore them using `pass`
 
-Pass
-----
+## Pass
 
 ```python
 entry = input("Enter a number between 1 and 10")
@@ -154,15 +136,13 @@ square = num * num
 print("The square of your number is:", square)
 ```
 
-Pass keyword
-------------
+## Pass keyword
 
 - The `pass` keyword is valid in many places
 - It is not explicitly related to exceptions
 - It simply indicates that while a statement is expected, we don't have anything to do
 
-Example
--------
+## Example
 
 ```python
 i = 1

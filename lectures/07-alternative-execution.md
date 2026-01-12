@@ -1,14 +1,11 @@
-Alternative Execution
-=====================
+# Alternative Execution
 
-Else
-----
+## Else
 
 - We may want to run something else when the `if` check fails
 - This can be accomplished using `else`
 
-Example
--------
+## Example
 
 ```python
 if x % 2 == 0 :
@@ -21,8 +18,7 @@ else :
 
 ![else control flow diagram](https://www.py4e.com/images/if-else.svg){height=540px}
 
-Example
--------
+## Example
 
 ```python
 small_num = input("Enter a number:")
@@ -34,14 +30,12 @@ else:
     print("Your second number is too small")
 ```
 
-Chained Conditionals
---------------------
+## Chained Conditionals
 
 - We may want more than two branches of execution
 - We can chain multiple conditionals to achieve this
 
-Chained Conditionals
---------------------
+## Chained Conditionals
 
 ```python
 if x < y:
@@ -56,37 +50,32 @@ else:
 
 ![elif control flow diagram](https://www.py4e.com/images/elif.svg){height=540px}
 
-Improved printing
------------------
+## Improved printing
 
 - The print function will accept multiple items to print
 - Items must be separated by commas
 
-Print Example
--------------
+## Print Example
 
 ```python
 print("Hello world!")
 print("A few numbers: ", 1, 2, 3)
 ```
 
-Printing a name
----------------
+## Printing a name
 
 ```python
 name = input("What is your name?")
 print("Hello", name)
 ```
 
-Basic string operations
------------------------
+## Basic string operations
 
 - Concatenation can be performed using the `+` operator
 - Duplication can be performed using the `*` operator
 - Comparison can be performed using standard comparison operators
 
-Example
--------
+## Example
 
 ```python
 word1 = input("Enter a word:")

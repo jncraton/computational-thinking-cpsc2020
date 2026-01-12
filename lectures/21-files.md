@@ -1,7 +1,5 @@
 ---
 reading: '[PY4E: Files](https://www.py4e.com/html3/07-files)'
-...
-
 ---
 
 Lab Questions
@@ -12,35 +10,30 @@ Sweatshirts
 
 ---
 
-Prayer Boxes
-------------
+## Prayer Boxes
 
 - Located in Decker 346 and 351 this week
 - Write requests and leave in boxes
 - Faculty and staff will pray for these requests
 
-Midterm Grades
---------------
+## Midterm Grades
 
 - Submitted by professors tomorrow (10/22)
 - You midterm grade will be the grade that you see in Canvas
 - Reach out before tomorrow if you have questions or concerns about your grade
 
-Files
-=====
+# Files
 
 ---
 
 ![Basic Computer Architecture](https://www.py4e.com/images/arch.png)
 
-Storage
--------
+## Storage
 
 - Instructions are executed by the CPU
 - Values and variables as discussed so far live in main memory
 
-Persistence
------------
+## Persistence
 
 - Main memory is cleared when unpowered
 - Long-term storage must use secondary memory
@@ -69,15 +62,13 @@ Persistence
 
 ![NVMe SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg/320px-SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg)
 
-Files
------
+## Files
 
 - Files are the abstraction used for long-term storage
 - Files are typically organized in a hierarchy
 - Files typically have human-readable names
 
-Opening Files
--------------
+## Opening Files
 
 - The `open` function may be used to open a file
 - It requires a filename as a parameter
@@ -87,8 +78,7 @@ Opening Files
 
 ![File Handle](https://www.py4e.com/images/handle.png)
 
-Read Example
-------------
+## Read Example
 
 ```python
 file_handle = open("myfile.txt")
@@ -98,13 +88,11 @@ contents = file_handle.read()
 print(contents)
 ```
 
-Closing Files
--------------
+## Closing Files
 
 - When we are finished with a file, we should close it to free resources in our programs
 
-Close Example
--------------
+## Close Example
 
 ```python
 file_handle = open("myfile.txt")
@@ -116,8 +104,7 @@ file_handle.close()
 print(contents)
 ```
 
-Reading Closed File
--------------------
+## Reading Closed File
 
 ```python
 file_handle = open("myfile.txt")
@@ -127,36 +114,31 @@ file_handle.close()
 contents = file_handle.read() # Raises Exception
 ```
 
-Lines
------
+## Lines
 
 - Plain text may be separated into lines for easier consumption
 - Lines are separated by a special character called a newline
 - We can create a newline character in Python using a `\n` escape sequence
 
-Example
--------
+## Example
 
 ```python
 print("Line 1\nLine 2")
 ```
 
-Reading Lines
--------------
+## Reading Lines
 
 - It may be helpful to read a file one line at a time
 - Paragraphs may be represented this way in documents
 - Data formats may use lines to separate records
 
-Reading Lines
--------------
+## Reading Lines
 
 - The `readline` method will return the next line as a string value
 - The `readlines` method will return an iterable of all lines
 - The file handle can be iterated directly to operate on lines
 
-Example
--------
+## Example
 
 ```python
 handle = open("example.py")
@@ -166,8 +148,7 @@ first_line = handle.readline()
 print(first_line)
 ```
 
-Example
--------
+## Example
 
 ```python
 handle = open("example.py")
@@ -176,14 +157,12 @@ for line in handle:
     print(line, end='')
 ```
 
-Exercise
----------
+## Exercise
 
 1. Create a plain text file with numbers on each line
 2. Create a Python program that prints the sum of the numbers in the file
 
-Solution
---------
+## Solution
 
 ```python
 handle = open("myfile.txt")
@@ -191,15 +170,13 @@ handle = open("myfile.txt")
 total = 0
 for line in handle:
     total += int(line)
-    
+
 print(total)
 ```
 
-Survey Example
---------------
+## Survey Example
 
-Key Ideas
----------
+## Key Ideas
 
 - Main memory is volatile and files provide non-volatile storage
 - We can use the `open` function to get a file handle

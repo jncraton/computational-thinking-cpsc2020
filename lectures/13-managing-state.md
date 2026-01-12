@@ -1,27 +1,22 @@
-Managing State
-==============
+# Managing State
 
-Testability
------------
+## Testability
 
 - In order to test code, it helps for it to be written with tests in mind
 - Isolation of functionality is important
 
-Readability
------------
+## Readability
 
 - Code that is easier to test is often easy to read
 - Breaking code at distinct test boundaries can simplify the architecture
 
-Pure Functions
---------------
+## Pure Functions
 
 - No side effects
 - No reliance on external state
 - Always return the same output given the same inputs
 
-Pure Function
--------------
+## Pure Function
 
 ```python
 def absolute_value(x):
@@ -31,8 +26,7 @@ def absolute_value(x):
         return x
 ```
 
-Impure Function
----------------
+## Impure Function
 
 ```python
 n = 2
@@ -44,22 +38,19 @@ n = 4
 print(square())
 ```
 
-Global State
-------------
+## Global State
 
 - Global state exists for the life a program
 - Local state exists in a section of code
 - Code that references global state can be more difficult to reason about
 
-Local Variables
----------------
+## Local Variables
 
 - Are only defined within a function
 - Torn down when function terminates
 - Useful for storing temporary data
 
-Local Variable
---------------
+## Local Variable
 
 ```python
 def is_freezing(temp, unit):
@@ -67,22 +58,20 @@ def is_freezing(temp, unit):
         temp_f = temp * 9/5 + 32
     else:
         temp_f = temp
-        
+
     if temp_f < 32:
         return True
     else:
         return False
 ```
 
-Global Variable
----------------
+## Global Variable
 
 - Defined over the entire scope
 - Torn down only on program termination
 - Useful for storing global data
 
-Global Variable
----------------
+## Global Variable
 
 ```python
 def get_tip(price):
@@ -94,12 +83,11 @@ price = input("Meal price: ")
 print("Tip:", get_tip(price))
 ```
 
------
+---
 
 How would we test get_tip?
 
-State
------
+## State
 
 - Managing state is critical for creating readable code
 - Testability is enhance when we limit external state

@@ -1,23 +1,21 @@
-DFAs
-====
+# DFAs
 
-Chomsky Hierarchy
------------------
+## Chomsky Hierarchy
 
-Grammar       Automaton (Computer)
-------------- ----------------------
-Unrestricted  Turing Machines
-Context Free  Pushdown Automata
-Regular       Finite State Automata
+Grammar Automaton (Computer)
 
-Regular Languages
------------------
+---
+
+Unrestricted Turing Machines
+Context Free Pushdown Automata
+Regular Finite State Automata
+
+## Regular Languages
 
 - Are insufficient to parse most programming languages
 - Can be processed by a simple finite automaton
 
-Deterministic Finite Automaton (DFA)
-------------------------------------
+## Deterministic Finite Automaton (DFA)
 
 - Finite set of states $Q$
 - Finite set of input symbols called the alphabet $\Sigma$
@@ -25,8 +23,7 @@ Deterministic Finite Automaton (DFA)
 - Initial or start state $q_0 \in Q$
 - Set of accept states $F \subseteq Q$
 
-Drawing DFAs
-------------
+## Drawing DFAs
 
 - States are nodes on the graph
 - Start state indicated by arrow
@@ -37,18 +34,15 @@ Drawing DFAs
 
 ![DFA to accept string containing an even number of zeroes](https://upload.wikimedia.org/wikipedia/commons/9/9d/DFAexample.svg){height=540px}
 
-Regular Expressions
-===================
+# Regular Expressions
 
-Counting Characters
--------------------
+## Counting Characters
 
 - Count modifiers can be appended to character classes
 - One more more can be matched using `+`
 - Zero or more can be matched using `*`
 
-Exercise
---------
+## Exercise
 
 Create a single, concise regular expression to match a string with 0 or more `a`'s followed by at least 1 `b` followed by at least 1 `c`. Examples:
 
@@ -61,13 +55,11 @@ These should not match:
 - `acb`
 - `ac`
 
-match
------
+## match
 
 - Match will return `True` if a string matches from the beginning
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -78,13 +70,11 @@ if re.match("cat", words):
     print("The strings match")
 ```
 
-Search
-------
+## Search
 
 - We have seen that regular expressions can be used for search using `match` or `search`
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -95,14 +85,12 @@ if re.search("7", num):
     print("Number includes a 7")
 ```
 
-Data Extraction
----------------
+## Data Extraction
 
 - Regular expressions can be used to extract many matches
 - The `findall` function can be used for this purpose
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -115,22 +103,19 @@ for number in numbers:
     print(number)
 ```
 
-Metacharacters
---------------
+## Metacharacters
 
 - Certain characters, such as `.` are not matched literally
 - The full list of metachars is:
 
 `. ^ $ * + ? { } [ ] \ | ( )`
 
-Character classes
------------------
+## Character classes
 
 - We can search for groups of characters to match against a single character using `[]`
 - We can use "`-`" to indicate a range of characters
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -143,16 +128,14 @@ for email in emails:
     print(email)
 ```
 
-Common Classes
---------------
+## Common Classes
 
 - `\d` - any decimal digit
 - `\s` - any whitespace
 - `\S` - any non-whitespace
 - `\w` - any alphanumeric
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -164,13 +147,11 @@ nums = re.findall("\d+", text)
 print(nums)
 ```
 
-Fuzzy matching
---------------
+## Fuzzy matching
 
 - We can use more permissive expressions to capture values in multiple formats
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -186,13 +167,11 @@ matches = re.findall("[\d\(\)\- ]+", phone_nums)
 print(matches)
 ```
 
-Substitutions
--------------
+## Substitutions
 
 - `sub` can be used to perform regex replacements
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -210,13 +189,11 @@ cleaned = [re.sub("[ \-\(\)]", "", m) for m in matches]
 print(cleaned)
 ```
 
-Extraction
-----------
+## Extraction
 
 - Parens `()` can be used to indicate which portion of an expression to extract
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -226,13 +203,11 @@ text = "1234515a5"
 print(re.findall("(.)5", text))
 ```
 
-Exact counts
-------------
+## Exact counts
 
 - Brackets `{}` can be used to specify an exact count on the preceding character class
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -244,8 +219,7 @@ zips = re.findall("\d{5}", text)
 print(zips)
 ```
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -261,14 +235,12 @@ cities = re.findall("(.*), [A-Z]{2}", addresses)
 print(cities)
 ```
 
-Match Objects
--------------
+## Match Objects
 
 - `search` returns a match object on success
 - Groups can be extracted from the match
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -281,13 +253,11 @@ print(match.groups())
 print(match.group(1))
 ```
 
-Group 0
--------
+## Group 0
 
 - Match group `0` is always the full match
 
-Example
--------
+## Example
 
 ```python
 import re
@@ -299,8 +269,7 @@ match = re.search("b([a-z])t", text)
 print(match.group(0))
 ```
 
-More RE Information
--------------------
+## More RE Information
 
 - [RE How-to](https://docs.python.org/3/howto/regex.html)
 - [Py4E Chapter](https://www.py4e.com/html3/11-regex)
