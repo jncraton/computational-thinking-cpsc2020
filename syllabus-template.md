@@ -1,8 +1,7 @@
-Anderson University
-===================
+# CPSC 2020 Fundamentals of Computational Thinking and Problem Solving
 
-CPSC 2020 Fundamentals of Computational Thinking and Problem Solving
---------------------------------------------------------------------
+Course Number
+~ CPSC 2430
 
 !INCLUDE "head.md"
 
