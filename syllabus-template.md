@@ -1,7 +1,7 @@
 # CPSC 2020 Fundamentals of Computational Thinking and Problem Solving
 
 Course Number
-~ CPSC 2430
+~ CPSC 2020
 
 !INCLUDE "head.md"
 
