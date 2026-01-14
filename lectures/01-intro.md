@@ -57,7 +57,7 @@ Anything you want to know about me?
 
 - Talents can be developed
 - Learning requires effort
-- Mathematical skills are not "bad" in a fixed sense
+- Your math skills are not "bad" in a fixed sense
 - Skills have room to grow
 
 ## Comparison
