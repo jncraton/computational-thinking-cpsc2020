@@ -9,7 +9,7 @@ reading: '[PY4E: Intro](https://www.py4e.com/html3/01-intro)'
 ---
 
 - Professor Craton
-- Father of two kids - Josiah (2) and Benji (8)
+- Father of two kids - Josiah (3) and Benji (10)
 - My wife's name is Karin
 - We live in Anderson near campus
 
