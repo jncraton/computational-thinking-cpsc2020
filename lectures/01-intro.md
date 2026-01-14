@@ -84,4 +84,4 @@ Anything you want to know about me?
 
 ## Reading for Tomorrow
 
-[S.S. Wilson - Bicycle Technology](https://anderson.instructure.com/files/1682835/download?download_frd=1)
+[S.S. Wilson - Bicycle Technology](../resources/wilson-bicycle.pdf)
