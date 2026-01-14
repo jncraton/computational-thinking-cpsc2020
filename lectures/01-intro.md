@@ -72,7 +72,7 @@ Anything you want to know about me?
 ## Intentional Effort
 
 - Growth requires effective practice
-- Plan to put in time to learn the topics that matter to you
+- Plan to put in time to learn the topics that matter
 
 > The most dangerous way to lose time is not to spend it having fun, but to spend it doing fake work.
 >
