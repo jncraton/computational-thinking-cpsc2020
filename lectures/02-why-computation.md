@@ -33,7 +33,7 @@ Why did we read about bicycles?
 
 ---
 
-![Locomotion Efficiency](media/locomotion-efficiency.png)
+![Locomotion Efficiency](media/locomotion-efficiency.png){height=540px}
 
 ---
 
