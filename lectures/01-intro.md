@@ -31,7 +31,7 @@ Anything you want to know about me?
 ## Introductions
 
 - Name
-- Favorite place you went over the summer
+- Favorite place you went over the break
 
 ## Syllabus
 
