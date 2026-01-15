@@ -1,6 +1,6 @@
 ---
 reading: '[PY4E: Regex](https://www.py4e.com/html3/11-regex)'
----
+...
 
 ## Vacuum Lab Review
 

@@ -1,6 +1,6 @@
 ---
 reading: '[PY4E: Tuples](https://www.py4e.com/html3/10-tuples)'
----
+...
 
 ## Lab Review
 
