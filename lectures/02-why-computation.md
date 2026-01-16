@@ -12,6 +12,10 @@
 
 ---
 
+![Antikythera's harbour Potamos](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Antikythera.JPG/540px-Antikythera.JPG)
+
+---
+
 ## Antikythera Mechanism
 
 - Oldest known computer
@@ -22,6 +26,10 @@
 ---
 
 ![Model](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG/360px-Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG)
+
+---
+
+![Solar Eclipse](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Total_Solar_Eclipse_8-21-17.jpg/500px-Total_Solar_Eclipse_8-21-17.jpg){height=540px}
 
 ---
 
