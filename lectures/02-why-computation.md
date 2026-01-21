@@ -12,7 +12,7 @@
 
 ---
 
-![Antikythera's harbour Potamos](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Antikythera.JPG/540px-Antikythera.JPG)
+![Antikythera's harbor Potamos](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Antikythera.JPG/540px-Antikythera.JPG)
 
 ---
 
