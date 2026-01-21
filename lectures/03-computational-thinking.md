@@ -53,14 +53,14 @@ The professor said on Monday he would give an exam.
 
 - Provides direct instruction to the computer
 - Can be used to compute anything computable
-- This can do nearly anything 🪄
+- This can do nearly anything
 
 ## Programming
 
 - Not just for experts
 - Can be a satisfying, creative experience
 - Opens up new means for intellectual expression
-- Is basically a superpower 🦸
+- Is basically a superpower
 
 ## Programming Challenges
 
