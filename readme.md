@@ -31,19 +31,16 @@ Office
 
 Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.com/meet)
 
-Course Catalog Description
---------------------------
+## Course Catalog Description
 
 An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis on effective testing and debugging, and an introduction to the command line environment is presented.
 
-Required Resources
-------------------
+## Required Resources
 
 - [Course Lecture Notes](https://jncraton.github.io/computational-thinking-cpsc2020/lectures/)
 - [Python for Everybody](https://www.py4e.com/) (free online resource)
 
-Course Objectives
------------------
+## Course Objectives
 
 Upon completion of this course, students will be able to:
 
@@ -54,8 +51,7 @@ Upon completion of this course, students will be able to:
 - Use the command line to interact with a computer system
 - Test and debug software effectively
 
-Liberal Arts Quantitative Reasoning Objectives
-----------------------------------------------
+## Liberal Arts Quantitative Reasoning Objectives
 
 Upon completion of this course, students will be able to:
 
@@ -67,8 +63,7 @@ Upon completion of this course, students will be able to:
 6. Analyze mathematical results in order to determine the reasonableness of the solution.
 7. Clearly explain the representation, solution, and interpretation of a mathematics problem.
 
-Course Overview
----------------
+## Course Overview
 
 Please refer to Canvas for a list of assignments and detailed grading breakdown.
 
