@@ -1,4 +1,4 @@
-# CPSC 2020 Fundamentals of Computational Thinking and Problem Solving
+# Fundamentals of Computational Thinking and Problem Solving
 
 Course Number
 ~ CPSC 2020
