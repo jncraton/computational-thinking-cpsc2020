@@ -103,7 +103,7 @@ Formulating problems such that solutions can be represented as computational ste
 
 ---
 
-![Alternate conception](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Turing_machine_from_Boolos_and_Jeffrey.JPG/640px-Turing_machine_from_Boolos_and_Jeffrey.JPG)
+![Alternate representation](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Turing_machine_from_Boolos_and_Jeffrey.JPG/640px-Turing_machine_from_Boolos_and_Jeffrey.JPG)
 
 ## Instructions
 
