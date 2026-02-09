@@ -37,7 +37,7 @@ num = int("42")
 ---
 
 ```python
-name = input("Enter you name: ")
+name = input("Enter your name: ")
 ```
 
 ## min and max
