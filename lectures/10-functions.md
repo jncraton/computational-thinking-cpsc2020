@@ -112,8 +112,8 @@ print(math.pi)
 ```python
 import math
 
-dist = input("Distance to building:")
-height = input("Building height:")
+dist = input("Distance to building: ")
+height = input("Building height: ")
 
 angle_rad = math.atan(float(height) / float(dist))
 angle_deg = angle_rad * 180 / math.pi
