@@ -152,7 +152,7 @@ random.randint(1, 10)
 
 ## choice
 
-- `choice` select one item from an iterable
+- `choice` selects one item from an iterable
 
 ```python
 # Pick a, b, or c
