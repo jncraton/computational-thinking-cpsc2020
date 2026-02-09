@@ -30,6 +30,16 @@ num = int("42")
 
 - Python includes many functions that we may have use for
 
+## Input
+
+- Displays an optional prompt and returns user input
+
+---
+
+```python
+name = input("Enter you name: ")
+```
+
 ## min and max
 
 - `min` and `max` return the minimum and maximum of their arguments
