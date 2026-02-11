@@ -90,3 +90,28 @@ print(cube(2))
 
 - Functions may call themselves
 - This must be done carefully to avoid infinite recursion
+
+---
+
+```python
+def repeat(task, num_times):
+    if num_times > 0:
+        task()
+        repeat(task, num_times - 1)
+
+def greet():
+    print("Hello!")
+
+repeat(greet, 3)
+```
+
+---
+
+```python
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n-2) + fib(n - 1)
+
+print(fib(20))
+```
