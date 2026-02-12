@@ -2,16 +2,9 @@
 
 ## Exam 1
 
-- October 1
+- February 20th
 - In-class Canvas exam
 - May use a single-page, hand-written note sheet
-
-## Career Fair
-
-- October 2nd, 1pm - 3pm
-- Located in the KWC
-- Attendance is expected
-- This class will be canceled that day
 
 # Testing
 
