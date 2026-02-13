@@ -2,7 +2,7 @@
 
 ## Exam 1
 
-- February 20th
+- February 23th
 - In-class Canvas exam
 - May use a single-page, hand-written note sheet
 
