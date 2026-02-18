@@ -16,7 +16,7 @@ def get_choice():
     print("2 Deposit")
     print("3 Withdraw")
     
-    choice = get_number("Enter you choice")
+    choice = get_number("Enter your choice: ")
     
     if choice < 0 or choice > 3:
         print("That's not a valid number.")
@@ -25,15 +25,15 @@ def get_choice():
     return choice
 
 def check_balance():
-    print("Your balance is:", balance)
+    print("Your balance is: $" + str(balance))
 
 def deposit(balance):
-    amount = get_number("Enter a deposit amount:")
+    amount = get_number("Enter a deposit amount: ")
     
     return balance + amount
 
 def withdraw(balance):
-    amount = get_number("Enter a withdraw amount:")
+    amount = get_number("Enter a withdraw amount: ")
     
     return balance - amount
 
