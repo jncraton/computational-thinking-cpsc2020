@@ -149,3 +149,23 @@ while True:
 
     print(square)
 ```
+
+## Exercise
+
+[Stuck in a time loop](https://open.kattis.com/problems/timeloop)
+
+Use the following to get problem input:
+
+```python
+import sys
+
+count_to = int(sys.stdin.read())
+```
+
+## Exercise
+
+Write a program that repeatedly prompts the user to enter integers until the user enters a blank line. The program should ignore non-integer input (printing a helpful message and continuing), keep a running count and sum of the valid integers, and when the user finishes (by entering a blank line) print the count, sum, and average (use integer division only when appropriate).
+
+## Exercise
+
+Create a password-checking loop that gives the user up to three attempts to enter the correct password. If the correct password is entered, print a success message and stop. If the user fails three times, print a failure message and stop. Add input validation so that empty passwords are rejected without counting as an attempt.
