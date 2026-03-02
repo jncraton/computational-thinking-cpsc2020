@@ -2,18 +2,6 @@
 reading: '[PY4E: Iteration](https://www.py4e.com/html3/05-iterations)'
 ...
 
-## Group Advising
-
-- For first year majors
-- October 15th @ 6pm in 346
-
-## Survey Feedback
-
-- More homework or examples
-- Pacing
-- Support
-- Classroom environment
-
 # Iteration
 
 ## Assignment
