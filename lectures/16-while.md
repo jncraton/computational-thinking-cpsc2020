@@ -143,7 +143,7 @@ while True:
 
     try:
         square = int(num) ** 2
-    except:
+    except ValueError:
         print("Invalid number")
         continue
 
