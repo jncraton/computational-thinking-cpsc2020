@@ -1,0 +1,12 @@
+<textarea id=textbox></textarea>
+<p>Word Count: <output id=output /></p>
+
+<script src="countwords.js"></script>
+<script>
+function update() {
+  output.value = count_words(textbox.value)
+}
+
+textbox.addEventListener("input", update)
+update()
+</script>
