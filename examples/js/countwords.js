@@ -1,4 +1,4 @@
-function count_word(text) {
+function count_words(text) {
   let count = 0
   let in_whitespace = true
 
@@ -14,6 +14,6 @@ function count_word(text) {
   return count
 }
 
-console.assert(count_word("Hello world") == 2)
-console.assert(count_word("   extra   spaces   ") == 2)
-console.assert(count_word("") == 0)
+console.assert(count_words("Hello world") == 2)
+console.assert(count_words("   extra   spaces   ") == 2)
+console.assert(count_words("") == 0)
