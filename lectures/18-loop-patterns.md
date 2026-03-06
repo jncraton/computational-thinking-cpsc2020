@@ -70,6 +70,10 @@ mean = sum(nums) / len(nums)
 print("Mean:", mean)
 ```
 
+## Word Count
+
+How can we count the words in a string?
+
 ## Maximum and Minimum
 
 - Sometimes we want to compare one value to others
