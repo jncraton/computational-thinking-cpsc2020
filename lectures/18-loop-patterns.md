@@ -1,8 +1,6 @@
-Loop Patterns
-=============
+# Loop Patterns
 
-Construction
----
+## Construction
 
 ---
 
