@@ -74,6 +74,10 @@ print("Mean:", mean)
 
 How can we count the words in a string?
 
+---
+
+![State diagram](media/countwords-states.svg)
+
 ## Maximum and Minimum
 
 - Sometimes we want to compare one value to others
