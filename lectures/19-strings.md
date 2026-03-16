@@ -2,11 +2,6 @@
 reading: '[PY4E: Strings](https://www.py4e.com/html3/06-strings)'
 ...
 
-## Group Advising
-
-- For first year majors
-- October 15th @ 6pm in 346
-
 # Strings
 
 ## Definition
