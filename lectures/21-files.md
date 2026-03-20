@@ -2,26 +2,6 @@
 reading: '[PY4E: Files](https://www.py4e.com/html3/07-files)'
 ...
 
-Lab Questions
-
----
-
-Sweatshirts
-
----
-
-## Prayer Boxes
-
-- Located in Decker 346 and 351 this week
-- Write requests and leave in boxes
-- Faculty and staff will pray for these requests
-
-## Midterm Grades
-
-- Submitted by professors tomorrow (10/22)
-- You midterm grade will be the grade that you see in Canvas
-- Reach out before tomorrow if you have questions or concerns about your grade
-
 # Files
 
 ---
