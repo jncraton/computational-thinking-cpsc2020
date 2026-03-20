@@ -20,11 +20,11 @@ reading: '[PY4E: Files](https://www.py4e.com/html3/07-files)'
 
 ---
 
-![DRAM](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Pair32mbEDO-DRAMdimms.jpg/503px-Pair32mbEDO-DRAMdimms.jpg)
+![DRAM](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Pair32mbEDO-DRAMdimms.jpg/960px-Pair32mbEDO-DRAMdimms.jpg){height=540px}
 
 ---
 
-![Laptop HDD](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Laptop-hard-drive-exposed.jpg/627px-Laptop-hard-drive-exposed.jpg)
+![Laptop HDD](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Laptop-hard-drive-exposed.jpg/960px-Laptop-hard-drive-exposed.jpg){height=540px}
 
 ---
 
@@ -32,15 +32,15 @@ reading: '[PY4E: Files](https://www.py4e.com/html3/07-files)'
 
 ---
 
-![SATA SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2023_Dysk_SSD_Patriot_P210_2TB.jpg/622px-2023_Dysk_SSD_Patriot_P210_2TB.jpg)
+![SATA SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2023_Dysk_SSD_Patriot_P210_2TB.jpg/960px-2023_Dysk_SSD_Patriot_P210_2TB.jpg){height=540px}
 
 ---
 
-![mSATA SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Intel_525_mSATA_SSD.jpg/305px-Intel_525_mSATA_SSD.jpg)
+![mSATA SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Intel_525_mSATA_SSD.jpg/960px-Intel_525_mSATA_SSD.jpg){height=540px}
 
 ---
 
-![NVMe SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg/320px-SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg)
+![NVMe SSD](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg/960px-SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg){height=540px}
 
 ## Files
 
@@ -153,8 +153,6 @@ for line in handle:
 
 print(total)
 ```
-
-## Survey Example
 
 ## Key Ideas
 
