@@ -147,8 +147,8 @@ False
 
 ## Inferred indices
 
-- If a start index is left out, it is assumed to be zero
-- If an end index is left out, it is assumed to be negative 1
+- If a start index is left out, it is assumed to be the start
+- If an end index is left out, it is assumed to be the end
 
 ## Example
 
