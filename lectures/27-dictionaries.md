@@ -6,8 +6,6 @@ reading: '[PY4E: Dictionaries](https://www.py4e.com/html3/09-dictionaries)'
 
 ## List
 
--
-
 - Lists map numbers to values
 - Lists are _dense_, meaning numbers from 0 up to the list length all map to a value
 
