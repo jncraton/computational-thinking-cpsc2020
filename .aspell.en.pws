@@ -1,6 +1,7 @@
-personal_ws-1.1 en 108 
+personal_ws-1.1 en 116 
 Advanded
 Algorthm
+Anthropic
 Antikythera
 Antikythera's
 Automata
@@ -10,6 +11,7 @@ CLI
 CONspiracy
 CPSC
 CSSCD
+Carlini
 ChatGPT
 Cli
 Colab
@@ -25,6 +27,7 @@ Edsger
 Falsy
 GPUs
 Genesys
+Glasswing
 Groucho
 Hashability
 Hashable
@@ -39,9 +42,12 @@ Langugage
 LeetCode
 MacOS
 Metacharacters
+Mythos
+NFSv
 NVMe
 NaN
 OSBoxes
+OpenBSD
 Potamos
 Powershell
 Pushdown
@@ -55,6 +61,7 @@ SLOC
 SSD
 Sayre
 Shedd
+TCP
 Testability
 VM
 ValueError
@@ -81,6 +88,7 @@ mSATA
 metachars
 natively
 nd
+nfsd
 numerics
 param
 paramN
