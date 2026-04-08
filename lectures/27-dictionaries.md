@@ -2,6 +2,38 @@
 reading: '[PY4E: Dictionaries](https://www.py4e.com/html3/09-dictionaries)'
 ...
 
+# Vulnerability Research
+
+---
+
+[Ignore TCP SACK packets with invalid sequence numbers](https://github.com/openbsd/src/commit/0e8206e596add74fef1653b4472de6b3723c435f)
+
+---
+
+[nfsd: fix heap overflow in NFSv4.0 LOCK replay cache](https://github.com/torvalds/linux/commit/5133b61aaf437e5f25b1b396b14242a6bb0508e2)
+
+---
+
+What do these fixes have in common?
+
+---
+
+> I’ve found more bugs in the last couple of weeks than I found in the rest of my life combined. [...] For OpenBSD, we found a bug that’s been present for 27 years, where I can send a couple of pieces of data to any OpenBSD server and crash it.
+
+[Nicholas Carlini (Anthropic)](https://www.youtube.com/watch?v=INGOC6-LLv0)
+
+---
+
+> Mythos Preview has already found thousands of high-severity vulnerabilities, including some in every major operating system and web browser. Given the rate of AI progress, it will not be long before such capabilities proliferate, potentially beyond actors who are committed to deploying them safely.
+
+[Project Glasswing](https://www.anthropic.com/glasswing)
+
+---
+
+> I think we’re living in the last fleeting moments where there’s any uncertainty that AI agents will supplant most human vulnerability research. Enjoy it, if that’s your thing, while you can. It’s not going to last.
+
+
+
 # Dictionaries
 
 ## List
