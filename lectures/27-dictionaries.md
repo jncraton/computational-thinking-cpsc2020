@@ -32,8 +32,6 @@ What do these fixes have in common?
 
 > I think we’re living in the last fleeting moments where there’s any uncertainty that AI agents will supplant most human vulnerability research. Enjoy it, if that’s your thing, while you can. It’s not going to last.
 
-
-
 # Dictionaries
 
 ## List
