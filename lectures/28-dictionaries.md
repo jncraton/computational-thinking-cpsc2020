@@ -40,5 +40,7 @@ for key in d:
 ## Working Problems
 
 - Professional developers will frequently be asked to solve simple programming tasks in interviews
-- It is important to practice these sorts of problems
-- Example problems: [LeetCode](https://leetcode.com/problemset/all/), [Project Euler](https://projecteuler.net/archives)
+- Example problems
+  - [Kattis](https://open.kattis.com/)
+  - [LeetCode](https://leetcode.com/problemset/all/)
+  - [Project Euler](https://projecteuler.net/archives)
