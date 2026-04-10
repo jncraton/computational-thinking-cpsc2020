@@ -39,8 +39,6 @@ for key in d:
 
 ## Working Problems
 
-- Professional developers will frequently be asked to solve simple programming tasks in interviews
-- Example problems
-  - [Kattis](https://open.kattis.com/)
-  - [LeetCode](https://leetcode.com/problemset/all/)
-  - [Project Euler](https://projecteuler.net/archives)
+- Developers will commonly be asked to solve simple programming tasks in interviews
+- Spending time solving problems is an effective way to learn computation thinking
+- Problem sets: [Kattis](https://open.kattis.com/), [LeetCode](https://leetcode.com/problemset/all/), [Project Euler](https://projecteuler.net/archives)
