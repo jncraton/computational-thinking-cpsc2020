@@ -134,9 +134,9 @@ print(smaller < larger)
 ## DSU Pattern
 
 - Uses tuples for sorting items
-- Decorate items using a sort key
-- Sort items
-- Undecorate the items by removing the sort key
+  - Decorate items using a sort key
+  - Sort items
+  - Undecorate the items by removing the sort key
 
 ## Exercise
 
