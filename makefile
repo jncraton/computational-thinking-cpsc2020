@@ -1,6 +1,6 @@
 SHELL := bash -O nullglob
 
-all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html
+all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html skill
 
 .PHONY: clean lectures
 
@@ -83,7 +83,7 @@ examples/index.html:
 	cd examples && tree -H '.' -L 2 --noreport --charset utf-8 -P "*" | sponge index.html
 
 lectures/reveal.js:
-	cd lectures && git clone --depth=1 --branch 5.2.0 https://github.com/hakimel/reveal.js
+	wget -qO- https://github.com/hakimel/reveal.js/archive/refs/tags/5.2.1.tar.gz | tar -xz -C lectures --transform='s|^reveal.js-5.2.1|reveal.js|'
 
 update:
 	wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.gitignore \
@@ -119,6 +119,13 @@ update:
 	rm -f requirements.txt formats.md
 
 	make readme.md
+
+skill:
+	mkdir -p skill/references/lectures
+	cp lectures/*.md skill/references/lectures
+	cd skill && zip -r course.skill .
+	mv skill/*.skill .
+	rm -rf skill/references/lectures
 
 format:
 	npx prettier@3.6.2 --write **.md style.css
