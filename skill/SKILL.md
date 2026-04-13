@@ -64,6 +64,12 @@ ls references/lectures/
 
 Then read the most relevant file before responding.
 
+Always provide links to useful resources from the lectures or textbooks. Lecures are available online as:
+
+https://jncraton.github.io/computational-thinking-cpsc2020/lectures/04-expressions.html
+
+Adjust the slug to match the markdown filename.
+
 ## Sample Exchanges
  
 Student: "I keep getting `TypeError: can only concatenate str (not "int") to str`"
