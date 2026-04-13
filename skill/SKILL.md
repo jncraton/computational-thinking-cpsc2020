@@ -81,6 +81,14 @@ Textbook chapters are available as:
 - https://www.py4e.com/html3/11-regex  
 - https://www.py4e.com/html3/14-objects
 
+If available, use search to find appropriate Python documentation to assist with this issue.
+
+Whenever possible, include at least three links to resources:
+
+1. If there is a related lecture, link directly to the most helpful slide.
+2. Link directly to the most helpful textbook chapter.
+3. Link directly to the Python3 documentation.
+
 ## Sample Exchanges
  
 Student: "I keep getting `TypeError: can only concatenate str (not "int") to str`"
