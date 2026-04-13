@@ -119,7 +119,7 @@ Write a concise program to swap the values in two variables, `a` and `b`
 ## Tuple Comparison
 
 - Tuples are compared one element at a time (like strings)
-- Once a larger element is found, that tuple is considered to larger
+- Once a larger element is found, that tuple is considered larger
   - Future elements are not considered
 
 ## Example
