@@ -100,6 +100,7 @@ update:
 	           https://raw.githubusercontent.com/jncraton/course-template/master/revealjs-template.html \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_lecture_index.py \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_skill.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
 
 	mkdir -p .github/workflows
@@ -121,14 +122,10 @@ update:
 	make readme.md
 
 skill:
-	mkdir -p skill/references/lectures
-	cp lectures/[0-9]*.md skill/references/lectures
-	cd skill && zip -r course.skill .
-	mv skill/*.skill .
-	rm -rf skill/references/lectures
+	python3 gen_skill.py
 
 format:
-	npx prettier@3.6.2 --write **.md style.css
+	npx prettier@3.6.2 --write style.css
 	pipx run --spec black==25.12.0 black gen_lecture_index.py gen_dates.py
 
 clean:
@@ -141,7 +138,7 @@ clean:
 	rm -rf figures
 	rm -rf __pycache__
 	rm -f netlifyctl
-	rm -f course.skill
+	rm -f course-assistant.skill
 	rm -rf revealjs
 	rm -rf lectures/reveal.js
 	rm -f readme-template.md
