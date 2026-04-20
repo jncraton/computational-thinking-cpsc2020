@@ -1,5 +1,3 @@
-## Lab 9 Review
-
 # Generator Expressions
 
 ## List Comprehensions
