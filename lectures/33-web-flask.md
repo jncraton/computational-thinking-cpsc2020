@@ -66,13 +66,13 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/page1")
+@app.route("/pages/1")
 def page1():
-    return "Page 1 <a href=/page2>Go to page 2</a>"
+    return "Page 1 <a href=/pages/2>Go to page 2</a>"
 
-@app.route("/page2")
+@app.route("/pages/2")
 def page2():
-    return "Page 2 <a href=/page1>Go to page 1</a>"
+    return "Page 2 <a href=/pages/1>Go to page 1</a>"
 ```
 
 ## Form Example
