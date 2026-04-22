@@ -24,6 +24,10 @@ reading: '[Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickst
 - Hypertext transfer protocol
 - Provides a mechanism to request hypertext documents from remote systems
 
+---
+
+![HTTP](https://mdn.github.io/shared-assets/images/diagrams/http/overview/fetching-a-page.svg){height=540px}
+
 ## Flask
 
 - Python package to implement HTTP servers
