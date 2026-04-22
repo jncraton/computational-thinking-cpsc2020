@@ -1,5 +1,3 @@
-## Project Overview
-
 # Web Applications
 
 ## Local Applications
