@@ -1,3 +1,7 @@
+---
+reading: '[Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)'
+...
+
 # Web Applications
 
 ## Local Applications
