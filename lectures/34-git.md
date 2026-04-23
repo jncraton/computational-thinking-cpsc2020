@@ -1,8 +1,3 @@
-## Cyber Team Tonight
-
-- Professor Craton will be talking about applications of AI
-- 7 pm in Decker 346
-
 # Git
 
 ## Software Size
