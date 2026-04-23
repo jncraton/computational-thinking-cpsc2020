@@ -97,3 +97,5 @@ Changes to be committed:
 ---
 
 ![Git areas](https://git-scm.com/book/en/v2/images/areas.png)
+
+## Hosted Repositories
