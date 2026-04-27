@@ -1,3 +1,7 @@
+---
+reading: '[Git Tutorial](https://git-scm.com/docs/gittutorial)'
+...
+
 # Git
 
 ## Software Size
