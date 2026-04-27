@@ -103,3 +103,10 @@ Changes to be committed:
 ![Git areas](https://git-scm.com/book/en/v2/images/areas.png)
 
 ## Hosted Repositories
+
+- Entire repositories can be duplicated and shared
+
+## Remotes
+
+- Link repositories together
+- New changes can be shared with `push` or `pull`
