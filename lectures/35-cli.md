@@ -1,3 +1,7 @@
+---
+reading: '[Simple BASH Commands](https://en.wikibooks.org/wiki/Bash_Shell_Scripting/Simple_Commands)'
+...
+
 ## Advent of Code
 
 - Advent calendar of small programming puzzles
