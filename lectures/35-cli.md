@@ -101,3 +101,24 @@ Run thonny using Bash:
 ```bash
 > thonny
 ```
+
+## Creating scripts
+
+- Begin with shebang: `#!`
+- Launch appropriate interpretter
+
+## Bash example
+
+```bash
+#!/bin/bash
+
+echo "Hello, world"
+```
+
+## Python example
+
+```python
+#!/usr/bin/python3
+
+print("Hello, world")
+```
