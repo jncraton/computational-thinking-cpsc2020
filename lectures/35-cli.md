@@ -56,11 +56,15 @@ reading: '[Simple BASH Commands](https://en.wikibooks.org/wiki/Bash_Shell_Script
 
 ## Command Format
 
-    Prompt command param1 param2 … paramN
-
 - Commands are generally entered following a prompt
 - Commands may be internal or call an external program
 - Parameters are provides by the user for the command
+
+## Example
+
+```sh
+> command param1 param2 … paramN
+```
 
 ## Working Directory
 
