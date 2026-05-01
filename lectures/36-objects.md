@@ -2,10 +2,6 @@
 reading: '[PY4E: Objects](https://www.py4e.com/html3/14-objects)'
 ...
 
-## Lab 11 Review
-
----
-
 # Objects
 
 ## What is an object?
