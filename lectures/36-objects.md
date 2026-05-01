@@ -117,3 +117,7 @@ print(l.feet)
 
 - The first argument passed to a method will be a reference to the object instance
 - `self` is chosen as the name for this parameter by convention
+
+## Object-oriented programming
+
+- Classes an objects create abstractions for bundling data and behavior
