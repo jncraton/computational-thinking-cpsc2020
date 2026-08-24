@@ -4,7 +4,7 @@ Course Number
 ~ CPSC 2020
 
 Term
-~ Spring 2026
+~ Fall 2026
 
 Instructor
 ~ Jon Craton
@@ -15,32 +15,35 @@ Email
 ## Office hours
 
 Monday
-~ 11am - noon, 2pm - 3:30pm
+~ 11am - 12:00pm, 2:00pm - 3:30pm
 
 Tuesday
-~ 9am - 11am, 2pm - 3:30pm
+~ 10:00am - 11:00am, 2:00pm - 3:30pm
 
 Wednesday
-~ 11am - noon
+~ 10:00am - 12:00pm
 
-Friday
-~ 11am - noon
+Thursday
+~ 11:00am - 12:00pm
 
 Office
 ~ Decker 305
 
 Schedule a meeting during office hours: [joncraton.com/meet](https://joncraton.com/meet)
 
-## Course Catalog Description
+Course Catalog Description
+--------------------------
 
 An introduction to concepts in the field of computer science, the skills of computational thinking, and the craft of computer programming. Topics include a survey of problem-solving and algorithm development, data types and variables, collections, control-of-flow structures, methods and parameters, file processing, and objects. Emphasis on effective testing and debugging, and an introduction to the command line environment is presented.
 
-## Required Resources
+Required Resources
+------------------
 
 - [Course Lecture Notes](https://jncraton.github.io/computational-thinking-cpsc2020/lectures/)
 - [Python for Everybody](https://www.py4e.com/) (free online resource)
 
-## Course Objectives
+Course Objectives
+-----------------
 
 Upon completion of this course, students will be able to:
 
@@ -51,7 +54,8 @@ Upon completion of this course, students will be able to:
 - Use the command line to interact with a computer system
 - Test and debug software effectively
 
-## Liberal Arts Quantitative Reasoning Objectives
+Liberal Arts Quantitative Reasoning Objectives
+----------------------------------------------
 
 Upon completion of this course, students will be able to:
 
@@ -63,7 +67,8 @@ Upon completion of this course, students will be able to:
 6. Analyze mathematical results in order to determine the reasonableness of the solution.
 7. Clearly explain the representation, solution, and interpretation of a mathematics problem.
 
-## Course Overview
+Course Overview
+---------------
 
 Please refer to Canvas for a list of assignments and detailed grading breakdown.
 
@@ -122,17 +127,15 @@ As an institution of higher education committed to academic and Christian discov
 
 Professional software development often involves collaboration and the use of various external resources. Nevertheless, each contributor is responsible for ensuring the quality and accuracy of their contributions. Students must take full responsibility for their submitted work, regardless of any external resources or tools used to complete the work. Students should only submit work that would be considered their own in a professional setting.
 
-The use of [generative artificial intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) tools must adhere to ethical standards and uphold academic integrity. While AI tools can be useful for coding assistance, they should not replace the learning experience of practicing coding skills. Therefore, excessive reliance on such tools without proper understanding is considered academic dishonesty.
-
-In general, [intelligent code completion](https://en.wikipedia.org/wiki/Intelligent_code_completion) and utilizing large language models to aid in programming problems is appropriate on lab assignments. However, students must demonstrate comprehension and ownership of their submitted work. If a student cannot fully understand or explain their code, they must not submit it as their own.
+The use of [generative artificial intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) tools must adhere to ethical standards and uphold academic integrity. While AI tools can be useful for coding assistance, they should not replace the learning experience of practicing coding skills. Therefore, excessive reliance on such tools without proper understanding is considered academic dishonesty. Students must demonstrate comprehension and ownership of their submitted work. If a student cannot fully understand or explain their code, they must not submit it as their own.
 
 ## Academic Support Statements
 
 ### Accessibility and Accommodations
 
-Important: If you have any special accessibility needs (i.e. use of screen reading software, captioning, etc.), please notify your professor and the Director of Student Accessibility Services (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4223) as soon as possible.
+If you have any special accessibility needs (i.e. use of screen-reading software, captioning, etc.), it is important that you notify your professor and the Director of Student Accessibility Services & Academic Support (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4226) as soon as possible.
 
-If you anticipate or experience physical or academic barriers based on disability, you are encouraged to contact the Director of Student Accessibility Services (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4223). To receive reasonable accommodations, you must contact Student Accessibility Services, provide documentation, and request accommodations. You should also notify your course instructor during the first week of classes.
+If you anticipate or experience physical or academic barriers based on disability, you are strongly encouraged to contact the Director of Accessibility & Academic Support (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4226). To receive reasonable accommodations, you must contact Student Accessibility Services, provide documentation, and request accommodations. You should also notify your course instructor during the first week of classes.
 
 ### Kissinger Academic Center for Excellence
 
