@@ -15,7 +15,7 @@ reading: '[Simple BASH Commands](https://en.wikibooks.org/wiki/Bash_Shell_Script
 
 ---
 
-![Teletype](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TTY33ASR.jpg/500px-TTY33ASR.jpg)
+![Teletype](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TTY33ASR.jpg/500px-TTY33ASR.jpg){height=540px}
 
 ## Terminal
 
@@ -25,7 +25,7 @@ reading: '[Simple BASH Commands](https://en.wikibooks.org/wiki/Bash_Shell_Script
 
 ---
 
-![Computer Terminal](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/DEC_VT100_terminal_transparent.png/960px-DEC_VT100_terminal_transparent.png){height=540px}
+![Computer Terminal](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/DEC_VT100_terminal_transparent.png/500px-DEC_VT100_terminal_transparent.png){height=540px}
 
 ## Python REPL
 

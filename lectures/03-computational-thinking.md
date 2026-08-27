@@ -99,11 +99,11 @@ Formulating problems such that solutions can be represented as computational ste
 
 ---
 
-![Example machine](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Turing_Machine_Model_Davey_2012.jpg/640px-Turing_Machine_Model_Davey_2012.jpg)
+![Example machine](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Turing_Machine_Model_Davey_2012.jpg/500px-Turing_Machine_Model_Davey_2012.jpg){height=540px}
 
 ---
 
-![Alternate representation](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Turing_machine_from_Boolos_and_Jeffrey.JPG/640px-Turing_machine_from_Boolos_and_Jeffrey.JPG)
+![Alternate representation](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Turing_machine_from_Boolos_and_Jeffrey.JPG/500px-Turing_machine_from_Boolos_and_Jeffrey.JPG){height=540px}
 
 ## Instructions
 

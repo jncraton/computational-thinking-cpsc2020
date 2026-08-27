@@ -8,11 +8,11 @@
 
 ---
 
-![Antikythera mechanism](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg/538px-NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg)
+![Antikythera mechanism](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg/500px-NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg){height=540px}
 
 ---
 
-![Antikythera's harbor Potamos](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Antikythera.JPG/540px-Antikythera.JPG)
+![Antikythera's harbor Potamos](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Antikythera.JPG/500px-Antikythera.JPG){height=540px}
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-![Model](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG/360px-Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG)
+![Model](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG/500px-Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG){height=540px}
 
 ---
 
