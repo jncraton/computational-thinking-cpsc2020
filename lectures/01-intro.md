@@ -31,6 +31,7 @@ Anything you want to know about me?
 ## Introductions
 
 - Name
+- Major
 - Favorite place you went over the break
 
 ## Syllabus
