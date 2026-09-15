@@ -88,3 +88,10 @@ elif word1 > word2:
 else:
     print(word1, "and", word2, "are the same word")
 ```
+
+## Exercise
+
+- Ask the user for a word and a number
+- If the number is positive, print the word repeated that many times
+- If the number is negative, print "Please enter a positive number"
+- If the number is zero, print "Printed zero times"
