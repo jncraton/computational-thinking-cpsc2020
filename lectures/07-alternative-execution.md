@@ -8,9 +8,9 @@
 ## Example
 
 ```python
-if x % 2 == 0 :
+if x % 2 == 0:
     print('x is even')
-else :
+else:
     print('x is odd')
 ```
 
