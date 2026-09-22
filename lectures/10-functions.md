@@ -90,6 +90,34 @@ name = input("Enter your name: ")
 
 # Modules
 
+## power
+
+- The `**` operator can be used to raise a value to a power
+
+```python
+print(3**2) # 9
+print(2**4) # 16
+print(3**5) # 243
+```
+
+## sine
+
+Can be approximately calculated using the [Taylor series](https://en.wikipedia.org/wiki/Taylor_series):
+
+$$\sin(x) \approx x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\frac{x^9}{9!}$$
+
+`x` is in radians.
+
+---
+
+```python
+x = float(input("Enter an angle in radians: "))
+
+sine = x - (x ** 3 / 6) + (x ** 5 / 120) - (x ** 7 / 5040) + (x ** 9 / 362880)
+
+print("Estimated sine:", sine)
+```
+
 ## math
 
 - The math module can be used to access various math functions
