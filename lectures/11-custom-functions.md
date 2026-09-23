@@ -107,6 +107,14 @@ repeat(greet, 3)
 
 ---
 
+![Fibonacci Sequence](https://upload.wikimedia.org/wikipedia/commons/1/15/Fibonacci_Squares.svg){height=540px}
+
+---
+
+![Shell](https://www.goldennumber.net/wp-content/uploads/2013/08/nautilus-spiral-vs-golden-spiral.gif)
+
+---
+
 ```python
 def fib(n):
     if n <= 1:
