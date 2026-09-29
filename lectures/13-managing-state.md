@@ -1,3 +1,18 @@
+# Important Dates
+
+## Exam 1
+
+- October 6th
+- In-class Canvas exam
+- May use a single-page, hand-written note sheet
+
+## Career Fair
+
+- Wednesday, September 30 from 12:00-3:00 p.m.
+- KWC
+- Classes are canceled during this time
+- Bonus quiz
+
 # Managing State
 
 ## Testability
