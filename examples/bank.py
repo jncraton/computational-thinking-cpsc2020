@@ -10,7 +10,7 @@ def get_number(msg):
     return choice
 
 def get_choice():
-    print("Welcome to you bank!")
+    print("Welcome to your bank!")
     print("What would you like to do?")
     print("1 Check balance")
     print("2 Deposit")
