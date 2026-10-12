@@ -153,11 +153,3 @@ while True:
 ## Exercise
 
 [Stuck in a time loop](https://open.kattis.com/problems/timeloop)
-
-Use the following to get problem input:
-
-```python
-import sys
-
-count_to = int(sys.stdin.read())
-```
