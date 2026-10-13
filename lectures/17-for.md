@@ -52,6 +52,10 @@ print(count)
 
 ## Sum of digits in a number
 
+- Get a number from a user with `input`
+- Print a sum of the individual digits
+- Take five minutes to try this on your own 😀
+
 ## Solution
 
 ```python
