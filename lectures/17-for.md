@@ -56,6 +56,8 @@ print(count)
 - Print a sum of the individual digits
 - Take five minutes to try this on your own 😀
 
+<!--
+
 ## Solution
 
 ```python
@@ -68,6 +70,8 @@ for digit in num:
 
 print("The digits sum to", total)
 ```
+
+-->
 
 ## Word counter
 
