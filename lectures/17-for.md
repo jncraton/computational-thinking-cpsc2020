@@ -1,3 +1,17 @@
+# Survey
+
+---
+
+> It might be helpful for a mini real life application explanation. I struggle to understand the connection between what I am learning and how it is used in the real world.
+
+---
+
+> There could be one other time each week separate from the lab where during the notes, you have a quick 5 minute coding exercise for us to do on our own. Just to make sure that we're understanding what we're learning in real time.
+
+---
+
+> I kinda struggle with is keeping up with the lectures, trying to write down notes and do the examples on Thonny alongside you, and I quickly fall behind and check out sometimes.
+
 # Definite Iteration
 
 ## Definite Iteration
