@@ -2,8 +2,6 @@
 
 ## Construction
 
----
-
 - Initialize variable before the loop starts
 - Perform computation on each loop item
 - Examine variable after the loop completes
