@@ -76,7 +76,7 @@ How can we count the words in a string?
 
 ---
 
-![State diagram](media/countwords-states.svg)
+![State diagram](media/countwords-states.svg){height=540px}
 
 ## Maximum and Minimum
 
