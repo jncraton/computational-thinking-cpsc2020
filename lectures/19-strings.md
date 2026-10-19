@@ -9,6 +9,10 @@ reading: '[PY4E: Strings](https://www.py4e.com/html3/06-strings)'
 - A string is a sequence of characters
 - String literals can be created using single or double quotes
 
+---
+
+![A String](https://upload.wikimedia.org/wikipedia/commons/5/5e/String_example.svg){height=540px}
+
 ## Valid Strings
 
 ```python
