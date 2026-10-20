@@ -6,9 +6,11 @@ prompt = input("Enter prompt: ").strip() + " "
 
 while True:
     for n in range(min(20, len(prompt)), 1, -1):
-        location = corpus.find(prompt[-n:], random.randrange(len(corpus)))
+        search_start = random.randrange(len(corpus))
+        location = corpus.find(prompt[-n:], search_start)
         
         if location != -1:
-            prompt += corpus[location+n:].split()[0] + " "
-            print(prompt.split()[-1] + " ", end="")
+            next_word = corpus[location+n:].split()[0] + " "
+            prompt += next_word
+            print(next_word + " ", end="")
             break
