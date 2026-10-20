@@ -1,169 +1,171 @@
+---
+reading: '[PY4E: Tuples](https://www.py4e.com/html3/10-tuples)'
+...
+
 # Tuples
 
-## Dictionary Items
+## Container Types
 
-- `items` can be used to get keys and values from a dictionary
+- Strings contain a sequence of characters
+- Lists contain a sequence of values of any type
+- Dictionaries contain values of any type indexed by key
 
-## Example
+## Tuples
 
-```python
-runtimes = {
-    "The Fellowship of the Ring": 178,
-    "The Two Towers": 179,
-    "The Return of the King": 201,
-}
+- Tuples contain a sequence of values
+- Values may be any type
 
-for kv_tuple in runtimes.items():
-    print(kv_tuple)
-```
+## Tuple Creation
 
-## Destructuring and for
-
-- Destructuring can be used to assign multiple variables in a `for` loop
-
-```python
-runtimes = {
-    "The Fellowship of the Ring": 178,
-    "The Two Towers": 179,
-    "The Return of the King": 201,
-}
-
-for movie, runtime in runtimes.items():
-    print(f"{movie} is {runtime} minutes")
-```
-
-## enumerate
-
-- [enumerate](https://docs.python.org/3/library/functions.html#enumerate) can be used to add a count to iterable items
-- The return value from enumerate is an iterable of (count, value) tuples
+- Tuples are created as comma-separated values
 
 ## Example
 
 ```python
-alphabet = "abcdefghijklmnopqrstuvwxyz"
+t = 1, 2
 
-print(list(enumerate(alphabet)))
+print(t)
 ```
 
-## Enumeration Loops
+## Small Tuples
 
-- Enumeration can be used to avoid manual loops counters in certain loops
+- A one-item tuple can be created using a trailing comma `t = 1,`
+- An empty tuple may be created using the `tuple` constructor or empty parens (`()`)
 
 ## Example
 
 ```python
-alphabet = "abcdefghijklmnopqrstuvwxyz"
+single = "a",
+print(single)
 
-for letter in enumerate(alphabet):
-    print(letter)
+empty = tuple()
+print(empty)
+
+empty = ()
+print(empty)
+```
+
+## Tuple constructor
+
+- The `tuple` constructor can also be used to convert other types into tuples
+
+## Example
+
+```python
+letters = tuple("Hello")
+
+print(letters)
+```
+
+## Tuple Features
+
+- Indexing works like lists for the most part
+- Assigning via index is not allowed (like strings)
+
+## Example
+
+```python
+t = "a", "b", "c"
+
+print(t[1])
+
+t[1] = "x"
+```
+
+## Immutability
+
+- The container itself is immutable
+- Mutable values (such as lists) can still be modified
+
+## Example
+
+```python
+t = ("A", [1, 2])
+
+print(t)
+
+t[1].append(3)
+
+print(t)
+```
+
+## Destructuring Assignment
+
+- A destructuring assignment can be used to assign multiple values at once
+- The right hand side must be the same length as the left hand side
+
+## Example
+
+```python
+a, b = (1, 2)
+
+print(a)
+print(b)
+```
+
+## Example
+
+```python
+word1, word2 = "Hello world".split()
+
+print(word1)
+print(word2)
 ```
 
 ## Exercise
 
-Use `enumerate` to print only the letters with an even-numbered index in a string.
+Write a concise program to swap the values in two variables, `a` and `b`
 
-<!--
+## Tuple Comparison
 
-```python
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-
-for i, letter in enumerate(alphabet):
-    if i % 2 == 0:
-        print(letter)
-```
-
--->
-
-## Modifying Lists Items
-
-- Enumeration can be helpful if we need a reference to list items during iteration
+- Tuples are compared one element at a time (like strings)
+- Once a larger element is found, that tuple is considered larger
+  - Future elements are not considered
 
 ## Example
 
 ```python
-nums = [1, 2, 3, 4, 5, 6, 7, 8]
+smaller = (1, 3, 1000)
+larger = (1, 4, 0)
 
-for i, num in enumerate(nums):
-    # Multiply every other value by 10
-    if i % 2 == 0:
-        nums[i] *= 10
-
-print(nums)
+print(smaller < larger)
 ```
 
-## Iterating multiple lists
+## DSU Pattern
 
-- It can be helpful to iterate multiple lists at the same time
-- This can be accomplished with an index
-
-## Example
-
-```python
-names = ["Jordan", "Pam", "John"]
-ages = ["19", "24", "23"]
-
-for i, name in enumerate(names):
-    age = ages[i]
-
-    print(f"{name} is {age}")
-```
-
-## zip
-
-- [zip](https://docs.python.org/3/library/functions.html#zip) can be used to directly match items from two iterables
-- A new iterable is created providing tuples of items from the supplied iterators
-
-## Example
-
-```python
-names = ["Jordan", "Pam", "John"]
-ages = ["19", "24", "23"]
-
-for pair in zip(names, ages):
-    print(pair)
-```
-
-## Example
-
-```python
-names = ["Jordan", "Pam", "John"]
-ages = ["19", "24", "23"]
-
-for name, age in zip(names, ages):
-     print(f"{name} is {age}")
-```
+- Uses tuples for sorting items
+  - Decorate items using a sort key
+  - Sort items
+  - Undecorate the items by removing the sort key
 
 ## Exercise
 
-Use zip to create a list of each pair of letters in a string. For example, the string "abcd" should produce the following list:
+Write a Python program that creates a list of all words in a sentence. The list should be sorted by the length of the word, smallest first. For example, the sentence "She is a girl" should produce:
 
-```python
-[('a', 'b'), ('b', 'c'), ('c', 'd')]
+```
+['a', 'is', 'She', 'girl']
 ```
 
-<!--
-
-alphabet = "abcd"
-
-pairs = []
-
-for pair in zip(alphabet, alphabet[1:]):
-    pairs.append(pair)
-
-print(pairs)
-
--->
-
-## Example
-
-[Score of a string](https://leetcode.com/problems/score-of-a-string/)
+## Solution
 
 <!--
-def scoreOfString(self, s: str) -> int:
-    score = 0
 
-    for a, b in zip(s, s[1:]):
-        score += abs(ord(a) - ord(b))
+```python
+sentence = "The quick brown fox jumped over the lazy dog"
 
-    return score
+decorated = []
+
+for word in sentence.split():
+    decorated.append((len(word), word))
+
+decorated.sort()
+
+undecorated = []
+
+for _, word in decorated:
+    undecorated.append(word)
+
+print(undecorated)
+```
+
 -->
