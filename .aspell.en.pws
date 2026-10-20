@@ -1,4 +1,4 @@
-personal_ws-1.1 en 116 
+personal_ws-1.1 en 129 
 Advanded
 Algorthm
 Anthropic
@@ -7,10 +7,12 @@ Antikythera's
 Automata
 BCE
 Benji
+Bigram
 CLI
 CONspiracy
 CPSC
 CSSCD
+CTF
 Carlini
 ChatGPT
 Cli
@@ -63,10 +65,16 @@ Sayre
 Shedd
 TCP
 Testability
+Trigram
+Unigram
 VM
 ValueError
 VirtualBox
 algorithmically
+ba
+bandana
+bigram
+bigrams
 cmd
 codebase
 computable
@@ -78,6 +86,7 @@ elif
 fceefd
 fidelitas
 fieldhouse
+frac
 hashable
 iterable
 iterables
@@ -86,6 +95,7 @@ len
 lifecycle
 mSATA
 metachars
+na
 natively
 nd
 nfsd
@@ -108,7 +118,10 @@ substring
 substrings
 th
 thonny
+trigrams
 undecorate
+unigram
+unigrams
 unpowered
 utilitas
 veritas
