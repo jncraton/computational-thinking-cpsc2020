@@ -105,8 +105,8 @@ for i in range(len(text) - 1):
 
 ## Simplified Approach
 
-- Storing and training a model requires data structures that we've not used yet
-- We can take a non-parametric approach by simply looking for an occurence of an n-gram starting from a random position in the corpus
+- Storing and training a model requires data structures that we have not used yet
+- We can take a non-parametric approach by simply looking for an occurrence of an n-gram starting from a random position in the corpus
 
 ## Final Exercise
 
