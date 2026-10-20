@@ -1,8 +1,10 @@
 import random
+import time
 
 corpus = open('stories.txt').read()
 
-prompt = input("Enter prompt: ").strip() + " "
+prompt = input("Enter prompt: ")
+print(prompt, end="")
 
 while True:
     for n in range(min(20, len(prompt)), 1, -1):
@@ -10,7 +12,8 @@ while True:
         location = corpus.find(prompt[-n:], search_start)
         
         if location != -1:
-            next_word = corpus[location+n:].split()[0] + " "
-            prompt += next_word
-            print(next_word + " ", end="")
+            next_char = corpus[location+n]
+            prompt += next_char
+            print(next_char, end="")
+            time.sleep(0.05)
             break
