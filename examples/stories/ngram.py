@@ -1,13 +1,13 @@
 import random
 import time
 
-corpus = open('stories.txt').read()
+corpus = open('stories.txt').read() * 2
 
 prompt = input("Enter prompt: ")
 print(prompt, end="")
 
 while True:
-    for n in range(min(20, len(prompt)), 1, -1):
+    for n in range(min(20, len(prompt)), 0, -1):
         search_start = random.randrange(len(corpus))
         location = corpus.find(prompt[-n:], search_start)
         
