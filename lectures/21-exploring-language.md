@@ -36,7 +36,7 @@ corpus = open('stories.txt').read()
 ## N-gram
 
 - A sequence of n adjacent symbols
-- Symbols can be letters, words, or phonemes
+- Symbols can be letters, words, phonemes, or [tokens](https://huggingface.co/spaces/Xenova/the-tokenizer-playground)
 - Collected from a text corpus
 
 ## Types
