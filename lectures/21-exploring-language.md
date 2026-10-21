@@ -14,6 +14,25 @@ learning_objectives:
 
 [Simon Says](https://open.kattis.com/problems/simonsays)
 
+## TinyStories
+
+> a synthetic dataset of short stories that only contain words that a typical 3 to 4-year-olds usually understand
+
+- [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759)
+- [19MB validation set download](https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStories-valid.txt)
+
+## Reading the File
+
+```python
+corpus = open('stories.txt').read()
+```
+
+## String Method Exploration
+
+- [str.count](https://docs.python.org/3/builtins/stdtypes.html#str.count)
+- [str.split](https://docs.python.org/3/builtins/stdtypes.html#str.split)
+- [str.lower](https://docs.python.org/3/builtins/stdtypes.html#str.lower)
+
 ## N-gram
 
 - A sequence of n adjacent symbols
