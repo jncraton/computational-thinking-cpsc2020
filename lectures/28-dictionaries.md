@@ -32,6 +32,19 @@ print(values[2])
 - Hashable objects which compare equal must have the same hash value
 - Hashability makes an object usable as a dictionary key and a set member, because these data structures use the hash value internally
 
+## hash
+
+- `hash()` can be used to compute the hash of a value
+- The result is always an integer
+
+---
+
+```python
+hash(5)
+hash("blue")
+hash([1]) # error
+```
+
 ## Dictionary Keys
 
 - Integers may be used as keys
