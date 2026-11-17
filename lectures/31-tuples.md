@@ -156,9 +156,13 @@ print(pairs)
 
 ## Example
 
-[Score of a string](https://leetcode.com/problems/score-of-a-string/)
+[Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone)
 
 <!--
+## Example
+
+[Score of a string](https://leetcode.com/problems/score-of-a-string/)
+
 def scoreOfString(self, s: str) -> int:
     score = 0
 
