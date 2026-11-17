@@ -113,6 +113,10 @@ for i, name in enumerate(names):
 - [zip](https://docs.python.org/3/library/functions.html#zip) can be used to directly match items from two iterables
 - A new iterable is created providing tuples of items from the supplied iterators
 
+---
+
+![Zipper](https://upload.wikimedia.org/wikipedia/commons/f/f0/Zipper_animated.gif){height=540px}
+
 ## Example
 
 ```python
