@@ -116,3 +116,7 @@ for square in squares:
         print(square)
         break
 ```
+
+## Exercise
+
+[Help a PhD](https://open.kattis.com/problems/helpaphd)
