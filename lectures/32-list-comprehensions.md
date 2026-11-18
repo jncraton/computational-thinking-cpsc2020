@@ -120,3 +120,9 @@ for square in squares:
 ## Exercise
 
 [Help a PhD](https://open.kattis.com/problems/helpaphd)
+
+## Solution?
+
+```python
+[print(sum(map(int, e.split('+'))) if "+" in e else "skipped") for e in [input() for _ in range(int(input()))]]
+```
