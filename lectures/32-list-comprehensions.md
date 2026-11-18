@@ -24,6 +24,10 @@ print(squares)
 - A special function called `map` is provided to simplify this task
 - `map` takes a function and applies it to all items in an iterable return a new iterable
 
+---
+
+![Map Example](https://upload.wikimedia.org/wikipedia/commons/0/06/Mapping-steps-loillibe-new.gif){height=540px}
+
 ## Example
 
 ```python
