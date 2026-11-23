@@ -101,7 +101,6 @@ def square():
 
 ```python
 from flask import Flask, request, session
-import languagemodels
 
 app = Flask(__name__)
 app.secret_key = "FyJYMJmwZUWASo5J"
@@ -114,16 +113,18 @@ def home():
     usertext = request.args.get("usertext", "")
 
     if usertext:
-        session["history"] += f"<p>User: {usertext}"
-
-        response = languagemodels.do(f"Respond to a user: {usertext}")
-        session["history"] += f"<p>Bot: {response}"
-
+        session["history"] += f"<p>{usertext}"
+        session["history"] += f"<p>Word count: {len(usertext.split())}"
     return f"""
-        {session['history']}
+        {session["history"]}
         <form action=/>
         <input type=text name=usertext autofocus />
         <input type=submit />
         </form>
         """
 ```
+
+## Inject Attacks
+
+- The prior examples are vulnerable to inject
+- Care must be taken when using user input
