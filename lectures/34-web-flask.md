@@ -124,7 +124,7 @@ def home():
         """
 ```
 
-## Inject Attacks
+## Injection Attacks
 
-- The prior examples are vulnerable to inject
+- The prior examples are vulnerable to injection
 - Care must be taken when using user input
